@@ -1,0 +1,17 @@
+{
+  "name": "Momodora Moonlit Farewell Tracker",
+  "game_name": "Momodora Moonlit Farewell",
+  "package_version": "0.0.0.1",
+  "package_uid": "momodoramfap",
+  "author": "Sogeki",
+  "min_poptracker_version": "0.25.9",
+  "target_poptracker_version": "0.30.0",
+  "variants": {
+    "standard": {
+      "display_name": "Full Tracker",
+      "flags": [
+        "ap"
+      ]
+    }
+  }
+}

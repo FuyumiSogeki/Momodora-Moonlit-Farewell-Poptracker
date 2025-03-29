@@ -1,0 +1,335 @@
+[
+    {
+        "name": "Sacred Anemone",
+        "type": "toggle",
+        "codes": "sacred_anemone"
+    },
+    {
+        "name": "Crescent Moonflower",
+        "type": "toggle",
+        "codes": "crescent_moonflower"
+    },
+    {
+        "name": "Awakened Sacred Leaf",
+        "type": "toggle",
+        "codes": "awakened_sacred_leaf"
+    },
+    {
+        "name": "Lunar Attunement",
+        "type": "toggle",
+        "codes": "lunar_attunement"
+    },
+    {
+        "name": "Spiral Shell",
+        "type": "toggle",
+        "codes": "spiral_shell"
+    },
+    {
+        "name": "Mitchi Fast Travel",
+        "type": "toggle",
+        "codes": "mitchi_fast_travel"
+    },
+    {
+        "name": "Grimoire",
+        "type": "toggle",
+        "codes": "grimoire"
+    },
+    {
+        "name": "Tattered Grimoire",
+        "type": "toggle",
+        "codes": "tattered_grimoire"
+    },
+    {
+        "name": "Dusty Grimoire",
+        "type": "toggle",
+        "codes": "dusty_grimoire"
+    },
+    {
+        "name": "Last Wish",
+        "type": "toggle",
+        "img": "images/items/sigils/Last Wish.png",
+        "disabled_img": "images/items/sigils/disabled/Last Wish.png",
+        "codes": "last_wish",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Cloudy Blood",
+        "type": "toggle",
+        "img": "images/items/sigils/Cloudy Blood.png",
+        "disabled_img": "images/items/sigils/disabled/Cloudy Blood.png",
+        "codes": "cloudy_blood",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Profiteer",
+        "type": "toggle",
+        "img": "images/items/sigils/The Profiteer.png",
+        "disabled_img": "images/items/sigils/disabled/The Profiteer.png",
+        "codes": "the_profiteer",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Dark Healer",
+        "type": "toggle",
+        "img": "images/items/sigils/Dark Healer.png",
+        "disabled_img": "images/items/sigils/disabled/Dark Healer.png",
+        "codes": "dark_healer",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Demilune Whisper",
+        "type": "toggle",
+        "img": "images/items/sigils/Demilune Whisper.png",
+        "disabled_img": "images/items/sigils/disabled/Demilune Whisper.png",
+        "codes": "demilune_whisper",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Magic Blade",
+        "type": "toggle",
+        "img": "images/items/sigils/Magic Blade.png",
+        "disabled_img": "images/items/sigils/disabled/Magic Blade.png",
+        "codes": "magic_blade",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Perfect Chime",
+        "type": "toggle",
+        "img": "images/items/sigils/Perfect Chime.png",
+        "disabled_img": "images/items/sigils/disabled/Perfect Chime.png",
+        "codes": "perfect_chime",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Queen of Light",
+        "type": "toggle",
+        "img": "images/items/sigils/Queen of Light.png",
+        "disabled_img": "images/items/sigils/disabled/Queen of Light.png",
+        "codes": "queen_of_light",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Strongfist",
+        "type": "toggle",
+        "img": "images/items/sigils/Strongfist.png",
+        "disabled_img": "images/items/sigils/disabled/Strongfist.png",
+        "codes": "strongfist",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Living Edge",
+        "type": "toggle",
+        "img": "images/items/sigils/Living Edge.png",
+        "disabled_img": "images/items/sigils/disabled/Living Edge.png",
+        "codes": "living_edge",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Fool",
+        "type": "toggle",
+        "img": "images/items/sigils/The Fool.png",
+        "disabled_img": "images/items/sigils/disabled/The Fool.png",
+        "codes": "the_fool",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Living Blood",
+        "type": "toggle",
+        "img": "images/items/sigils/Living Blood.png",
+        "disabled_img": "images/items/sigils/disabled/Living Blood.png",
+        "codes": "living_blood",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Fallen Hero",
+        "type": "toggle",
+        "img": "images/items/sigils/Fallen Hero.png",
+        "disabled_img": "images/items/sigils/disabled/Fallen Hero.png",
+        "codes": "fallen_hero",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Resonance of Ifriya",
+        "type": "toggle",
+        "img": "images/items/sigils/Resonance of Ifriya.png",
+        "disabled_img": "images/items/sigils/disabled/Resonance of Ifriya.png",
+        "codes": "resonance_of_ifriya",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Collector",
+        "type": "toggle",
+        "img": "images/items/sigils/The Collector.png",
+        "disabled_img": "images/items/sigils/disabled/The Collector.png",
+        "codes": "the_collector",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Hunter",
+        "type": "toggle",
+        "img": "images/items/sigils/The Hunter.png",
+        "disabled_img": "images/items/sigils/disabled/The Hunter.png",
+        "codes": "the_hunter",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Arsonist",
+        "type": "toggle",
+        "img": "images/items/sigils/The Arsonist.png",
+        "disabled_img": "images/items/sigils/disabled/The Arsonist.png",
+        "codes": "the_arsonist",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Chrysanth",
+        "type": "toggle",
+        "img": "images/items/sigils/Chrysanth.png",
+        "disabled_img": "images/items/sigils/disabled/Chrysanth.png",
+        "codes": "chrysanth",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Fortunate",
+        "type": "toggle",
+        "img": "images/items/sigils/The Fortunate.png",
+        "disabled_img": "images/items/sigils/disabled/The Fortunate.png",
+        "codes": "the_fortunate",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Glazed Aegis",
+        "type": "toggle",
+        "img": "images/items/sigils/Glazed Aegis.png",
+        "disabled_img": "images/items/sigils/disabled/Glazed Aegis.png",
+        "codes": "glazed_aegis",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Mending Resonance",
+        "type": "toggle",
+        "img": "images/items/sigils/Mending Resonance.png",
+        "disabled_img": "images/items/sigils/disabled/Mending Resonance.png",
+        "codes": "mending_resonance",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Blessed",
+        "type": "toggle",
+        "img": "images/items/sigils/The Blessed.png",
+        "disabled_img": "images/items/sigils/disabled/The Blessed.png",
+        "codes": "the_blessed",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Companionship Pact",
+        "type": "toggle",
+        "img": "images/items/sigils/Companionship Pact.png",
+        "disabled_img": "images/items/sigils/disabled/Companionship Pact.png",
+        "codes": "companionship_pact",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Queen of Dusk",
+        "type": "toggle",
+        "img": "images/items/sigils/Queen of Dusk.png",
+        "disabled_img": "images/items/sigils/disabled/Queen of Dusk.png",
+        "codes": "queen_of_dusk",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Sharpshooter",
+        "type": "toggle",
+        "img": "images/items/sigils/The Sharpshooter.png",
+        "disabled_img": "images/items/sigils/disabled/The Sharpshooter.png",
+        "codes": "the_sharpshooter",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Phantasm Blade",
+        "type": "toggle",
+        "img": "images/items/sigils/Phantasm Blade.png",
+        "disabled_img": "images/items/sigils/disabled/Phantasm Blade.png",
+        "codes": "phantasm_blade",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Pawn",
+        "type": "toggle",
+        "img": "images/items/sigils/Pawn.png",
+        "disabled_img": "images/items/sigils/disabled/Pawn.png",
+        "codes": "pawn",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Oracle",
+        "type": "toggle",
+        "img": "images/items/sigils/Oracle.png",
+        "disabled_img": "images/items/sigils/disabled/Oracle.png",
+        "codes": "oracle",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Ascended Slash",
+        "type": "toggle",
+        "img": "images/items/sigils/Ascended Slash.png",
+        "disabled_img": "images/items/sigils/disabled/Ascended Slash.png",
+        "codes": "ascended_slash",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Quintessence",
+        "type": "toggle",
+        "img": "images/items/sigils/Quintessence.png",
+        "disabled_img": "images/items/sigils/disabled/Quintessence.png",
+        "codes": "quintessence",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Resolve",
+        "type": "toggle",
+        "img": "images/items/sigils/Resolve.png",
+        "disabled_img": "images/items/sigils/disabled/Resolve.png",
+        "codes": "resolve",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Serval",
+        "type": "toggle",
+        "img": "images/items/sigils/Serval.png",
+        "disabled_img": "images/items/sigils/disabled/Serval.png",
+        "codes": "serval",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Welkin Leaf",
+        "type": "toggle",
+        "img": "images/items/sigils/Welkin Leaf.png",
+        "disabled_img": "images/items/sigils/disabled/Welkin Leaf.png",
+        "codes": "welkin_leaf",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Mudwalker",
+        "type": "toggle",
+        "img": "images/items/sigils/Mudwalker.png",
+        "disabled_img": "images/items/sigils/disabled/Mudwalker.png",
+        "codes": "mudwalker",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Hare",
+        "type": "toggle",
+        "img": "images/items/sigils/Hare.png",
+        "disabled_img": "images/items/sigils/disabled/Hare.png",
+        "codes": "hare",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Trinary",
+        "type": "toggle",
+        "img": "images/items/sigils/Trinary.png",
+        "disabled_img": "images/items/sigils/disabled/Trinary.png",
+        "codes": "trinary",
+        "disabled_img_mods":"none"
+    }
+]
