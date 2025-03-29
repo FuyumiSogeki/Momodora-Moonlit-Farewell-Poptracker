@@ -21,6 +21,13 @@ LOCATION_MAPPING =
     [17] = {"@Full/Springleaf Path - Sacred Anemone & Harpy Archdemon/Harpy Archdemon"},
     [440] = {"@Full/Springleaf Path - Pawn/Sigil"},
 
+    -- Lun Tree Roots
+    [10] = {"@Full/Lun Tree Roots - Crescent Moonflower/Skill"},
+    [278] = {"@Full/Lun Tree Roots - Black Cat/Boss"},
+    [430] = {"@Full/Lun Tree Roots - The Arsonist/Sigil"},
+    [432] = {"@Full/Lun Tree Roots - The Fortunate/Sigil"},
+    [436] = {"@Full/Lun Tree Roots - Companionship Pact/Sigil"},
+
     -- Fairy Spings
     [114] = {"@Full/Fairy Spings - Very Big Spider/Boss"},
     [150] = {"@Full/Fairy Spings - Viper Archdemon Sorrellia/Boss"},
@@ -42,13 +49,6 @@ LOCATION_MAPPING =
     [255] = {"@Full/Ashen Hinterlands Continued - Tainted Serpent/Boss"},
     [420] = {"@Full/Ashen Hinterlands Continued - Living Blood/Sigil"},
     [448] = {"@Full/Ashen Hinterlands Continued - Hare/Sigil"},
-
-    -- Lun Tree Roots
-    [10] = {"@Full/Lun Tree Roots - Crescent Moonflower/Skill"},
-    [278] = {"@Full/Lun Tree Roots - Black Cat/Boss"},
-    [430] = {"@Full/Lun Tree Roots - The Arsonist/Sigil"},
-    [432] = {"@Full/Lun Tree Roots - The Fortunate/Sigil"},
-    [436] = {"@Full/Lun Tree Roots - Companionship Pact/Sigil"},
 
     -- Moonlight Repose
     [171] = {"@Full/Moonlight Repose - Remnant of an Unknown Phantasm/Boss"},

@@ -73,21 +73,21 @@ function onClear(slot_data)
 
     -- set settings
     if slot_data['bell_hover_generation'] then
-        Tracker:FindObjectForCode("op_BH").CurrentStage = 0
-    else
         Tracker:FindObjectForCode("op_BH").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_BH").CurrentStage = 0
     end
 
     if slot_data['oracle_sigil'] then
-        Tracker:FindObjectForCode("op_OS").CurrentStage = 0 
+        Tracker:FindObjectForCode("op_OS").CurrentStage = 1 
     else
-        Tracker:FindObjectForCode("op_OS").CurrentStage = 1
+        Tracker:FindObjectForCode("op_OS").CurrentStage = 0
     end
 
     if slot_data['open_springleaf_path'] then
-        Tracker:FindObjectForCode("op_OSP").CurrentStage = 0 
+        Tracker:FindObjectForCode("op_OSP").CurrentStage = 1 
     else
-        Tracker:FindObjectForCode("op_OSP").CurrentStage = 1
+        Tracker:FindObjectForCode("op_OSP").CurrentStage = 0
     end
 
     -- end clear

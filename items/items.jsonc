@@ -1,5 +1,10 @@
 [
     {
+        "name": "Blessing of Nothing",
+        "type": "progressive",
+        "codes": "blessing_of_nothing"
+    },
+    {
         "name": "Sacred Anemone",
         "type": "toggle",
         "img": "images/items/skills/Sacred Anemone.png",
@@ -369,12 +374,13 @@
         "stages": 
         [
           {
-            "img": "images/settings/Bell Hover.png",
-            "codes": "op_BH,bell_hover_on"
+            "img": "images/settings/disabled/Bell Hover.png",
+            "codes": "op_BH,bell_hover_off"
           },
           {
-            "img": "images/settings/disabled/Bell Hover.png",
-            "codes": "op_BH,bell_hover_off",
+            
+            "img": "images/settings/Bell Hover.png",
+            "codes": "op_BH,bell_hover_on",
             "inherit_codes": false
           }
         ]
@@ -388,12 +394,12 @@
         "stages": 
         [
           {
-            "img": "images/settings/Oracle Sigil.png",
-            "codes": "op_OS,oracle_sigil_on"
+            "img": "images/settings/disabled/Oracle Sigil.png",
+            "codes": "op_OS,oracle_sigil_off"
           },
           {
-            "img": "images/settings/disabled/Oracle Sigil.png",
-            "codes": "op_OS,oracle_sigil_off",
+            "img": "images/settings/Oracle Sigil.png",
+            "codes": "op_OS,oracle_sigil_on",
             "inherit_codes": false
           }
         ]
@@ -408,11 +414,11 @@
         [
           {
             "img": "images/settings/Open Springleaf.png",
-            "codes": "op_OSP,open_springleaf_on"
+            "codes": "op_OSP,open_springleaf_off"
           },
           {
             "img": "images/settings/disabled/Open Springleaf.png",
-            "codes": "op_OSP,open_springleaf_off",
+            "codes": "op_OSP,open_springleaf_on",
             "inherit_codes": false
           }
         ]

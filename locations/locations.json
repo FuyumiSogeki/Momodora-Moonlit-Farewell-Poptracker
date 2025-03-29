@@ -49,7 +49,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$has|spiral_shell,$has|crescent_moonflower"
+                    "$canJumpHigh"
                 ],
                 "sections": 
                 [
@@ -81,7 +81,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$has|spiral_shell,$has|crescent_moonflower"
+                    "$canJumpHigh"
                 ],
                 "sections": 
                 [
@@ -113,7 +113,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$has|spiral_shell,$has|crescent_moonflower,$has|lunar_attunement"
+                    "$canJumpHigh,$canCrossFog"
                 ],
                 "sections": 
                 [
@@ -303,7 +303,8 @@
                 ],
                 "access_rules": 
                 [
-                    ""
+                    "$canCutBarrier",
+                    "$isSpringleafOpen"
                 ],
                 "sections": 
                 [
@@ -317,8 +318,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$has|awakened_sacred_leaf",
-                            "$has|open_springleaf_on"
+                            ""
                         ],
                         "item_count": 1
                     },
@@ -332,8 +332,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$has|awakened_sacred_leaf",
-                            "$has|open_springleaf_on"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -365,8 +364,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$has|Sacred Anemone",
-                            "$has|open_springleaf_on"
+                            "$canRun",
+                            "$isSpringleafOpen"
                         ],
                         "item_count": 1
                     }
@@ -398,8 +397,173 @@
                         ],
                         "access_rules": 
                         [
-                            "$has|Sacred Anemone",
-                            "$has|open_springleaf_on"
+                            "$canRun",
+                            "$isSpringleafOpen"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Crescent Moonflower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2017,
+                        "y": 1156
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Skill",
+                        "chest_unopened_img": "images/icons/close/Crescent Moonflower.png",
+                        "chest_opened_img": "images/icons/open/Crescent Moonflower.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canRun",
+                            "$isSpringleafOpen"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Black Cat",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1969,
+                        "y": 1156
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Black Cat.png",
+                        "chest_opened_img": "images/icons/open/Black Cat.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canRun",
+                            "$isSpringleafOpen"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - The Arsonist",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1922,
+                        "y": 1493
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canRun",
+                            "$isSpringleafOpen"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - The Fortunate",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1825,
+                        "y": 1061
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canRun",
+                            "$isSpringleafOpen"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Companionship Pact",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1922,
+                        "y": 1255
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canRun",
+                            "$isSpringleafOpen"
                         ],
                         "item_count": 1
                     }
