@@ -11,7 +11,7 @@
                 [
                     {
                         "map": "Full Map",
-                        "x": 1443,
+                        "x": 1442,
                         "y": 100
                     }
                 ],
@@ -55,6 +55,134 @@
                 [
                     {
                         "name": "Sigil",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Old Sanctuary - The Sharpshooter",
+                "chest_unopened_img": "images/icons/close/sigil.png",
+                "chest_opened_img": "images/icons/open/sigil.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1538,
+                        "y": 198
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$has|spiral_shell,$has|crescent_moonflower"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Old Sanctuary - Resolve",
+                "chest_unopened_img": "images/icons/close/sigil.png",
+                "chest_opened_img": "images/icons/open/sigil.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1779,
+                        "y": 198
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$has|spiral_shell,$has|crescent_moonflower,$has|lunar_attunement"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Gariser Demon",
+                "chest_unopened_img": "images/icons/close/Gariser Demon.png",
+                "chest_opened_img": "images/icons/open/Gariser Demon.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1297,
+                        "y": 726
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Awakened Sacred Leaf",
+                "chest_unopened_img": "images/icons/close/Awakened Sacred Leaf.png",
+                "chest_opened_img": "images/icons/open/Awakened Sacred Leaf.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1200,
+                        "y": 918
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Skill",
                         "visibility_rules": 
                         [
                             ""
