@@ -194,6 +194,290 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "name": "Springleaf Path - Cloudy Blood",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1394,
+                        "y": 822
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Living Edge",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1394,
+                        "y": 534
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - The Fool",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1442,
+                        "y": 677
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Sacred Anemone & Harpy Archdemon",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1250,
+                        "y": 629
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sacred Anemone",
+                        "chest_unopened_img": "images/icons/close/Sacred Anemone.png",
+                        "chest_opened_img": "images/icons/open/Sacred Anemone.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$has|awakened_sacred_leaf",
+                            "$has|open_springleaf_on"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Harpy Archdemon",
+                        "chest_unopened_img": "images/icons/close/Harpy Archdemon.png",
+                        "chest_opened_img": "images/icons/open/Harpy Archdemon.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$has|awakened_sacred_leaf",
+                            "$has|open_springleaf_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Raging Demon",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1585,
+                        "y": 629
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Raging Demon.png",
+                        "chest_opened_img": "images/icons/open/Raging Demon.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$has|Sacred Anemone",
+                            "$has|open_springleaf_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Pawn",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1537,
+                        "y": 917
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$has|Sacred Anemone",
+                            "$has|open_springleaf_on"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cereza",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2535,
+                        "y": 1260
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Last Wish",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Profiteer",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strongfist",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fallen Hero",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
             }
         ]
     }

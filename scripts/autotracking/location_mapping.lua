@@ -11,18 +11,14 @@ LOCATION_MAPPING =
     -- Springleaf Path
     [15] = {"@Full/Springleaf Path - Gariser Demon/Boss"},
     [20] = {"@Full/Springleaf Path - Awakened Sacred Leaf/Skill"},
-    [123] = {"@Full/Springleaf Path - Last Wish/Sigil"},
     [400] = {"@Full/Springleaf Path - Cloudy Blood/Sigil"},
-    [401] = {"@Full/Springleaf Path - The Profiteer/Sigil"},
-    [408] = {"@Full/Springleaf Path - Strongfist/Sigil"},
     [412] = {"@Full/Springleaf Path - Living Edge/Sigil"},
     [419] = {"@Full/Springleaf Path - The Fool/Sigil"},
-    [422] = {"@Full/Springleaf Path - Fallen Hero/Sigil"},
 
     -- Springfeaf Path Continued
-    [9] = {"@Full/Springleaf Path - Sacred Anemone/Sigil"},
+    [9] = {"@Full/Springleaf Path - Sacred Anemone & Harpy Archdemon/Sacred Anemone"},
     [16] = {"@Full/Springleaf Path - Raging Demon/Boss"},
-    [17] = {"@Full/Springleaf Path - Harpy Archdemon/Boss"},
+    [17] = {"@Full/Springleaf Path - Sacred Anemone & Harpy Archdemon/Harpy Archdemon"},
     [440] = {"@Full/Springleaf Path - Pawn/Sigil"},
 
     -- Fairy Spings
@@ -35,7 +31,7 @@ LOCATION_MAPPING =
     
     -- Fairy Village
     [194] = {"@Full/Fairy Village - Spiral Shell/Skill"},
-    --[441] = {"@Full/Fairy Village - Oracle/Sigil"},
+    [441] = {"@Full/Fairy Village - Oracle/Sigil"},
 
     -- Ashen Hinterlands
     [131] = {"@Full/Ashen Hinterlands - Lunar Attunement/Skill"},
@@ -85,5 +81,11 @@ LOCATION_MAPPING =
     [340] = {"@Full/Fount of Rebirth - Dusty Grimoire/Grimoire"},
     [364] = {"@Full/Fount of Rebirth - Moon God Selin/Boss"},
     [403] = {"@Full/Fount of Rebirth - Demilune Whisper/Sigil"},
-    [442] = {"@Full/Fount of Rebirth - Ascended Slash/Sigil"}
+    [442] = {"@Full/Fount of Rebirth - Ascended Slash/Sigil"},
+
+    -- Cereza
+    [123] = {"@Full/Cereza/Last Wish"},
+    [401] = {"@Full/Cereza/The Profiteer"},
+    [408] = {"@Full/Cereza/Strongfist"},
+    [422] = {"@Full/Cereza/Fallen Hero"}
 }

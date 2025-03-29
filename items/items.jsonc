@@ -408,11 +408,11 @@
         [
           {
             "img": "images/settings/Open Springleaf.png",
-            "codes": "op_OSP,open_sprindleaf_on"
+            "codes": "op_OSP,open_springleaf_on"
           },
           {
             "img": "images/settings/disabled/Open Springleaf.png",
-            "codes": "op_OSP,open_sprindleaf_off",
+            "codes": "op_OSP,open_springleaf_off",
             "inherit_codes": false
           }
         ]
