@@ -1,28 +1,80 @@
 {
   //sets the trackers layout
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
-  "tracker_horizontal": {
+
+  "item_grid": 
+  {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "60,60",
+    "rows": 
+    [
+      ["awakened_sacred_leaf","sacred_anemone","crescent_moonflower"],
+      ["spiral_shell","lunar_attunement","mitchi_fast_travel"],
+      ["grimoire","tattered_grimoire","dusty_grimoire"]
+    ]
+  },
+  "tracker_horizontal": 
+  {
     "type": "container",
     "background": "#000000",
-    "content": {
+    "content": 
+    {
       "type": "dock",
       "dropshadow": true,
-      "content": [
+      "content": 
+      [
         {
           "type": "dock",
-          "dock": "bottom",
-          "content": [
+          "dock": "left",
+          "content":
+          [
+            {
+              "type": "group",
+              "header": "Skills & Grimoires",
+              "header_content": 
+              {
+                "type": "button_popup",
+                "style": "settings",
+                "popup_background": "#55212121",
+                "layout": "settings_popup"
+              },
+              "content": 
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": 
+                [
+                  {
+                    "type": "layout",
+                    "key": "item_grid"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "dock": "right",
+          "content": 
+          [
             {
               "type": "group",
               "header": "Items",
               "dock": "left",
               "margin": "0,0,3,0",
-              "content": {
+              "content": 
+              {
                 "type": "tabbed",
-                "tabs": [
+                "tabs": 
+                [
                   {
                     "title": "Sigils",
-                    "content": {
+                    "content": 
+                    {
                       "type": "layout",
                       "h_alignment": "center",
                       "v_alignment": "center",
@@ -36,12 +88,15 @@
         },
         {
           "type": "tabbed",
-          "tabs": [
+          "tabs": 
+          [
             {
               "title": "Full Map",
-              "content": {
+              "content": 
+              {
                 "type": "map",
-                "maps": [
+                "maps": 
+                [
                   "Full Map"
                 ]
               }

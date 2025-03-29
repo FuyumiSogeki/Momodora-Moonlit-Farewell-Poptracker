@@ -8,7 +8,7 @@ local variant = Tracker.ActiveVariantUID
 ScriptHost:LoadScript("scripts/utils.lua")
 
 --Scripts
---ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/logic.lua")
 
 -- Items
 Tracker:AddItems("items/items.jsonc")
@@ -19,6 +19,9 @@ Tracker:AddMaps("maps/maps.jsonc")
 -- Layouts
 Tracker:AddLayouts("layouts/items.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
+
+-- Locations
+Tracker:AddLocations("locations/locations.json")
 
 print("-- Example Tracker --")
 print("Loaded variant: ", variant)

@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Full",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Koho Village - The Hunter",
+                "chest_unopened_img": "images/icons/close/sigil.png",
+                "chest_opened_img": "images/icons/open/sigil.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1443,
+                        "y": 100
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Koho Village - Welkin Leaf",
+                "chest_unopened_img": "images/icons/close/sigil.png",
+                "chest_opened_img": "images/icons/open/sigil.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1395,
+                        "y": 53
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$has|spiral_shell,$has|crescent_moonflower"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

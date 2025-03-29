@@ -1,21 +1,25 @@
 {// sets layouts for shadred items grids
 // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
-    "sigil_grid": {
+    "sigil_grid": 
+    {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
-        "content": [
+        "content": 
+        [
             {
                 "type": "array",
                 "orientation": "horizontal",
                 "margin": "3,0",
-                "content": [
+                "content": 
+                [
                     {
                         "type": "itemgrid",
                         "item_margin": "-12,1",
                         "h_alignment": "center",
-                        "item_size": 75,
-                        "rows": [
+                        "item_size": 60,
+                        "rows": 
+                        [
                             ["last_wish","cloudy_blood","the_profiteer","dark_healer","demilune_whisper","magic_blade","perfect_chime","queen_of_light","strongfist"],
                             ["living_edge","the_fool","living_blood","fallen_hero","resonance_of_ifriya","the_collector","the_hunter","the_arsonist","chrysanth"],
                             ["the_fortunate","glazed_aegis","mending_resonance","the_blessed","companionship_pact","queen_of_dusk","the_sharpshooter","phantasm_blade","pawn"],

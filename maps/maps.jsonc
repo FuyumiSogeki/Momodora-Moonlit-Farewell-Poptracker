@@ -2,8 +2,8 @@
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
   {
     "name": "Full Map",
-    "location_size": 48,
-    "location_border_thickness": 4,
+    "location_size": 24,
+    "location_border_thickness": 2,
     "img": "images/maps/fullmap.png"
   }
 ]

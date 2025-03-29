@@ -1,4 +1,7 @@
 ITEM_MAPPING = {
+    -- Filler
+    [1]   = {"blessing_of_nothing", "progressive"},
+
     -- Skills
     [9]   = {"sacred_anemone", "toggle"},       -- Sacred Anemone, progression
     [10]  = {"crescent_moonflower", "toggle"},  -- Crescent Moonflower, progression

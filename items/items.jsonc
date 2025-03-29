@@ -2,47 +2,74 @@
     {
         "name": "Sacred Anemone",
         "type": "toggle",
-        "codes": "sacred_anemone"
+        "img": "images/items/skills/Sacred Anemone.png",
+        "disabled_img": "images/items/skills/disabled/Sacred Anemone.png",
+        "codes": "sacred_anemone",
+        "disabled_img_mods":"none"
     },
     {
         "name": "Crescent Moonflower",
         "type": "toggle",
-        "codes": "crescent_moonflower"
+        "img": "images/items/skills/Crescent Moonflower.png",
+        "disabled_img": "images/items/skills/disabled/Crescent Moonflower.png",
+        "codes": "crescent_moonflower",
+        "disabled_img_mods":"none"
     },
     {
         "name": "Awakened Sacred Leaf",
         "type": "toggle",
-        "codes": "awakened_sacred_leaf"
+        "img": "images/items/skills/Awakened Sacred Leaf.png",
+        "disabled_img": "images/items/skills/disabled/Awakened Sacred Leaf.png",
+        "codes": "awakened_sacred_leaf",
+        "disabled_img_mods":"none"
     },
     {
         "name": "Lunar Attunement",
         "type": "toggle",
-        "codes": "lunar_attunement"
+        "img": "images/items/skills/Lunar Attunement.png",
+        "disabled_img": "images/items/skills/disabled/Lunar Attunement.png",
+        "codes": "lunar_attunement",
+        "disabled_img_mods":"none"
     },
     {
         "name": "Spiral Shell",
         "type": "toggle",
-        "codes": "spiral_shell"
+        "img": "images/items/skills/Spiral Shell.png",
+        "disabled_img": "images/items/skills/disabled/Spiral Shell.png",
+        "codes": "spiral_shell",
+        "disabled_img_mods":"none"
     },
     {
         "name": "Mitchi Fast Travel",
         "type": "toggle",
-        "codes": "mitchi_fast_travel"
+        "img": "images/items/skills/Mitchi Fast Travel.png",
+        "disabled_img": "images/items/skills/disabled/Mitchi Fast Travel.png",
+        "codes": "mitchi_fast_travel",
+        "disabled_img_mods":"none"
     },
     {
         "name": "Grimoire",
         "type": "toggle",
-        "codes": "grimoire"
+        "img": "images/items/grimoires/Grimoire.png",
+        "disabled_img": "images/items/grimoires/disabled/Grimoire.png",
+        "codes": "grimoire",
+        "disabled_img_mods":"none"
     },
     {
         "name": "Tattered Grimoire",
         "type": "toggle",
-        "codes": "tattered_grimoire"
+        "img": "images/items/grimoires/Tattered Grimoire.png",
+        "disabled_img": "images/items/grimoires/disabled/Tattered Grimoire.png",
+        "codes": "tattered_grimoire",
+        "disabled_img_mods":"none"
     },
     {
         "name": "Dusty Grimoire",
         "type": "toggle",
-        "codes": "dusty_grimoire"
+        "img": "images/items/grimoires/Dusty Grimoire.png",
+        "disabled_img": "images/items/grimoires/disabled/Dusty Grimoire.png",
+        "codes": "dusty_grimoire",
+        "disabled_img_mods":"none"
     },
     {
         "name": "Last Wish",
