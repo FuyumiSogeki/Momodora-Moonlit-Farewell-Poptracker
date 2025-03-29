@@ -1,12 +1,6 @@
 {
   //sets the trackers layout
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
-  "tracker_default": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-    }
-  },
   "tracker_horizontal": {
     "type": "container",
     "background": "#000000",
@@ -35,6 +29,20 @@
                       "key": "sigil_grid"
                     }
                   }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Full Map",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Full Map"
                 ]
               }
             }

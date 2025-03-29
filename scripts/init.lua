@@ -7,13 +7,16 @@ local variant = Tracker.ActiveVariantUID
 -- Utility Script for helper functions etc.
 ScriptHost:LoadScript("scripts/utils.lua")
 
---LOADED SCRIPTS
+--Scripts
 --ScriptHost:LoadScript("scripts/logic.lua")
 
---LOAD ITEMS
+-- Items
 Tracker:AddItems("items/items.jsonc")
 
--- Layout
+-- Maps
+Tracker:AddMaps("maps/maps.jsonc")
+
+-- Layouts
 Tracker:AddLayouts("layouts/items.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
 
