@@ -45,4 +45,9 @@ ITEM_MAPPING = {
     [447] = {"mudwalker", "toggle"},           -- Mudwalker, useful
     [448] = {"hare", "toggle"},                -- Hare, useful
     [449] = {"trinary", "toggle"},             -- Trinary, useful
+
+    -- Settings
+    --[10001] = {"bell_hover", toggle},
+    --[10002] = {"oracle_sigil", toggle},
+    --[10003] = {"open_springleaf", toggle},
 }

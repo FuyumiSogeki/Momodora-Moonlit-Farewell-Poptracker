@@ -15,6 +15,43 @@
       ["grimoire","tattered_grimoire","dusty_grimoire"]
     ]
   },
+  "setting_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content":[
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["bell_hover_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,3,0"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["oracle_sigil_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,6,0"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["open_sprindleaf_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,9,0"
+          }
+        ]
+      }
+    ]
+  },
   "tracker_horizontal": 
   {
     "type": "container",
@@ -45,11 +82,37 @@
                 "type": "array",
                 "orientation": "horizontal",
                 "margin": "0,0",
+                "dock": "top",
                 "content": 
                 [
                   {
                     "type": "layout",
                     "key": "item_grid"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Settings",
+              "header_content": 
+              {
+                "type": "button_popup",
+                "style": "settings",
+                "popup_background": "#55212121",
+                "layout": "settings_popup"
+              },
+              "content": 
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "dock": "bottom",
+                "content": 
+                [
+                  {
+                    "type": "layout",
+                    "key": "setting_grid"
                   }
                 ]
               }

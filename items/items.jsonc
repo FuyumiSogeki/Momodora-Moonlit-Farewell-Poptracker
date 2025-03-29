@@ -358,5 +358,63 @@
         "disabled_img": "images/items/sigils/disabled/Trinary.png",
         "codes": "trinary",
         "disabled_img_mods":"none"
+    },
+    //Settings
+    {
+        "name": "Bell Hover",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages": 
+        [
+          {
+            "img": "images/settings/Bell Hover.png",
+            "codes": "op_BH,bell_hover_on"
+          },
+          {
+            "img": "images/settings/disabled/Bell Hover.png",
+            "codes": "op_BH,bell_hover_off",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Oracle Sigil",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages": 
+        [
+          {
+            "img": "images/settings/Oracle Sigil.png",
+            "codes": "op_OS,oracle_sigil_on"
+          },
+          {
+            "img": "images/settings/disabled/Oracle Sigil.png",
+            "codes": "op_OS,oracle_sigil_off",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Open Springleaf",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages": 
+        [
+          {
+            "img": "images/settings/Open Springleaf.png",
+            "codes": "op_OSP,open_sprindleaf_on"
+          },
+          {
+            "img": "images/settings/disabled/Open Springleaf.png",
+            "codes": "op_OSP,open_sprindleaf_off",
+            "inherit_codes": false
+          }
+        ]
     }
 ]
