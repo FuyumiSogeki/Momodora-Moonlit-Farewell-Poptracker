@@ -2,7 +2,7 @@ LOCATION_MAPPING =
 {
     -- Koho Village
     [427] = {"@Full/Koho Village - The Hunter/Sigil"},
-    [429] = {"@Full/Koho Village - Welkin Leaf/Sigil"},
+    [446] = {"@Full/Koho Village - Welkin Leaf/Sigil"},
 
     -- Old Sanctuary
     [438] = {"@Full/Old Sanctuary - The Sharpshooter/Sigil"},
