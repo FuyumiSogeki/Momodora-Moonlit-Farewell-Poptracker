@@ -1,6 +1,7 @@
 ITEM_MAPPING = {
-    -- Filler
+    -- Fillers
     [1]   = {"blessing_of_nothing", "progressive"},
+    [999] = {"lunar_crystals", "progressive"},
 
     -- Skills
     [9]   = {"sacred_anemone", "toggle"},       -- Sacred Anemone, progression
@@ -12,9 +13,6 @@ ITEM_MAPPING = {
 
     -- Sigils
     [123] = {"last_wish", "toggle"},           -- Last Wish, useful
-    [338] = {"grimoire", "toggle"},            -- Grimoire, useful
-    [339] = {"tattered_grimoire", "toggle"},   -- Tattered Grimoire, useful
-    [340] = {"dusty_grimoire", "toggle"},      -- Dusty Grimoire, useful
     [400] = {"cloudy_blood", "toggle"},        -- Cloudy Blood, useful
     [401] = {"the_profiteer", "toggle"},       -- The Profiteer, useful
     [402] = {"dark_healer", "toggle"},         -- Dark Healer, useful
@@ -45,6 +43,20 @@ ITEM_MAPPING = {
     [447] = {"mudwalker", "toggle"},           -- Mudwalker, useful
     [448] = {"hare", "toggle"},                -- Hare, useful
     [449] = {"trinary", "toggle"},             -- Trinary, useful
+
+    -- Grimoires
+    [338] = {"grimoire", "toggle"},            -- Grimoire, useful
+    [339] = {"tattered_grimoire", "toggle"},   -- Tattered Grimoire, useful
+    [340] = {"dusty_grimoire", "toggle"},      -- Dusty Grimoire, useful
+
+    -- Key items
+    [332] = {"gold_moonlit_dust", "toggle"},   -- Gold Moonlit Dust, progression
+    [333] = {"silver_moonlit_dust", "toggle"}, -- Silver Moonlit Dust, progression
+    [347] = {"wooden_box", "toggle"},          -- Wooden Box, progression
+    [356] = {"windmill_key", "toggle"},        -- Windmill Key, progression
+
+    -- Selin door
+    [991] = {"progressive_final_boss_key", "consumable"} -- Progressive Final Boss Key
 
     -- Settings
     --[10001] = {"bell_hover", toggle},

@@ -5,6 +5,55 @@
         "codes": "blessing_of_nothing"
     },
     {
+        "name": "50 Lunar Crystals",
+        "type": "progressive",
+        "codes": "lunar_crystals"
+    },
+    {
+        "name": "Progressive Final Boss Key",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/keys/selin.png",
+        "overlay_background": "#000",
+        "codes": "progressive_final_boss_key",
+        "max_quantity": 4,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Gold Moonlit Dust",
+        "type": "toggle",
+        "img": "images/items/keys/Gold Moonlit Dust.png",
+        "disabled_img": "images/items/keys/disabled/Gold Moonlit Dust.png",
+        "codes": "gold_moonlit_dust",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Silver Moonlit Dust",
+        "type": "toggle",
+        "img": "images/items/keys/Silver Moonlit Dust.png",
+        "disabled_img": "images/items/keys/disabled/Silver Moonlit Dust.png",
+        "codes": "silver_moonlit_dust",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Wooden Box",
+        "type": "toggle",
+        "img": "images/items/keys/Wooden Box.png",
+        "disabled_img": "images/items/keys/disabled/Wooden Box.png",
+        "codes": "wooden_box",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Windmill Key",
+        "type": "toggle",
+        "img": "images/items/keys/Windmill Key.png",
+        "disabled_img": "images/items/keys/disabled/Windmill Key.png",
+        "codes": "windmill_key",
+        "disabled_img_mods":"none"
+    },
+    {
         "name": "Sacred Anemone",
         "type": "toggle",
         "img": "images/items/skills/Sacred Anemone.png",
@@ -410,7 +459,7 @@
         "initial_stage_idx": 0,
         "allow_disabled": false,
         "loop": false,
-        "stages": 
+        "stages":
         [
           {
             "img": "images/settings/Open Springleaf.png",
@@ -419,6 +468,44 @@
           {
             "img": "images/settings/disabled/Open Springleaf.png",
             "codes": "op_OSP,open_springleaf_on",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Final Boss Key",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Final Boss Key.png",
+            "codes": "op_FBK,final_boss_key_off"
+          },
+          {
+            "img": "images/settings/Final Boss Key.png",
+            "codes": "op_FBK,final_boss_key_on",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Key Items",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Key Items.png",
+            "codes": "op_RKI,key_items_off"
+          },
+          {
+            "img": "images/settings/Key Items.png",
+            "codes": "op_RKI,key_items_on",
             "inherit_codes": false
           }
         ]

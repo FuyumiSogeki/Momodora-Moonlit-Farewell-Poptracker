@@ -90,6 +90,18 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("op_OSP").CurrentStage = 0
     end
 
+    if slot_data['randomize_key_items'] then
+        Tracker:FindObjectForCode("op_RKI").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_RKI").CurrentStage = 0
+    end
+
+    if slot_data['final_boss_keys'] then
+        Tracker:FindObjectForCode("op_FBK").CurrentStage = 1 
+    else
+        Tracker:FindObjectForCode("op_FBK").CurrentStage = 0
+    end
+
     -- end clear
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}

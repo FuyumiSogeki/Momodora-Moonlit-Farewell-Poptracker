@@ -21,6 +21,26 @@ function isOracle()
     return has("oracle_sigil_on")
 end
 
+function isKeyItems()
+    return has("key_items_on")
+end
+
+function isKeySelin()
+    return has("final_boss_key_on")
+end
+
+function canOpenWindmill()
+    return (isKeyItems() and has("windmill_key")) or not isKeyItems()
+end
+
+function canTradeDust()
+    return (isKeyItems() and has("gold_moonlit_dust") and has("silver_moonlit_dust")) or not isKeyItems()
+end
+
+function canOpenSelin()
+    return (isKeySelin() and has("progressive_final_boss_key",4) or not isKeySelin())
+end
+
 function canCutBarrier()
     return has("awakened_sacred_leaf")
 end
@@ -54,7 +74,11 @@ function canReachFairySprings()
 end
 
 function canReachOldSanctuary()
-    return canWallJump()
+    return canWallJump() or (isBellHover() and canDoubleJump())
+end
+
+function canContinueOldSanctuary()
+    return canReachOldSanctuary() and canWallJump()
 end
 
 function canReachDemonFrontier()
@@ -62,11 +86,11 @@ function canReachDemonFrontier()
 end
 
 function canReachAshenHinterlands()
-    return canReachDemonFrontier() and (canDoubleJump() or (canWallJump() and isBellHover()))
+    return canReachDemonFrontier() and (canDoubleJump() or (canWallJump() and canRun() and isBellHover()))
 end
 
 function canReachMoonlightRepose()
-    return canReachLunTreeRoots() and canWallJump()
+    return canReachLunTreeRoots() and canWallJump() and (canCutBarrier() or isSpringleafOpen())
 end
 
 function canContinueAshenHinterlands()
@@ -74,7 +98,7 @@ function canContinueAshenHinterlands()
 end
 
 function canContinueDemonFrontier()
-    return canReachDemonFrontier() and (canWallJump() and (canDoubleJump() or has("perfect_chime")))
+    return canReachDemonFrontier() and ((canWallJump() and canCrossFog()) or (canWallJump() and (canDoubleJump() or has("perfect_chime"))))
 end
 
 function canReachMeikanVillage()
@@ -82,11 +106,19 @@ function canReachMeikanVillage()
 end
 
 function canReachMeikanVillageWindmill()
-    return canReachMeikanVillage() and (canDoubleJump() or (canWallJump() and isBellHover()))
+    return canReachMeikanVillage() and (canOpenWindmill() and (canDoubleJump() or (canWallJump() and isBellHover())))
 end
 
 function canReachFountOfRebirth()
-    return canReachMeikanVillageWindmill() and canDoubleJump()
+    return canReachMeikanVillageWindmill() and canDoubleJump() and canOpenWindmill()
+end
+
+function canReachSelin()
+    return canReachFountOfRebirth() and canOpenSelin()
+end
+
+function canPerfect()
+    return canReachMeikanVillage() and canWallJump() and (canDoubleJump() or isSpringleafOpen())
 end
 
 function canMending()
@@ -94,13 +126,17 @@ function canMending()
 end
 
 function canResolve()
-    return canReachOldSanctuary() and canCrossFog()
+    return canContinueOldSanctuary() and canCrossFog()
 end
 
-function canWelking()
+function canWelkin()
     return canDoubleJump() and canWallJump()
 end
 
-function canDark()
-    return CanWallJump() and (canDoubleJump() or has("perfect_chime"))
+function canLunar()
+    return canReachAshenHinterlands() and canTradeDust()
+end
+
+function canOracle()
+    return isOracle() and canReachFountOfRebirth()
 end

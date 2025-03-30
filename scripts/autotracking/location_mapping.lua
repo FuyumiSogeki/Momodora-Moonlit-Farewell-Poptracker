@@ -6,19 +6,22 @@ LOCATION_MAPPING =
 
     -- Old Sanctuary
     [438] = {"@Full/Old Sanctuary - The Sharpshooter/Sigil"},
+
+    -- Old Sanctuary Continued
     [444] = {"@Full/Old Sanctuary - Resolve/Sigil"},
+    [332] = {"@Full/Old Sanctuary - Gold Moonlit Dust/Item"},
 
     -- Springleaf Path
-    [15] = {"@Full/Springleaf Path - Gariser Demon/Boss"},
-    [20] = {"@Full/Springleaf Path - Awakened Sacred Leaf/Skill"},
+    [15]  = {"@Full/Springleaf Path - Gariser Demon/Boss"},
+    [20]  = {"@Full/Springleaf Path - Awakened Sacred Leaf/Skill"},
     [400] = {"@Full/Springleaf Path - Cloudy Blood/Sigil"},
     [412] = {"@Full/Springleaf Path - Living Edge/Sigil"},
     [419] = {"@Full/Springleaf Path - The Fool/Sigil"},
 
     -- Springfeaf Path Continued
-    [9] = {"@Full/Springleaf Path - Sacred Anemone & Harpy Archdemon/Sacred Anemone"},
-    [16] = {"@Full/Springleaf Path - Raging Demon/Boss"},
-    [17] = {"@Full/Springleaf Path - Sacred Anemone & Harpy Archdemon/Harpy Archdemon"},
+    [9]   = {"@Full/Springleaf Path - Sacred Anemone & Harpy Archdemon/Sacred Anemone"},
+    [16]  = {"@Full/Springleaf Path - Raging Demon/Boss"},
+    [17]  = {"@Full/Springleaf Path - Sacred Anemone & Harpy Archdemon/Harpy Archdemon"},
     [440] = {"@Full/Springleaf Path - Pawn/Sigil"},
 
     -- Lun Tree Roots
@@ -51,6 +54,7 @@ LOCATION_MAPPING =
     [448] = {"@Full/Ashen Hinterlands - Hare/Sigil"},
 
     -- Moonlight Repose
+    [333] = {"@Full/Moonlight Repose - Silver Moonlit Dust/Item"},
     [171] = {"@Full/Moonlight Repose - Remnant of an Unknown Phantasm & Phantasm Blade/Remnant of an Unknown Phantasm"},
     [439] = {"@Full/Moonlight Repose - Remnant of an Unknown Phantasm & Phantasm Blade/Phantasm Blade"},
 
@@ -66,6 +70,8 @@ LOCATION_MAPPING =
 
     -- Meikan Village
     [213] = {"@Full/Meikan Village - Moon Goddess Lineth/Boss"},
+    [347] = {"@Full/Meikan Village - Wooden Box/Item"},
+    [356] = {"@Full/Meikan Village - Windmill Key/Item"},
     [405] = {"@Full/Meikan Village - Perfect Chime/Sigil"},
     [443] = {"@Full/Meikan Village - Quintessence/Sigil"},
 
@@ -79,9 +85,11 @@ LOCATION_MAPPING =
     [261] = {"@Full/Fount of Rebirth - Selin's Envy/Boss"},
     [262] = {"@Full/Fount of Rebirth - Selin's Sorrow/Boss"},
     [340] = {"@Full/Fount of Rebirth - Dusty Grimoire/Grimoire"},
-    [364] = {"@Full/Fount of Rebirth - Moon God Selin/Boss"},
     [403] = {"@Full/Fount of Rebirth - Demilune Whisper/Sigil"},
     [442] = {"@Full/Fount of Rebirth - Ascended Slash/Sigil"},
+
+    -- Selin
+    [364] = {"@Full/Selin - Moon God Selin/Boss"},
 
     -- Cereza
     [123] = {"@Full/Cereza/Last Wish"},

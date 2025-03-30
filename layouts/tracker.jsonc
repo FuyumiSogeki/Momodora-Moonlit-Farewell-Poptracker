@@ -12,7 +12,9 @@
     [
       ["awakened_sacred_leaf","sacred_anemone","crescent_moonflower"],
       ["spiral_shell","lunar_attunement","mitchi_fast_travel"],
-      ["grimoire","tattered_grimoire","dusty_grimoire"]
+      ["grimoire","tattered_grimoire","dusty_grimoire"],
+      ["gold_moonlit_dust","silver_moonlit_dust","windmill_key"],
+      ["progressive_final_boss_key"]
     ]
   },
   "setting_grid": {
@@ -44,6 +46,29 @@
             "type": "itemgrid",
             "rows": [
               ["open_springleaf_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,3,0"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["final_boss_key_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,3,0"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["key_items_on"]
             ],
             "item_size": 60,
             "margin": "0,0,3,0"

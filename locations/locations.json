@@ -5,8 +5,6 @@
         "children": [
             {
                 "name": "Koho Village - The Hunter",
-                "chest_unopened_img": "images/icons/close/sigil.png",
-                "chest_opened_img": "images/icons/open/sigil.png",
                 "map_locations": 
                 [
                     {
@@ -31,14 +29,14 @@
                         [
                             ""
                         ],
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
                         "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Koho Village - Welkin Leaf",
-                "chest_unopened_img": "images/icons/close/sigil.png",
-                "chest_opened_img": "images/icons/open/sigil.png",
                 "map_locations": 
                 [
                     {
@@ -49,7 +47,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$canWelkin"
+                    ""
                 ],
                 "sections": 
                 [
@@ -61,16 +59,16 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$canWelkin"
                         ],
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
                         "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Old Sanctuary - The Sharpshooter",
-                "chest_unopened_img": "images/icons/close/sigil.png",
-                "chest_opened_img": "images/icons/open/sigil.png",
                 "map_locations": 
                 [
                     {
@@ -81,7 +79,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$canReachOldSanctuary"
+                    ""
                 ],
                 "sections": 
                 [
@@ -93,22 +91,22 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$canReachOldSanctuary"
                         ],
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
                         "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Old Sanctuary - Resolve",
-                "chest_unopened_img": "images/icons/close/sigil.png",
-                "chest_opened_img": "images/icons/open/sigil.png",
                 "map_locations": 
                 [
                     {
                         "map": "Full Map",
-                        "x": 1779,
-                        "y": 198
+                        "x": 1778,
+                        "y": 197
                     }
                 ],
                 "access_rules": 
@@ -125,16 +123,48 @@
                         ],
                         "access_rules": 
                         [
+                            "$canResolve"
+                        ],
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Old Sanctuary - Gold Moonlit Dust",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1683,
+                        "y": 197
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Item",
+                        "visibility_rules": 
+                        [
                             ""
                         ],
+                        "access_rules": 
+                        [
+                            "$canContinueOldSanctuary"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Gold Moonlit Dust.png",
+                        "chest_opened_img": "images/icons/open/Gold Moonlit Dust.png",
                         "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Springleaf Path - Gariser Demon",
-                "chest_unopened_img": "images/icons/close/Gariser Demon.png",
-                "chest_opened_img": "images/icons/open/Gariser Demon.png",
                 "map_locations": 
                 [
                     {
@@ -159,14 +189,14 @@
                         [
                             ""
                         ],
+                        "chest_unopened_img": "images/icons/close/Gariser Demon.png",
+                        "chest_opened_img": "images/icons/open/Gariser Demon.png",
                         "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Springleaf Path - Awakened Sacred Leaf",
-                "chest_unopened_img": "images/icons/close/Awakened Sacred Leaf.png",
-                "chest_opened_img": "images/icons/open/Awakened Sacred Leaf.png",
                 "map_locations": 
                 [
                     {
@@ -191,6 +221,8 @@
                         [
                             ""
                         ],
+                        "chest_unopened_img": "images/icons/close/Awakened Sacred Leaf.png",
+                        "chest_opened_img": "images/icons/open/Awakened Sacred Leaf.png",
                         "item_count": 1
                     }
                 ]
@@ -363,8 +395,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canRun",
-                            "$isSpringleafOpen"
+                            "$canReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -396,7 +427,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canContinueSpringLeaf"
+                            "$canReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -787,7 +818,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - Oracle",
+                "name": "Fairy Village - Oracle",
                 "map_locations": 
                 [
                     {
@@ -816,7 +847,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFairySprings"
+                            "$canOracle"
                         ],
                         "item_count": 1
                     }
@@ -848,7 +879,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachAshenHinterlands"
+                            "$canLunar"
                         ],
                         "item_count": 1
                     }
@@ -1055,6 +1086,38 @@
                         "access_rules": 
                         [
                             ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Moonlight Repose - Silver Moonlit Dust",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2113,
+                        "y": 1493
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Item",
+                        "chest_unopened_img": "images/icons/close/Silver Moonlit Dust.png",
+                        "chest_opened_img": "images/icons/open/Silver Moonlit Dust.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachMoonlightRepose"
                         ],
                         "item_count": 1
                     }
@@ -1285,6 +1348,70 @@
                 ]
             },
             {
+                "name": "Meikan Village - Wooden Box",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 578,
+                        "y": 1493
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Item",
+                        "chest_unopened_img": "images/icons/close/Wooden Box.png",
+                        "chest_opened_img": "images/icons/open/Wooden Box.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachMeikanVillage"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village - Windmill Key",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 866,
+                        "y": 1447
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Item",
+                        "chest_unopened_img": "images/icons/close/Windmill Key.png",
+                        "chest_opened_img": "images/icons/open/Windmill Key.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachMeikanVillage"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Meikan Village - Perfect Chime",
                 "map_locations": 
                 [
@@ -1310,7 +1437,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachMeikanVillage"
+                            "$canPerfect"
                         ],
                         "item_count": 1
                     }
@@ -1637,7 +1764,7 @@
                 ]
             },
             {
-                "name": "Fount of Rebirth - Moon God Selin",
+                "name": "Selin - Moon God Selin",
                 "map_locations": 
                 [
                     {
@@ -1662,7 +1789,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFountOfRebirth"
+                            "$canReachSelin"
                         ],
                         "item_count": 1
                     }
