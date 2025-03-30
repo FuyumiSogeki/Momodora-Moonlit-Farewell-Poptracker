@@ -462,11 +462,11 @@
         "stages":
         [
           {
-            "img": "images/settings/Open Springleaf.png",
+            "img": "images/settings/disabled/Open Springleaf.png",
             "codes": "op_OSP,open_springleaf_off"
           },
           {
-            "img": "images/settings/disabled/Open Springleaf.png",
+            "img": "images/settings/Open Springleaf.png",
             "codes": "op_OSP,open_springleaf_on",
             "inherit_codes": false
           }

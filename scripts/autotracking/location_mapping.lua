@@ -25,7 +25,7 @@ LOCATION_MAPPING =
     [440] = {"@Full/Springleaf Path - Pawn/Sigil"},
 
     -- Lun Tree Roots
-    [10] = {"@Full/Lun Tree Roots - Crescent Moonflower/Skill"},
+    [10] =  {"@Full/Lun Tree Roots - Crescent Moonflower/Skill"},
     [278] = {"@Full/Lun Tree Roots - Black Cat/Boss"},
     [430] = {"@Full/Lun Tree Roots - The Arsonist/Sigil"},
     [432] = {"@Full/Lun Tree Roots - The Fortunate/Sigil"},
