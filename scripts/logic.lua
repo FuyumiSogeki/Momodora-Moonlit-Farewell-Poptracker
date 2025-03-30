@@ -41,6 +41,66 @@ function canCrossFog()
     return has("lunar_attunement")
 end
 
-function canJumpHigh()
-    return canWalljump() and canDoubleJump()
+function canContinueSpringleaf()
+    return canCutBarrier() or isSpringleafOpen()
+end
+
+function canReachLunTreeRoots()
+    return canRun() or isSpringleafOpen()
+end
+
+function canReachFairySprings()
+    return (canReachLunTreeRoots() and canDoubleJump()) or ((canDoubleJump() or canWallJump()) and (canRun() or isSpringleafOpen()))
+end
+
+function canReachOldSanctuary()
+    return canWallJump()
+end
+
+function canReachDemonFrontier()
+    return canReachLunTreeRoots() and (canWallJump() or (canDoubleJump() and isBellHover()))
+end
+
+function canReachAshenHinterlands()
+    return canReachDemonFrontier() and (canDoubleJump() or (canWallJump() and isBellHover()))
+end
+
+function canReachMoonlightRepose()
+    return canReachLunTreeRoots() and canWallJump()
+end
+
+function canContinueAshenHinterlands()
+    return canReachAshenHinterlands() and canWallJump()
+end
+
+function canContinueDemonFrontier()
+    return canReachDemonFrontier() and (canWallJump() and (canDoubleJump() or has("perfect_chime")))
+end
+
+function canReachMeikanVillage()
+    return canContinueDemonFrontier() and canCrossFog()
+end
+
+function canReachMeikanVillageWindmill()
+    return canReachMeikanVillage() and (canDoubleJump() or (canWallJump() and isBellHover()))
+end
+
+function canReachFountOfRebirth()
+    return canReachMeikanVillageWindmill() and canDoubleJump()
+end
+
+function canMending()
+    return canContinueDemonFrontier() and canCrossFog()
+end
+
+function canResolve()
+    return canReachOldSanctuary() and canCrossFog()
+end
+
+function canWelking()
+    return canDoubleJump() and canWallJump()
+end
+
+function canDark()
+    return CanWallJump() and (canDoubleJump() or has("perfect_chime"))
 end

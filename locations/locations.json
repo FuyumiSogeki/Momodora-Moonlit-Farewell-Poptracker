@@ -12,7 +12,7 @@
                     {
                         "map": "Full Map",
                         "x": 1442,
-                        "y": 100
+                        "y": 101
                     }
                 ],
                 "access_rules": 
@@ -49,7 +49,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$canJumpHigh"
+                    "$canWelkin"
                 ],
                 "sections": 
                 [
@@ -81,7 +81,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$canJumpHigh"
+                    "$canReachOldSanctuary"
                 ],
                 "sections": 
                 [
@@ -113,7 +113,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$canJumpHigh,$canCrossFog"
+                    "$canResolve"
                 ],
                 "sections": 
                 [
@@ -140,7 +140,7 @@
                     {
                         "map": "Full Map",
                         "x": 1297,
-                        "y": 726
+                        "y": 725
                     }
                 ],
                 "access_rules": 
@@ -303,8 +303,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$canCutBarrier",
-                    "$isSpringleafOpen"
+                    "$canContinueSpringleaf"
                 ],
                 "sections": 
                 [
@@ -397,8 +396,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canRun",
-                            "$isSpringleafOpen"
+                            "$canContinueSpringLeaf"
                         ],
                         "item_count": 1
                     }
@@ -418,7 +416,7 @@
                 [
                     ""
                 ],
-                "sections": 
+                "sections":
                 [
                     {
                         "name": "Skill",
@@ -430,8 +428,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canRun",
-                            "$isSpringleafOpen"
+                            "$canReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -463,8 +460,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canRun",
-                            "$isSpringleafOpen"
+                            "$canReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -496,8 +492,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canRun",
-                            "$isSpringleafOpen"
+                            "$canReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -529,8 +524,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canRun",
-                            "$isSpringleafOpen"
+                            "$canReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -562,8 +556,1113 @@
                         ],
                         "access_rules": 
                         [
-                            "$canRun",
-                            "$isSpringleafOpen"
+                            "$canReachLunTreeRoots"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Spings - Very Big Spider",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2115,
+                        "y": 677
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Very Big Spider.png",
+                        "chest_opened_img": "images/icons/open/Very Big Spider.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFairySprings"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Spings - Viper Archdemon Sorrellia",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2594,
+                        "y": 677
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Viper Archdemon Sorrellia.png",
+                        "chest_opened_img": "images/icons/open/Viper Archdemon Sorrellia.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFairySprings"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Spings - Grimoire",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1825,
+                        "y": 724
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Grimoire",
+                        "chest_unopened_img": "images/icons/close/grimoire.png",
+                        "chest_opened_img": "images/icons/open/grimoire.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFairySprings"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Spings - Resonance of Ifriya",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1635,
+                        "y": 629
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFairySprings"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Spings - Glazed Aegis",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2209,
+                        "y": 868
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFairySprings"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Spings - The Blessed",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2017,
+                        "y": 629
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFairySprings"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Village - Spiral Shell",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2690,
+                        "y": 485
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Skill",
+                        "chest_unopened_img": "images/icons/close/Spiral Shell.png",
+                        "chest_opened_img": "images/icons/open/Spiral Shell.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFairySprings"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Spings - Oracle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2691,
+                        "y": 677
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "$isOracle"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFairySprings"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Lunar Attunement",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1537,
+                        "y": 1637
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Skill",
+                        "chest_unopened_img": "images/icons/close/Lunar Attunement.png",
+                        "chest_opened_img": "images/icons/open/Lunar Attunement.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachAshenHinterlands"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Serval",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1634,
+                        "y": 1637
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachAshenHinterlands"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Mudwalker",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1634,
+                        "y": 1637
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachAshenHinterlands"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Tainted Serpent",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1875,
+                        "y": 1685
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Tainted Serpent.png",
+                        "chest_opened_img": "images/icons/open/Tainted Serpent.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canContinueAshenHinterlands"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Living Blood",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1537,
+                        "y": 1875
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canContinueAshenHinterlands"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Hare",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1921,
+                        "y": 1685
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canContinueAshenHinterlands"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Moonlight Repose - Remnant of an Unknown Phantasm & Phantasm Blade",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2113,
+                        "y": 1445
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$canReachMoonlightRepose"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Remnant of an Unknown Phantasm",
+                        "chest_unopened_img": "images/icons/close/Remnant of an Unknown Phantasm.png",
+                        "chest_opened_img": "images/icons/open/Remnant of an Unknown Phantasm.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Phantasm Blade",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Accursed Autarch",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1346,
+                        "y": 1541
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Accursed Autarch.png",
+                        "chest_opened_img": "images/icons/open/Accursed Autarch.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachDemonFrontier"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Mitchi Fast Travel",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1346,
+                        "y": 1541
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Skill",
+                        "chest_unopened_img": "images/icons/close/Mitchi Fast Travel.png",
+                        "chest_opened_img": "images/icons/open/Mitchi Fast Travel.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachDemonFrontier"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Bloodthirsty Siblings",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1152,
+                        "y": 1349
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Bloodthirsty Siblings.png",
+                        "chest_opened_img": "images/icons/open/Bloodthirsty Siblings.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canContinueDemonFrontier"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Dark Healer",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1203,
+                        "y": 1253
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canContinueDemonFrontier"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Magic Blade",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1537,
+                        "y": 1253
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canContinueDemonFrontier"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Mending Resonance",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1105,
+                        "y": 1205
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canMending"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village - Moon Goddess Lineth",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 97,
+                        "y": 1351
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Moon Goddess Lineth.png",
+                        "chest_opened_img": "images/icons/open/Moon Goddess Lineth.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachMeikanVillage"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village - Perfect Chime",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 723,
+                        "y": 1447
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachMeikanVillage"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village - Quintessence",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 723,
+                        "y": 1543
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachMeikanVillage"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village Windmill - Tattered Grimoire",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 577,
+                        "y": 1397
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Grimoire",
+                        "chest_unopened_img": "images/icons/close/grimoire.png",
+                        "chest_opened_img": "images/icons/open/grimoire.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachMeikanVillageWindmill"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village Windmill - Trinary",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 577,
+                        "y": 1301
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachMeikanVillageWindmill"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Selin's Fear",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 339,
+                        "y": 533
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Selin's Shade.png",
+                        "chest_opened_img": "images/icons/open/Selin's Shade.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFountOfRebirth"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Selin's Mendacity",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 915,
+                        "y": 533
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Selin's Shade.png",
+                        "chest_opened_img": "images/icons/open/Selin's Shade.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFountOfRebirth"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Selin's Envy",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 339,
+                        "y": 437
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Selin's Shade.png",
+                        "chest_opened_img": "images/icons/open/Selin's Shade.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFountOfRebirth"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Selin's Sorrow",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 915,
+                        "y": 437
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Selin's Shade.png",
+                        "chest_opened_img": "images/icons/open/Selin's Shade.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFountOfRebirth"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Dusty Grimoire",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 531,
+                        "y": 821
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Grimoire",
+                        "chest_unopened_img": "images/icons/close/grimoire.png",
+                        "chest_opened_img": "images/icons/open/grimoire.png",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFountOfRebirth"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Demilune Whisper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 579,
+                        "y": 581
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFountOfRebirth"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Ascended Slash",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 675,
+                        "y": 773
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sigil",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFountOfRebirth"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Moon God Selin",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 627,
+                        "y": 52
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Moon God Selin.png",
+                        "chest_opened_img": "images/icons/open/Moon God Selin.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$canReachFountOfRebirth"
                         ],
                         "item_count": 1
                     }

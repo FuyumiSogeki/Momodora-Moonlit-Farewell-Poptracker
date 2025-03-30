@@ -46,23 +46,23 @@ LOCATION_MAPPING =
     [447] = {"@Full/Ashen Hinterlands - Mudwalker/Sigil"},
 
     -- Ashen Hinterlands Continued
-    [255] = {"@Full/Ashen Hinterlands Continued - Tainted Serpent/Boss"},
-    [420] = {"@Full/Ashen Hinterlands Continued - Living Blood/Sigil"},
-    [448] = {"@Full/Ashen Hinterlands Continued - Hare/Sigil"},
+    [255] = {"@Full/Ashen Hinterlands - Tainted Serpent/Boss"},
+    [420] = {"@Full/Ashen Hinterlands - Living Blood/Sigil"},
+    [448] = {"@Full/Ashen Hinterlands - Hare/Sigil"},
 
     -- Moonlight Repose
-    [171] = {"@Full/Moonlight Repose - Remnant of an Unknown Phantasm/Boss"},
-    [439] = {"@Full/Moonlight Repose - Phantasm Blade/Sigil"},
+    [171] = {"@Full/Moonlight Repose - Remnant of an Unknown Phantasm & Phantasm Blade/Remnant of an Unknown Phantasm"},
+    [439] = {"@Full/Moonlight Repose - Remnant of an Unknown Phantasm & Phantasm Blade/Phantasm Blade"},
 
     -- Demon Frontier
     [105] = {"@Full/Demon Frontier - Accursed Autarch/Boss"},
     [205] = {"@Full/Demon Frontier - Mitchi Fast Travel/Skill"},
 
     -- Demon Frontier Continued
-    [188] = {"@Full/Demon Frontier Continued - Bloodthirsty Siblings/Boss"},
-    [402] = {"@Full/Demon Frontier Continued - Dark Healer/Sigil"},
-    [404] = {"@Full/Demon Frontier Continued - Magic Blade/Sigil"},
-    [434] = {"@Full/Demon Frontier Continued - Mending Resonance/Sigil"},
+    [188] = {"@Full/Demon Frontier - Bloodthirsty Siblings/Boss"},
+    [402] = {"@Full/Demon Frontier - Dark Healer/Sigil"},
+    [404] = {"@Full/Demon Frontier - Magic Blade/Sigil"},
+    [434] = {"@Full/Demon Frontier - Mending Resonance/Sigil"},
 
     -- Meikan Village
     [213] = {"@Full/Meikan Village - Moon Goddess Lineth/Boss"},

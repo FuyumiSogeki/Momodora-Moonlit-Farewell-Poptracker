@@ -3,7 +3,7 @@
   {
     "name": "Full Map",
     "location_size": 24,
-    "location_border_thickness": 2,
+    "location_border_thickness": 4,
     "img": "images/maps/fullmap.png"
   }
 ]
