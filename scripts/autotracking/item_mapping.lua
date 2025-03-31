@@ -43,6 +43,7 @@ ITEM_MAPPING = {
     [447] = {"mudwalker", "toggle"},           -- Mudwalker, useful
     [448] = {"hare", "toggle"},                -- Hare, useful
     [449] = {"trinary", "toggle"},             -- Trinary, useful
+    [10000] = {"the_fool", "toggle"},          -- The Fool, does not exist
 
     -- Grimoires
     [338] = {"grimoire", "toggle"},            -- Grimoire, useful

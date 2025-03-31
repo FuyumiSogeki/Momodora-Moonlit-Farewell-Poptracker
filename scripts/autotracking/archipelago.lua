@@ -112,6 +112,45 @@ function onClear(slot_data)
     end
 end
 
+function checkUnusedSigil(location_id)
+    if location_id == 419 then
+        local objItem = Tracker:FindObjectForCode("the_fool")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find The Fool"))
+        end
+    elseif location_id == 123 then
+        local objItem = Tracker:FindObjectForCode("last_wish")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Last Wish"))
+        end
+    elseif location_id == 401 then
+        local objItem = Tracker:FindObjectForCode("the_profiteer")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find The Profiteer"))
+        end
+    elseif location_id == 408 then
+        local objItem = Tracker:FindObjectForCode("strongfist")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Strongfist"))
+        end
+    elseif location_id == 422 then
+        local objItem = Tracker:FindObjectForCode("fallen_hero")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Fallen Hero"))
+        end
+    end
+end
+
 function onLocation(location_id, location_name)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onLocation: %s, %s", location_id, location_name))
@@ -132,6 +171,7 @@ function onLocation(location_id, location_name)
     if obj then
         if v[1]:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1
+            checkUnusedSigil(location_id)
         else
             obj.Active = true
         end
