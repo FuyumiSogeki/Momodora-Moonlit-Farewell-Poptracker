@@ -923,8 +923,8 @@
                 [
                     {
                         "map": "Full Map",
-                        "x": 1634,
-                        "y": 1637
+                        "x": 1490,
+                        "y": 1733
                     }
                 ],
                 "access_rules": 
@@ -1161,8 +1161,8 @@
                 [
                     {
                         "map": "Full Map",
-                        "x": 1346,
-                        "y": 1541
+                        "x": 2658,
+                        "y": 1304
                     }
                 ],
                 "access_rules": 
@@ -1181,7 +1181,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachDemonFrontier"
+                            "$canDoMitchi"
                         ],
                         "item_count": 1
                     }

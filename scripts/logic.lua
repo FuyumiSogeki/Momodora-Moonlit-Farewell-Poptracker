@@ -140,3 +140,7 @@ end
 function canOracle()
     return isOracle() and canReachFountOfRebirth()
 end
+
+function canDoMitchi()
+    return canReachDemonFrontier() or has("mitchi_fast_travel")
+end
