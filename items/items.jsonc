@@ -509,5 +509,119 @@
             "inherit_codes": false
           }
         ]
+    },
+    {
+        "name": "Randomize Dotted Berries",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Dotted Berry.png",
+            "codes": "op_RDB,dotted_off"
+          },
+          {
+            "img": "images/settings/Dotted Berry.png",
+            "codes": "op_RDB,dotted_on",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Lun Berries",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Lun Berry.png",
+            "codes": "op_RLB,lun_off"
+          },
+          {
+            "img": "images/settings/Lun Berry.png",
+            "codes": "op_RLB,lun_on",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Peaches",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Peach.png",
+            "codes": "op_RP,peach_off"
+          },
+          {
+            "img": "images/settings/Peach.png",
+            "codes": "op_RP,peach_on",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Heavenly Lily",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Heavenly Lily.png",
+            "codes": "op_RHL,lily_off"
+          },
+          {
+            "img": "images/settings/Heavenly Lily.png",
+            "codes": "op_RHL,lily_on",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Fairies",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Fairy.png",
+            "codes": "op_RF,fairy_off"
+          },
+          {
+            "img": "images/settings/Fairy.png",
+            "codes": "op_RF,fairy_on",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Illusory Companion",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Illusory Companion.png",
+            "codes": "op_RIC,companion_off"
+          },
+          {
+            "img": "images/settings/Illusory Companion.png",
+            "codes": "op_RIC,companion_on",
+            "inherit_codes": false
+          }
+        ]
     }
 ]

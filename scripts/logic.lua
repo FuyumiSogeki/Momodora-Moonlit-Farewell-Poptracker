@@ -9,6 +9,9 @@ function has(item, amount)
     end
 end
 
+
+-- Settings
+
 function isSpringleafOpen()
     return has("open_springleaf_on")
 end
@@ -28,6 +31,33 @@ end
 function isKeySelin()
     return has("final_boss_key_on")
 end
+
+function isDotted()
+    return has("dotted_on")
+end
+
+function isLun()
+    return has("lun_on")
+end
+
+function isPeach()
+    return has("peach_on")
+end
+
+function isLily()
+    return has("lily_on")
+end
+
+function isFairy()
+    return has("fairy_on")
+end
+
+function isCompanion()
+    return has("companion_on")
+end
+
+
+-- Location Logic
 
 function canOpenWindmill()
     return (isKeyItems() and has("windmill_key")) or not isKeyItems()

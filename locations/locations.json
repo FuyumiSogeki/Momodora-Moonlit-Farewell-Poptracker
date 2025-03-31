@@ -64,6 +64,20 @@
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -95,6 +109,70 @@
                         ],
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Old Sanctuary - Heavenly Lily Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1584,
+                        "y": 198
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Old Sanctuary - Heavenly Lily Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1729,
+                        "y": 245
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
                         "item_count": 1
                     }
                 ]
@@ -159,6 +237,70 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Gold Moonlit Dust.png",
                         "chest_opened_img": "images/icons/open/Gold Moonlit Dust.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Heavenly Lily Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1586,
+                        "y": 437
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Heavenly Lily Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1202,
+                        "y": 868
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
                         "item_count": 1
                     }
                 ]

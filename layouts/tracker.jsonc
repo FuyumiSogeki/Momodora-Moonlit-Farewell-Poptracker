@@ -72,6 +72,68 @@
             ],
             "item_size": 60,
             "margin": "0,0,3,0"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["dotted_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,3,0"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["lun_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,3,0"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["peach_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,3,0"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["lily_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,3,0"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["fairy_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,3,0"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["companion_on"]
+            ],
+            "item_size": 60,
+            "margin": "0,0,3,0"
           }
         ]
       }
