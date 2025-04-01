@@ -31,13 +31,13 @@ LOCATION_MAPPING =
     [432] = {"@Full/Lun Tree Roots - The Fortunate/Sigil"},
     [436] = {"@Full/Lun Tree Roots - Companionship Pact/Sigil"},
 
-    -- Fairy Spings
-    [114] = {"@Full/Fairy Spings - Very Big Spider/Boss"},
-    [150] = {"@Full/Fairy Spings - Viper Archdemon Sorrellia/Boss"},
-    [338] = {"@Full/Fairy Spings - Grimoire/Grimoire"},
-    [425] = {"@Full/Fairy Spings - Resonance of Ifriya/Sigil"},
-    [433] = {"@Full/Fairy Spings - Glazed Aegis/Sigil"},
-    [435] = {"@Full/Fairy Spings - The Blessed/Sigil"},
+    -- Fairy Springs
+    [114] = {"@Full/Fairy Springs - Very Big Spider/Boss"},
+    [150] = {"@Full/Fairy Springs - Viper Archdemon Sorrellia/Boss"},
+    [338] = {"@Full/Fairy Springs - Grimoire/Grimoire"},
+    [425] = {"@Full/Fairy Springs - Resonance of Ifriya/Sigil"},
+    [433] = {"@Full/Fairy Springs - Glazed Aegis/Sigil"},
+    [435] = {"@Full/Fairy Springs - The Blessed/Sigil"},
     
     -- Fairy Village
     [194] = {"@Full/Fairy Village - Spiral Shell/Skill"},

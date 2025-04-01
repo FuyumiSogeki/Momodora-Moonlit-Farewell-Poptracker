@@ -21,7 +21,7 @@ Tracker:AddLayouts("layouts/items.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
 
 -- Locations
-Tracker:AddLocations("locations/locations.json")
+Tracker:AddLocations("locations/locations.jsonc")
 
 print("-- Example Tracker --")
 print("Loaded variant: ", variant)

@@ -3,6 +3,7 @@
         "name": "Full",
         "color": "#FFFFFF",
         "children": [
+            // Koho Village
             {
                 "name": "Koho Village - Lun Berry",
                 "map_locations": 
@@ -177,6 +178,7 @@
                     }
                 ]
             },
+            // Old Sanctuary
             {
                 "name": "Old Sanctuary - The Sharpshooter",
                 "map_locations": 
@@ -270,6 +272,20 @@
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -333,6 +349,53 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Gold Moonlit Dust.png",
                         "chest_opened_img": "images/icons/open/Gold Moonlit Dust.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            // Springleaf Path
+            {
+                "name": "Springleaf Path - Peach",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1154,
+                        "y": 677
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Peach",
+                        "visibility_rules": 
+                        [
+                            "$isPeach"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Peach.png",
+                        "chest_opened_img": "images/icons/open/Peach.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
                         "item_count": 1
                     }
                 ]
@@ -813,6 +876,39 @@
                     }
                 ]
             },
+            // Lun Tree Roots
+            {
+                "name": "Lun Tree Roots - Peach",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1969,
+                        "y": 1012
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Peach",
+                        "visibility_rules": 
+                        [
+                            "$isPeach"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Peach.png",
+                        "chest_opened_img": "images/icons/open/Peach.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Lun Tree Roots - Lun Berry",
                 "map_locations": 
@@ -1002,6 +1098,20 @@
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -1165,6 +1275,7 @@
                     }
                 ]
             },
+            // Fairy Springs
             {
                 "name": "Fairy Springs - Lun Berry",
                 "map_locations": 
@@ -1198,7 +1309,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - Dotted Berry Left",
+                "name": "Fairy Springs - Dotted Berry Left",
                 "map_locations": 
                 [
                     {
@@ -1230,7 +1341,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - Dotted Berry Middle",
+                "name": "Fairy Springs - Dotted Berry Middle",
                 "map_locations": 
                 [
                     {
@@ -1262,7 +1373,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - Dotted Berry Right",
+                "name": "Fairy Springs - Dotted Berry Right",
                 "map_locations": 
                 [
                     {
@@ -1294,7 +1405,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - Heavenly Lily",
+                "name": "Fairy Springs - Heavenly Lily",
                 "map_locations": 
                 [
                     {
@@ -1326,7 +1437,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - Very Big Spider",
+                "name": "Fairy Springs - Very Big Spider",
                 "map_locations": 
                 [
                     {
@@ -1358,7 +1469,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - Viper Archdemon Sorrellia",
+                "name": "Fairy Springs - Viper Archdemon Sorrellia",
                 "map_locations": 
                 [
                     {
@@ -1390,7 +1501,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - Grimoire",
+                "name": "Fairy Springs - Grimoire",
                 "map_locations": 
                 [
                     {
@@ -1418,11 +1529,25 @@
                             "$canReachFairySprings"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Peach",
+                        "visibility_rules": 
+                        [
+                            "$isPeach"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Peach.png",
+                        "chest_opened_img": "images/icons/open/Peach.png",
+                        "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Fairy Spings - Resonance of Ifriya",
+                "name": "Fairy Springs - Resonance of Ifriya",
                 "map_locations": 
                 [
                     {
@@ -1454,7 +1579,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - Glazed Aegis",
+                "name": "Fairy Springs - Glazed Aegis",
                 "map_locations": 
                 [
                     {
@@ -1486,7 +1611,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - The Blessed",
+                "name": "Fairy Springs - The Blessed",
                 "map_locations": 
                 [
                     {
@@ -1518,7 +1643,7 @@
                 ]
             },
             {
-                "name": "Fairy Spings - Dotted Berry",
+                "name": "Fairy Springs - Dotted Berry",
                 "map_locations": 
                 [
                     {
@@ -1549,6 +1674,7 @@
                     }
                 ]
             },
+            // Fairy Village
             {
                 "name": "Fairy Village - Heavenly Lily Upper",
                 "map_locations": 
@@ -1577,6 +1703,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
                         "item_count": 1
                     }
                 ]
@@ -1677,6 +1817,39 @@
                         [
                             "$canOracle"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            // Ashen Hinterlands
+            {
+                "name": "Ashen Hinterlands - Peach",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1346,
+                        "y": 1781
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Peach",
+                        "visibility_rules": 
+                        [
+                            "$isPeach"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Peach.png",
+                        "chest_opened_img": "images/icons/open/Peach.png",
                         "item_count": 1
                     }
                 ]
@@ -2111,6 +2284,7 @@
                     }
                 ]
             },
+            // Moonlight Repose
             {
                 "name": "Moonlight Repose - Dotted Berry",
                 "map_locations": 
@@ -2253,6 +2427,7 @@
                     }
                 ]
             },
+            // Demon Frontier
             {
                 "name": "Demon Frontier - Dotted Berry Left",
                 "map_locations": 
@@ -2605,6 +2780,39 @@
                     }
                 ]
             },
+            // Meikan Village
+            {
+                "name": "Meikan Village - Peach",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 864,
+                        "y": 1349
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Peach",
+                        "visibility_rules": 
+                        [
+                            "$isPeach"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Peach.png",
+                        "chest_opened_img": "images/icons/open/Peach.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Meikan Village - Heavenly Lily Right",
                 "map_locations": 
@@ -2939,6 +3147,7 @@
                     }
                 ]
             },
+            // Meikan Village Windmill
             {
                 "name": "Meikan Village Windmill - Tattered Grimoire",
                 "map_locations": 
@@ -3003,6 +3212,7 @@
                     }
                 ]
             },
+            // Fount of Rebirth
             {
                 "name": "Fount of Rebirth - Lun Berry",
                 "map_locations": 
@@ -3451,6 +3661,7 @@
                     }
                 ]
             },
+            // Selin
             {
                 "name": "Selin - Moon God Selin",
                 "map_locations": 
@@ -3483,6 +3694,7 @@
                     }
                 ]
             },
+            // Cereza
             {
                 "name": "Cereza",
                 "map_locations": 
