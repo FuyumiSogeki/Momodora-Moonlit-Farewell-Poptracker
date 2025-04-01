@@ -355,6 +355,102 @@
             },
             // Springleaf Path
             {
+                "name": "Springleaf Path - Fairy Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1440,
+                        "y": 580
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Fairy Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1393,
+                        "y": 870
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Fairy Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1393,
+                        "y": 917
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Springleaf Path - Peach",
                 "map_locations": 
                 [
@@ -878,6 +974,166 @@
             },
             // Lun Tree Roots
             {
+                "name": "Lun Tree Roots - Fairy Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1872,
+                        "y": 917
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Fairy Upper Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1730,
+                        "y": 1156
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Fairy Middle Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1874,
+                        "y": 1205
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Fairy Middle Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1777,
+                        "y": 1251
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Fairy Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1732,
+                        "y": 1349
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Lun Tree Roots - Peach",
                 "map_locations": 
                 [
@@ -1276,6 +1532,134 @@
                 ]
             },
             // Fairy Springs
+            {
+                "name": "Fairy Springs - Fairy Lower Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1921,
+                        "y": 870
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Fairy Lower Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2066,
+                        "y": 870
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Fairy Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2113,
+                        "y": 773
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Fairy Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2306,
+                        "y": 724
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Fairy Springs - Lun Berry",
                 "map_locations": 
@@ -1822,6 +2206,166 @@
                 ]
             },
             // Ashen Hinterlands
+            {
+                "name": "Ashen Hinterlands - Fairy Upper Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1730,
+                        "y": 1635
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Fairy Upper Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1296,
+                        "y": 1732
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Fairy Lower Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1299,
+                        "y": 1830
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Fairy Lower Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1537,
+                        "y": 1925
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Fairy Lower Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1683,
+                        "y": 1830
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Ashen Hinterlands - Peach",
                 "map_locations": 
@@ -2429,6 +2973,148 @@
             },
             // Demon Frontier
             {
+                "name": "Demon Frontier - Fairy Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1346,
+                        "y": 1205
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Fairy Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1298,
+                        "y": 1300
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy 1",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy 2",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Fairy Lower Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1201,
+                        "y": 1491
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Fairy Lower Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1442,
+                        "y": 1541
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Demon Frontier - Dotted Berry Left",
                 "map_locations": 
                 [
@@ -2781,6 +3467,70 @@
                 ]
             },
             // Meikan Village
+            {
+                "name": "Meikan Village - Fairy Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 673,
+                        "y": 1543
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village - Fairy Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 433,
+                        "y": 1256
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Meikan Village - Peach",
                 "map_locations": 
@@ -3213,6 +3963,70 @@
                 ]
             },
             // Fount of Rebirth
+            {
+                "name": "Fount of Rebirth - Fairy Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 627,
+                        "y": 821
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Fairy Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 722,
+                        "y": 724
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Fount of Rebirth - Lun Berry",
                 "map_locations": 
