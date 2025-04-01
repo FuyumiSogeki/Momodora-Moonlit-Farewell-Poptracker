@@ -4,6 +4,38 @@
         "color": "#FFFFFF",
         "children": [
             {
+                "name": "Koho Village - Lun Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1393,
+                        "y": 101
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lun Berry",
+                        "visibility_rules": 
+                        [
+                            "$isLun"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lun Berry.png",
+                        "chest_opened_img": "images/icons/open/Lun Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Koho Village - Dotted Berry Left",
                 "map_locations": 
                 [
@@ -105,8 +137,8 @@
                 [
                     {
                         "map": "Full Map",
-                        "x": 1395,
-                        "y": 53
+                        "x": 1393,
+                        "y": 52
                     }
                 ],
                 "access_rules": 
@@ -301,6 +333,38 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Gold Moonlit Dust.png",
                         "chest_opened_img": "images/icons/open/Gold Moonlit Dust.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Lun Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1202,
+                        "y": 820
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lun Berry",
+                        "visibility_rules": 
+                        [
+                            "$isLun"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lun Berry.png",
+                        "chest_opened_img": "images/icons/open/Lun Berry.png",
                         "item_count": 1
                     }
                 ]
@@ -750,6 +814,38 @@
                 ]
             },
             {
+                "name": "Lun Tree Roots - Lun Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1825,
+                        "y": 1349
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lun Berry",
+                        "visibility_rules": 
+                        [
+                            "$isLun"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lun Berry.png",
+                        "chest_opened_img": "images/icons/open/Lun Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Lun Tree Roots - Dotted Berry Upper",
                 "map_locations": 
                 [
@@ -1065,6 +1161,38 @@
                         [
                             "$canReachLunTreeRoots"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Lun Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1969,
+                        "y": 677
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lun Berry",
+                        "visibility_rules": 
+                        [
+                            "$isLun"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lun Berry.png",
+                        "chest_opened_img": "images/icons/open/Lun Berry.png",
                         "item_count": 1
                     }
                 ]
@@ -1549,6 +1677,38 @@
                         [
                             "$canOracle"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Lun Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1154,
+                        "y": 1781
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lun Berry",
+                        "visibility_rules": 
+                        [
+                            "$isLun"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lun Berry.png",
+                        "chest_opened_img": "images/icons/open/Lun Berry.png",
                         "item_count": 1
                     }
                 ]
@@ -2839,6 +2999,38 @@
                         [
                             "$canReachMeikanVillageWindmill"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Lun Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 627,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lun Berry",
+                        "visibility_rules": 
+                        [
+                            "$isLun"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lun Berry.png",
+                        "chest_opened_img": "images/icons/open/Lun Berry.png",
                         "item_count": 1
                     }
                 ]
