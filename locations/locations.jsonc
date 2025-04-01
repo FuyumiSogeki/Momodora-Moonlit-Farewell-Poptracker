@@ -246,7 +246,7 @@
                     {
                         "map": "Full Map",
                         "x": 1538,
-                        "y": 198
+                        "y": 197
                     }
                 ],
                 "access_rules": 
@@ -405,7 +405,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canContinueOldSanctuary"
+                            "$canGoldenDust"
                         ],
                         "chest_unopened_img": "images/icons/close/Gold Moonlit Dust.png",
                         "chest_opened_img": "images/icons/open/Gold Moonlit Dust.png",

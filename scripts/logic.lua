@@ -104,11 +104,11 @@ function canReachFairySprings()
 end
 
 function canReachOldSanctuary()
-    return canWallJump() or (isBellHover() and canDoubleJump())
+    return canWallJump() or ((isBellHover() or CanCrossFog()) and canDoubleJump())
 end
 
 function canContinueOldSanctuary()
-    return canReachOldSanctuary() and canWallJump()
+    return canReachOldSanctuary() and (canWallJump() or (isBellHover() and canDoubleJump() and canCrossFog()))
 end
 
 function canReachDemonFrontier()
@@ -116,7 +116,7 @@ function canReachDemonFrontier()
 end
 
 function canReachAshenHinterlands()
-    return canReachDemonFrontier() and (canDoubleJump() or (canWallJump() and canRun() and isBellHover()))
+    return canReachDemonFrontier() and (canDoubleJump() or (canWallJump() and isBellHover() and (canRun() or has("perfect_chime"))))
 end
 
 function canReachMoonlightRepose()
@@ -128,7 +128,7 @@ function canContinueAshenHinterlands()
 end
 
 function canContinueDemonFrontier()
-    return canReachDemonFrontier() and ((canWallJump() and canCrossFog()) or (canWallJump() and (canDoubleJump() or has("perfect_chime"))))
+    return canReachDemonFrontier() and ((canWallJump() and canCrossFog()) or (canWallJump() and (canRun() or has("perfect_chime"))))
 end
 
 function canReachMeikanVillage()
@@ -173,4 +173,8 @@ end
 
 function canDoMitchi()
     return canReachDemonFrontier() or has("mitchi_fast_travel")
+end
+
+function canGoldenDust()
+    return canContinueOldSanctuary() and (canDoubleJump() and (canWallJump() and (has("perfect_chime") or canRun())))
 end
