@@ -4,6 +4,70 @@
         "color": "#FFFFFF",
         "children": [
             {
+                "name": "Koho Village - Dotted Berry Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1491,
+                        "y": 101
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Koho Village - Dotted Berry Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1730,
+                        "y": 148
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Koho Village - The Hunter",
                 "map_locations": 
                 [
@@ -274,6 +338,102 @@
                 ]
             },
             {
+                "name": "Springleaf Path - Dotted Berry Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1345,
+                        "y": 343
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Dotted Berry Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1249,
+                        "y": 724
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Dotted Berry Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1489,
+                        "y": 677
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Springleaf Path - Heavenly Lily Lower",
                 "map_locations": 
                 [
@@ -462,6 +622,20 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -571,6 +745,70 @@
                         [
                             "$canReachLunTreeRoots"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Dotted Berry Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1874,
+                        "y": 1111
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Dotted Berry Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1923,
+                        "y": 1156
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
                         "item_count": 1
                     }
                 ]
@@ -832,6 +1070,102 @@
                 ]
             },
             {
+                "name": "Fairy Spings - Dotted Berry Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1874,
+                        "y": 773
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Spings - Dotted Berry Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2113,
+                        "y": 868
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Spings - Dotted Berry Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2209,
+                        "y": 773
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Fairy Spings - Heavenly Lily",
                 "map_locations": 
                 [
@@ -1056,6 +1390,38 @@
                 ]
             },
             {
+                "name": "Fairy Spings - Dotted Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2547,
+                        "y": 773
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Fairy Village - Heavenly Lily Upper",
                 "map_locations": 
                 [
@@ -1183,6 +1549,102 @@
                         [
                             "$canOracle"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Dotted Berry Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1393,
+                        "y": 1732
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Dotted Berry Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1633,
+                        "y": 1829
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Dotted Berry Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1777,
+                        "y": 1637
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
                         "item_count": 1
                     }
                 ]
@@ -1344,6 +1806,20 @@
                             "$canReachAshenHinterlands"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -1476,6 +1952,38 @@
                 ]
             },
             {
+                "name": "Moonlight Repose - Dotted Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2115,
+                        "y": 1399
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Moonlight Repose - Heavenly Lily",
                 "map_locations": 
                 [
@@ -1581,6 +2089,70 @@
                         [
                             "$canReachMoonlightRepose"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Dotted Berry Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1488,
+                        "y": 1301
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Dotted Berry Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1105,
+                        "y": 1349
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
                         "item_count": 1
                     }
                 ]
@@ -1906,6 +2478,70 @@
                 ]
             },
             {
+                "name": "Meikan Village - Dotted Berry Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 817,
+                        "y": 1397
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village - Dotted Berry Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 480,
+                        "y": 1205
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Meikan Village - Heavenly Lily Middle",
                 "map_locations": 
                 [
@@ -1965,6 +2601,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
                         "item_count": 1
                     }
                 ]
@@ -2189,6 +2839,70 @@
                         [
                             "$canReachMeikanVillageWindmill"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Dotted Berry Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 627,
+                        "y": 533
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Dotted Berry Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 867,
+                        "y": 533
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
                         "item_count": 1
                     }
                 ]
