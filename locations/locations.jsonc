@@ -5,6 +5,38 @@
         "children": [
             // Koho Village
             {
+                "name": "Koho Village - Kaho",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1634,
+                        "y": 293
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Kaho",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Kaho.png",
+                        "chest_opened_img": "images/icons/open/Kaho.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Koho Village - Lun Berry",
                 "map_locations": 
                 [
@@ -32,6 +64,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lineth",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lineth.png",
+                        "chest_opened_img": "images/icons/open/Lineth.png",
                         "item_count": 1
                     }
                 ]
@@ -64,6 +110,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grimalkin Spirit",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Grimalkin Spirit.png",
+                        "chest_opened_img": "images/icons/open/Grimalkin Spirit.png",
                         "item_count": 1
                     }
                 ]
@@ -749,6 +809,20 @@
                         "chest_unopened_img": "images/icons/close/Awakened Sacred Leaf.png",
                         "chest_opened_img": "images/icons/open/Awakened Sacred Leaf.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Bakman",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Bakman.png",
+                        "chest_opened_img": "images/icons/open/Bakman.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -905,6 +979,20 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Dora",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dora.png",
+                        "chest_opened_img": "images/icons/open/Dora.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -973,6 +1061,38 @@
                 ]
             },
             // Lun Tree Roots
+            {
+                "name": "Lun Tree Roots - Simple Cube",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1969,
+                        "y": 1446
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Simple Cube",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Simple Cube.png",
+                        "chest_opened_img": "images/icons/open/Simple Cube.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Lun Tree Roots - Fairy Upper",
                 "map_locations": 
@@ -2771,7 +2891,7 @@
                     {
                         "map": "Full Map",
                         "x": 1537,
-                        "y": 1875
+                        "y": 1877
                     }
                 ],
                 "access_rules": 
@@ -2972,6 +3092,38 @@
                 ]
             },
             // Demon Frontier
+            {
+                "name": "Demon Frontier - Floating Skull",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1590,
+                        "y": 1349
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Floating Skull",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Floating Skull.png",
+                        "chest_opened_img": "images/icons/open/Floating Skull.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Demon Frontier - Fairy Upper",
                 "map_locations": 
@@ -3174,6 +3326,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vampire Bat",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Vampire Bat.png",
+                        "chest_opened_img": "images/icons/open/Vampire Bat.png",
                         "item_count": 1
                     }
                 ]
@@ -3467,6 +3633,38 @@
                 ]
             },
             // Meikan Village
+            {
+                "name": "Meikan Village - Ducky",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 817,
+                        "y": 1398
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Ducky",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Ducky.png",
+                        "chest_opened_img": "images/icons/open/Ducky.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Meikan Village - Fairy Lower",
                 "map_locations": 
@@ -3899,6 +4097,38 @@
             },
             // Meikan Village Windmill
             {
+                "name": "Meikan Village Windmill - Cactus",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 434,
+                        "y": 1443
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Cactus",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Cactus.png",
+                        "chest_opened_img": "images/icons/open/Cactus.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Meikan Village Windmill - Tattered Grimoire",
                 "map_locations": 
                 [
@@ -3963,6 +4193,38 @@
                 ]
             },
             // Fount of Rebirth
+            {
+                "name": "Meikan Village Windmill - Nun",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 722,
+                        "y": 821
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Nun",
+                        "visibility_rules": 
+                        [
+                            "$isCompanion"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Nun.png",
+                        "chest_opened_img": "images/icons/open/Nun.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Fount of Rebirth - Fairy Lower",
                 "map_locations": 
