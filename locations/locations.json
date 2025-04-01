@@ -576,6 +576,102 @@
                 ]
             },
             {
+                "name": "Lun Tree Roots - Heavenly Lily Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1825,
+                        "y": 1298
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Heavenly Lily Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1875,
+                        "y": 1251
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Heavenly Lily Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2019,
+                        "y": 1062
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Lun Tree Roots - Crescent Moonflower",
                 "map_locations": 
                 [
@@ -710,7 +806,7 @@
                     {
                         "map": "Full Map",
                         "x": 1922,
-                        "y": 1255
+                        "y": 1251
                     }
                 ],
                 "access_rules": 
@@ -731,6 +827,38 @@
                         [
                             "$canReachLunTreeRoots"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Spings - Heavenly Lily",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1923,
+                        "y": 629
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
                         "item_count": 1
                     }
                 ]
@@ -928,6 +1056,70 @@
                 ]
             },
             {
+                "name": "Fairy Village - Heavenly Lily Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2642,
+                        "y": 724
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Village - Heavenly Lily Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2738,
+                        "y": 917
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Fairy Village - Spiral Shell",
                 "map_locations": 
                 [
@@ -991,6 +1183,102 @@
                         [
                             "$canOracle"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Heavenly Lily Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1586,
+                        "y": 1542
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Heavenly Lily Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1826,
+                        "y": 1733
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Heavenly Lily Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1826,
+                        "y": 1782
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
                         "item_count": 1
                     }
                 ]
@@ -1188,6 +1476,38 @@
                 ]
             },
             {
+                "name": "Moonlight Repose - Heavenly Lily",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2115,
+                        "y": 1205
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Moonlight Repose - Remnant of an Unknown Phantasm & Phantasm Blade",
                 "map_locations": 
                 [
@@ -1261,6 +1581,102 @@
                         [
                             "$canReachMoonlightRepose"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Heavenly Lily Upper",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1299,
+                        "y": 1205
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Heavenly Lily Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1250,
+                        "y": 1253
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Heavenly Lily Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1250,
+                        "y": 1493
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
                         "item_count": 1
                     }
                 ]
@@ -1453,6 +1869,102 @@
                         [
                             "$canMending"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village - Heavenly Lily Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 768,
+                        "y": 1445
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village - Heavenly Lily Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 624,
+                        "y": 1445
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village - Heavenly Lily Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 50,
+                        "y": 1351
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
                         "item_count": 1
                     }
                 ]
@@ -1677,6 +2189,134 @@
                         [
                             "$canReachMeikanVillageWindmill"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Heavenly Lily Lower",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 675,
+                        "y": 724
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Heavenly Lily Middle",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 628,
+                        "y": 677
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Heavenly Lily Upper Left",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 531,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fount of Rebirth - Heavenly Lily Upper Right",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 723,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
                         "item_count": 1
                     }
                 ]

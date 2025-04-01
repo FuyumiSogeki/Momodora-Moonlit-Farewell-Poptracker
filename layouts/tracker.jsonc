@@ -72,7 +72,7 @@
             ],
             "item_size": 60,
             "margin": "0,0,3,0"
-          },
+          }/*,
           {
             "type": "itemgrid",
             "rows": [
@@ -80,9 +80,9 @@
             ],
             "item_size": 60,
             "margin": "0,0,3,0"
-          }
+          }*/
         ]
-      },
+      }/*,
       {
         "type": "array",
         "orientation": "horizontal",
@@ -136,7 +136,7 @@
             "margin": "0,0,3,0"
           }
         ]
-      }
+      }*/
     ]
   },
   "tracker_horizontal": 
@@ -218,11 +218,13 @@
               "margin": "0,0,3,0",
               "content": 
               {
-                "type": "tabbed",
-                "tabs": 
+                "type": "dock",
+                "dock": "top",
+                "content": 
                 [
                   {
                     "title": "Sigils",
+                    "type": "group",
                     "content": 
                     {
                       "type": "layout",
@@ -230,7 +232,29 @@
                       "v_alignment": "center",
                       "key": "sigil_grid"
                     }
-                  }
+                  }/*,
+                  {
+                    "title": "Collectables",
+                    "type": "group",
+                    "content": 
+                    {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "v_alignment": "center",
+                      "key": "collectables"
+                    }
+                  },
+                  {
+                    "title": "Companions",
+                    "type": "group",
+                    "content": 
+                    {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "v_alignment": "center",
+                      "key": "companions"
+                    }
+                  }*/
                 ]
               }
             }

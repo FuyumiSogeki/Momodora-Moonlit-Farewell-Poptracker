@@ -413,6 +413,162 @@
         "codes": "trinary",
         "disabled_img_mods":"none"
     },
+    {
+        "name": "Dotted Berry",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/collectables/Dotted Berry.png",
+        "overlay_background": "#000",
+        "codes": "dotted_berry",
+        "max_quantity": 24,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Lun Berry",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/collectables/Lun Berry.png",
+        "overlay_background": "#000",
+        "codes": "lun_berry",
+        "max_quantity": 7,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Peach",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/collectables/Peach.png",
+        "overlay_background": "#000",
+        "codes": "peach",
+        "max_quantity": 5,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Heavenly Lily",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/collectables/Heavenly Lily.png",
+        "overlay_background": "#000",
+        "codes": "heavenly_lily",
+        "max_quantity": 25,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Fairy",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/collectables/Fairy.png",
+        "overlay_background": "#000",
+        "codes": "fairy",
+        "max_quantity": 30,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Grimalkin Spirit",
+        "type": "toggle",
+        "img": "images/items/companions/Grimalkin Spirit.png",
+        "disabled_img": "images/items/companions/disabled/Grimalkin Spirit.png",
+        "codes": "grimalking_spirit",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Lawa",
+        "type": "toggle",
+        "img": "images/items/companions/Lawa.png",
+        "disabled_img": "images/items/companions/disabled/Lawa.png",
+        "codes": "lawa",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Floating Skull",
+        "type": "toggle",
+        "img": "images/items/companions/Floating Skull.png",
+        "disabled_img": "images/items/companions/disabled/Floating Skull.png",
+        "codes": "floating_skull",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Bakman",
+        "type": "toggle",
+        "img": "images/items/companions/Bakman.png",
+        "disabled_img": "images/items/companions/disabled/Bakman.png",
+        "codes": "bakman",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Simple Cube",
+        "type": "toggle",
+        "img": "images/items/companions/Simple Cube.png",
+        "disabled_img": "images/items/companions/disabled/Simple Cube.png",
+        "codes": "simple_cube",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Kaho",
+        "type": "toggle",
+        "img": "images/items/companions/Kaho.png",
+        "disabled_img": "images/items/companions/disabled/Kaho.png",
+        "codes": "kaho",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Vampire Bat",
+        "type": "toggle",
+        "img": "images/items/companions/Vampire Bat.png",
+        "disabled_img": "images/items/companions/disabled/Vampire Bat.png",
+        "codes": "vampire_bat",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Ducky",
+        "type": "toggle",
+        "img": "images/items/companions/Ducky.png",
+        "disabled_img": "images/items/companions/disabled/Ducky.png",
+        "codes": "ducky",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Cactus",
+        "type": "toggle",
+        "img": "images/items/companions/Cactus.png",
+        "disabled_img": "images/items/companions/disabled/Cactus.png",
+        "codes": "cactus",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Dora",
+        "type": "toggle",
+        "img": "images/items/companions/Dora.png",
+        "disabled_img": "images/items/companions/disabled/Dora.png",
+        "codes": "dora",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Nun",
+        "type": "toggle",
+        "img": "images/items/companions/Nun.png",
+        "disabled_img": "images/items/companions/disabled/Nun.png",
+        "codes": "nun",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Lineth",
+        "type": "toggle",
+        "img": "images/items/companions/Lineth.png",
+        "disabled_img": "images/items/companions/disabled/Lineth.png",
+        "codes": "lineth",
+        "disabled_img_mods":"none"
+    },
     //Settings
     {
         "name": "Bell Hover",

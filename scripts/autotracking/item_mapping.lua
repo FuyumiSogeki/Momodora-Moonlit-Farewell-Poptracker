@@ -57,10 +57,26 @@ ITEM_MAPPING = {
     [356] = {"windmill_key", "toggle"},        -- Windmill Key, progression
 
     -- Selin door
-    [991] = {"progressive_final_boss_key", "consumable"} -- Progressive Final Boss Key
+    [991] = {"progressive_final_boss_key", "consumable"}, -- Progressive Final Boss Key
 
-    -- Settings
-    --[10001] = {"bell_hover", toggle},
-    --[10002] = {"oracle_sigil", toggle},
-    --[10003] = {"open_springleaf", toggle},
+    -- Collectables
+    [10001] = {"dotted_berry", progressive},
+    [10002] = {"lun_berry", progressive},
+    [10003] = {"peach", progressive},
+    [10004] = {"heavenly_lily", progressive},
+    [10005] = {"fairy", progressive},
+
+    -- Companion
+    [10006] = {"grimalking_spirit", toggle},
+    [10007] = {"lawa", toggle},
+    [10008] = {"floating_skull", toggle},
+    [10009] = {"bakman", toggle},
+    [10010] = {"simple_cube", toggle},
+    [10011] = {"kaho", toggle},
+    [10012] = {"vampire_bat", toggle},
+    [10013] = {"ducky", toggle},
+    [10014] = {"cactus", toggle},
+    [10015] = {"dora", toggle},
+    [10016] = {"nun", toggle},
+    [10017] = {"lineth", toggle}
 }

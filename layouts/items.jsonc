@@ -10,7 +10,7 @@
             {
                 "type": "array",
                 "orientation": "horizontal",
-                "margin": "3,0",
+                "margin": "15,0",
                 "content": 
                 [
                     {
@@ -24,6 +24,62 @@
                             ["living_edge","the_fool","living_blood","fallen_hero","resonance_of_ifriya","the_collector","the_hunter","the_arsonist","chrysanth"],
                             ["the_fortunate","glazed_aegis","mending_resonance","the_blessed","companionship_pact","queen_of_dusk","the_sharpshooter","phantasm_blade","pawn"],
                             ["oracle","ascended_slash","quintessence","resolve","serval","welkin_leaf","mudwalker","hare","trinary"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "collectables":
+    {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": 
+        [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "3,0",
+                "content": 
+                [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2,2,2",
+                        "h_alignment": "center",
+                        "item_size": 60,
+                        "rows": 
+                        [
+                            ["dotted_berry","lun_berry","peach","heavenly_lily","fairy"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "companions":
+    {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": 
+        [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "3,0",
+                "content": 
+                [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2,2,2",
+                        "h_alignment": "center",
+                        "item_size": 60,
+                        "rows": 
+                        [
+                            ["grimalking_spirit","lawa","floating_skull","bakman","simple_cube"],
+                            ["kaho","vampire_bat","ducky","cactus","dora"],
+                            ["nun","lineth"]
                         ]
                     }
                 ]
