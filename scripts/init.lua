@@ -12,6 +12,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 
 -- Items
 Tracker:AddItems("items/items.jsonc")
+Tracker:AddItems("items/hints.jsonc")
 
 -- Maps
 Tracker:AddMaps("maps/maps.jsonc")

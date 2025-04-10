@@ -216,7 +216,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canWelkin"
+                            "$Welkin"
                         ],
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
@@ -263,7 +263,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachOldSanctuary"
+                            "$ReachOldSanctuary"
                         ],
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
@@ -361,7 +361,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$canResolve"
+                    "$Resolve"
                 ],
                 "sections": 
                 [
@@ -373,7 +373,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canResolve"
+                            "$Resolve"
                         ],
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
@@ -405,7 +405,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canGoldenDust"
+                            "$GoldenDust"
                         ],
                         "chest_unopened_img": "images/icons/close/Gold Moonlit Dust.png",
                         "chest_opened_img": "images/icons/open/Gold Moonlit Dust.png",
@@ -910,6 +910,7 @@
                         "name": "Sigil",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
+                        "hosted_item": "the_fool",
                         "visibility_rules": 
                         [
                             ""
@@ -948,7 +949,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$canContinueSpringleaf"
+                    "$ContinueSpringleaf"
                 ],
                 "sections": 
                 [
@@ -1022,7 +1023,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachLunTreeRoots"
+                            "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -1054,7 +1055,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachLunTreeRoots"
+                            "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -1517,7 +1518,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachLunTreeRoots"
+                            "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -1549,7 +1550,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachLunTreeRoots"
+                            "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -1581,7 +1582,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachLunTreeRoots"
+                            "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -1613,7 +1614,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachLunTreeRoots"
+                            "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -1645,7 +1646,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachLunTreeRoots"
+                            "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
                     }
@@ -1966,7 +1967,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFairySprings"
+                            "$ReachFairySprings"
                         ],
                         "item_count": 1
                     }
@@ -1998,7 +1999,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFairySprings"
+                            "$ReachFairySprings"
                         ],
                         "item_count": 1
                     }
@@ -2030,7 +2031,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFairySprings"
+                            "$ReachFairySprings"
                         ],
                         "item_count": 1
                     },
@@ -2076,7 +2077,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFairySprings"
+                            "$ReachFairySprings"
                         ],
                         "item_count": 1
                     }
@@ -2108,7 +2109,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFairySprings"
+                            "$ReachFairySprings"
                         ],
                         "item_count": 1
                     }
@@ -2140,7 +2141,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFairySprings"
+                            "$ReachFairySprings"
                         ],
                         "item_count": 1
                     }
@@ -2283,7 +2284,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFairySprings"
+                            "$ReachFairySprings"
                         ],
                         "item_count": 1
                     }
@@ -2319,7 +2320,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canOracle"
+                            "$Oracle"
                         ],
                         "item_count": 1
                     }
@@ -2768,7 +2769,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canLunar"
+                            "$Lunar"
                         ],
                         "item_count": 1
                     }
@@ -2800,7 +2801,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachAshenHinterlands"
+                            "$ReachAshenHinterlands"
                         ],
                         "item_count": 1
                     },
@@ -2846,7 +2847,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachAshenHinterlands"
+                            "$ReachAshenHinterlands"
                         ],
                         "item_count": 1
                     }
@@ -2878,7 +2879,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canContinueAshenHinterlands"
+                            "$ContinueAshenHinterlands"
                         ],
                         "item_count": 1
                     }
@@ -2910,7 +2911,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canContinueAshenHinterlands"
+                            "$ContinueAshenHinterlands"
                         ],
                         "item_count": 1
                     }
@@ -2942,7 +2943,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canContinueAshenHinterlands"
+                            "$ContinueAshenHinterlands"
                         ],
                         "item_count": 1
                     }
@@ -3025,7 +3026,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$canReachMoonlightRepose"
+                    "$ReachMoonlightRepose"
                 ],
                 "sections": 
                 [
@@ -3085,7 +3086,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachMoonlightRepose"
+                            "$ReachMoonlightRepose"
                         ],
                         "item_count": 1
                     }
@@ -3466,7 +3467,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachDemonFrontier"
+                            "$ReachDemonFrontier"
                         ],
                         "item_count": 1
                     }
@@ -3498,7 +3499,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canDoMitchi"
+                            "$DoMitchi"
                         ],
                         "item_count": 1
                     }
@@ -3530,7 +3531,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canContinueDemonFrontier"
+                            "$ContinueDemonFrontier"
                         ],
                         "item_count": 1
                     }
@@ -3562,7 +3563,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canContinueDemonFrontier"
+                            "$ContinueDemonFrontier"
                         ],
                         "item_count": 1
                     }
@@ -3594,7 +3595,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canContinueDemonFrontier"
+                            "$ContinueDemonFrontier"
                         ],
                         "item_count": 1
                     }
@@ -3626,7 +3627,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canMending"
+                            "$Mending"
                         ],
                         "item_count": 1
                     }
@@ -3961,7 +3962,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachMeikanVillage"
+                            "$ReachMeikanVillage"
                         ],
                         "item_count": 1
                     }
@@ -3993,7 +3994,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachMeikanVillage"
+                            "$ReachMeikanVillage"
                         ],
                         "item_count": 1
                     }
@@ -4025,7 +4026,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachMeikanVillage"
+                            "$ReachMeikanVillage"
                         ],
                         "item_count": 1
                     }
@@ -4057,7 +4058,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canPerfect"
+                            "$Perfect"
                         ],
                         "item_count": 1
                     }
@@ -4089,7 +4090,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachMeikanVillage"
+                            "$ReachMeikanVillage"
                         ],
                         "item_count": 1
                     }
@@ -4154,7 +4155,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachMeikanVillageWindmill"
+                            "$ReachMeikanVillageWindmill"
                         ],
                         "item_count": 1
                     }
@@ -4186,7 +4187,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachMeikanVillageWindmill"
+                            "$ReachMeikanVillageWindmill"
                         ],
                         "item_count": 1
                     }
@@ -4539,7 +4540,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFountOfRebirth"
+                            "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
                     }
@@ -4571,7 +4572,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFountOfRebirth"
+                            "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
                     }
@@ -4603,7 +4604,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFountOfRebirth"
+                            "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
                     }
@@ -4635,7 +4636,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFountOfRebirth"
+                            "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
                     }
@@ -4667,7 +4668,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFountOfRebirth"
+                            "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
                     }
@@ -4699,7 +4700,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFountOfRebirth"
+                            "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
                     }
@@ -4731,7 +4732,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachFountOfRebirth"
+                            "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
                     }
@@ -4764,7 +4765,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$canReachSelin"
+                            "$ReachSelin"
                         ],
                         "item_count": 1
                     }
@@ -4791,6 +4792,7 @@
                         "name": "Last Wish",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
+                        "hosted_item": "last_wish",
                         "visibility_rules": 
                         [
                             ""
@@ -4805,6 +4807,7 @@
                         "name": "The Profiteer",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
+                        "hosted_item": "the_profiteer",
                         "visibility_rules": 
                         [
                             ""
@@ -4819,6 +4822,7 @@
                         "name": "Strongfist",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
+                        "hosted_item": "strongfist",
                         "visibility_rules": 
                         [
                             ""
@@ -4833,6 +4837,7 @@
                         "name": "Fallen Hero",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
+                        "hosted_item": "fallen_hero",
                         "visibility_rules": 
                         [
                             ""

@@ -5,6 +5,7 @@
 -- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/hint_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -16,8 +17,7 @@ GLOBAL_ITEMS = {}
 function onClear(slot_data)
     PLAYER_NUMBER = Archipelago.PlayerNumber
 	TEAM_NUMBER = Archipelago.TeamNumber
-	--Archipelago:SetNotify({"balatro_deck_wins"..PLAYER_NUMBER.."_"..TEAM_NUMBER})
-	--Archipelago:Get({"balatro_deck_wins"..PLAYER_NUMBER.."_"..TEAM_NUMBER})
+
 	-- use bulk update to pause logic updates until we are done resetting all items/locations
 	Tracker.BulkUpdate = true	
 
@@ -102,6 +102,16 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("op_FBK").CurrentStage = 0
     end
 
+    -- get hints
+    if Archipelago.PlayerNumber > -1 then
+        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
+
+        Archipelago:SetNotify({HINTS_ID})
+        Archipelago:Get({HINTS_ID})
+
+        print(string.format("hints table dump: %s", dump_table(HINTS_ID)))
+    end
+
     -- end clear
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
@@ -109,45 +119,6 @@ function onClear(slot_data)
     
     if SLOT_DATA == nil then
         return
-    end
-end
-
-function checkUnusedSigil(location_id)
-    if location_id == 419 then
-        local objItem = Tracker:FindObjectForCode("the_fool")
-        if objItem then
-            objItem.Active = true
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onLocation: could not find The Fool"))
-        end
-    elseif location_id == 123 then
-        local objItem = Tracker:FindObjectForCode("last_wish")
-        if objItem then
-            objItem.Active = true
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onLocation: could not find Last Wish"))
-        end
-    elseif location_id == 401 then
-        local objItem = Tracker:FindObjectForCode("the_profiteer")
-        if objItem then
-            objItem.Active = true
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onLocation: could not find The Profiteer"))
-        end
-    elseif location_id == 408 then
-        local objItem = Tracker:FindObjectForCode("strongfist")
-        if objItem then
-            objItem.Active = true
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onLocation: could not find Strongfist"))
-        end
-    elseif location_id == 422 then
-        local objItem = Tracker:FindObjectForCode("fallen_hero")
-        if objItem then
-            objItem.Active = true
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onLocation: could not find Fallen Hero"))
-        end
     end
 end
 
@@ -171,7 +142,6 @@ function onLocation(location_id, location_name)
     if obj then
         if v[1]:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1
-            checkUnusedSigil(location_id)
         else
             obj.Active = true
         end
@@ -180,12 +150,50 @@ function onLocation(location_id, location_name)
     end
 end
 
-function onRetreive(key, val)
+function onNotify(key, value, old_value)
+    print(string.format("key %s value %s hint_id %s", key, dump_table(value), HINTS_ID))
 
+    if value ~= old_value and key == HINTS_ID then
+        for _, hint in ipairs(value) do
+            if hint.finding_player == Archipelago.PlayerNumber then
+                if not hint.found then
+                    updateHints(hint.location)
+                else if hint.found then
+                    updateHintsClear(hint.location)
+                    end
+                end
+            end
+        end
+    end
 end
 
-function onReply(key)
+function onNotifyLaunch(key, value)
+    print(string.format("key %s value %s hint_id %s", key, dump_table(value), HINTS_ID))
 
+    if key == HINTS_ID then
+        for _, hint in ipairs(value) do
+            if hint.finding_player == Archipelago.PlayerNumber then
+                updateHints(hint.location, hint.found)
+                Tracker:UiHint("ActivateTab", "Full Map")
+            end
+        end
+    end
+end
+
+function updateHints(locationID, foundItem)
+    local v = HINT_MAPPING[locationID]
+    if v then
+        print(string.format("checking object for code %s", v[1]))
+        local obj = Tracker:FindObjectForCode(v[1])
+
+        if obj then
+            obj.Active = not foundItem
+        else
+            print(string.format("No object found for code: %s", v[1]))
+        end
+    else
+        print(string.format("could not find object at %s", locationID))
+    end
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -269,7 +277,5 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 	Archipelago:AddLocationHandler("location handler", onLocation)
 end
 
-Archipelago:AddRetrievedHandler("retreived handler", onRetreive)
-Archipelago:AddSetReplyHandler("reply handler", onReply)
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)

@@ -1,0 +1,783 @@
+[
+    {
+        "name": "Blessing of Nothing",
+        "type": "progressive",
+        "codes": "blessing_of_nothing"
+    },
+    {
+        "name": "50 Lunar Crystals",
+        "type": "progressive",
+        "codes": "lunar_crystals"
+    },
+    {
+        "name": "Progressive Final Boss Key",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/keys/selin.png",
+        "overlay_background": "#000",
+        "codes": "progressive_final_boss_key_hint",
+        "max_quantity": 4,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Gold Moonlit Dust",
+        "type": "toggle",
+        "img": "images/items/keys/Gold Moonlit Dust.png",
+        "disabled_img": "images/items/keys/disabled/Gold Moonlit Dust.png",
+        "codes": "gold_moonlit_dust_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Silver Moonlit Dust",
+        "type": "toggle",
+        "img": "images/items/keys/Silver Moonlit Dust.png",
+        "disabled_img": "images/items/keys/disabled/Silver Moonlit Dust.png",
+        "codes": "silver_moonlit_dust_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Wooden Box",
+        "type": "toggle",
+        "img": "images/items/keys/Wooden Box.png",
+        "disabled_img": "images/items/keys/disabled/Wooden Box.png",
+        "codes": "wooden_box_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Windmill Key",
+        "type": "toggle",
+        "img": "images/items/keys/Windmill Key.png",
+        "disabled_img": "images/items/keys/disabled/Windmill Key.png",
+        "codes": "windmill_key_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Sacred Anemone",
+        "type": "toggle",
+        "img": "images/items/skills/Sacred Anemone.png",
+        "disabled_img": "images/items/skills/disabled/Sacred Anemone.png",
+        "codes": "sacred_anemone_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Crescent Moonflower",
+        "type": "toggle",
+        "img": "images/items/skills/Crescent Moonflower.png",
+        "disabled_img": "images/items/skills/disabled/Crescent Moonflower.png",
+        "codes": "crescent_moonflower_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Awakened Sacred Leaf",
+        "type": "toggle",
+        "img": "images/items/skills/Awakened Sacred Leaf.png",
+        "disabled_img": "images/items/skills/disabled/Awakened Sacred Leaf.png",
+        "codes": "awakened_sacred_leaf_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Lunar Attunement",
+        "type": "toggle",
+        "img": "images/items/skills/Lunar Attunement.png",
+        "disabled_img": "images/items/skills/disabled/Lunar Attunement.png",
+        "codes": "lunar_attunement_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Spiral Shell",
+        "type": "toggle",
+        "img": "images/items/skills/Spiral Shell.png",
+        "disabled_img": "images/items/skills/disabled/Spiral Shell.png",
+        "codes": "spiral_shell_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Mitchi Fast Travel",
+        "type": "toggle",
+        "img": "images/items/skills/Mitchi Fast Travel.png",
+        "disabled_img": "images/items/skills/disabled/Mitchi Fast Travel.png",
+        "codes": "mitchi_fast_travel_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Grimoire",
+        "type": "toggle",
+        "img": "images/items/grimoires/Grimoire.png",
+        "disabled_img": "images/items/grimoires/disabled/Grimoire.png",
+        "codes": "grimoire_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Tattered Grimoire",
+        "type": "toggle",
+        "img": "images/items/grimoires/Tattered Grimoire.png",
+        "disabled_img": "images/items/grimoires/disabled/Tattered Grimoire.png",
+        "codes": "tattered_grimoire_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Dusty Grimoire",
+        "type": "toggle",
+        "img": "images/items/grimoires/Dusty Grimoire.png",
+        "disabled_img": "images/items/grimoires/disabled/Dusty Grimoire.png",
+        "codes": "dusty_grimoire_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Last Wish",
+        "type": "toggle",
+        "img": "images/items/sigils/Last Wish.png",
+        "disabled_img": "images/items/sigils/disabled/Last Wish.png",
+        "codes": "last_wish_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Cloudy Blood",
+        "type": "toggle",
+        "img": "images/items/sigils/Cloudy Blood.png",
+        "disabled_img": "images/items/sigils/disabled/Cloudy Blood.png",
+        "codes": "cloudy_blood_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Profiteer",
+        "type": "toggle",
+        "img": "images/items/sigils/The Profiteer.png",
+        "disabled_img": "images/items/sigils/disabled/The Profiteer.png",
+        "codes": "the_profiteer_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Dark Healer",
+        "type": "toggle",
+        "img": "images/items/sigils/Dark Healer.png",
+        "disabled_img": "images/items/sigils/disabled/Dark Healer.png",
+        "codes": "dark_healer_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Demilune Whisper",
+        "type": "toggle",
+        "img": "images/items/sigils/Demilune Whisper.png",
+        "disabled_img": "images/items/sigils/disabled/Demilune Whisper.png",
+        "codes": "demilune_whisper_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Magic Blade",
+        "type": "toggle",
+        "img": "images/items/sigils/Magic Blade.png",
+        "disabled_img": "images/items/sigils/disabled/Magic Blade.png",
+        "codes": "magic_blade_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Perfect Chime",
+        "type": "toggle",
+        "img": "images/items/sigils/Perfect Chime.png",
+        "disabled_img": "images/items/sigils/disabled/Perfect Chime.png",
+        "codes": "perfect_chime_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Queen of Light",
+        "type": "toggle",
+        "img": "images/items/sigils/Queen of Light.png",
+        "disabled_img": "images/items/sigils/disabled/Queen of Light.png",
+        "codes": "queen_of_light_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Strongfist",
+        "type": "toggle",
+        "img": "images/items/sigils/Strongfist.png",
+        "disabled_img": "images/items/sigils/disabled/Strongfist.png",
+        "codes": "strongfist_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Living Edge",
+        "type": "toggle",
+        "img": "images/items/sigils/Living Edge.png",
+        "disabled_img": "images/items/sigils/disabled/Living Edge.png",
+        "codes": "living_edge_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Fool",
+        "type": "toggle",
+        "img": "images/items/sigils/The Fool.png",
+        "disabled_img": "images/items/sigils/disabled/The Fool.png",
+        "codes": "the_fool_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Living Blood",
+        "type": "toggle",
+        "img": "images/items/sigils/Living Blood.png",
+        "disabled_img": "images/items/sigils/disabled/Living Blood.png",
+        "codes": "living_blood_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Fallen Hero",
+        "type": "toggle",
+        "img": "images/items/sigils/Fallen Hero.png",
+        "disabled_img": "images/items/sigils/disabled/Fallen Hero.png",
+        "codes": "fallen_hero_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Resonance of Ifriya",
+        "type": "toggle",
+        "img": "images/items/sigils/Resonance of Ifriya.png",
+        "disabled_img": "images/items/sigils/disabled/Resonance of Ifriya.png",
+        "codes": "resonance_of_ifriya_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Collector",
+        "type": "toggle",
+        "img": "images/items/sigils/The Collector.png",
+        "disabled_img": "images/items/sigils/disabled/The Collector.png",
+        "codes": "the_collector_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Hunter",
+        "type": "toggle",
+        "img": "images/items/sigils/The Hunter.png",
+        "disabled_img": "images/items/sigils/disabled/The Hunter.png",
+        "codes": "the_hunter_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Arsonist",
+        "type": "toggle",
+        "img": "images/items/sigils/The Arsonist.png",
+        "disabled_img": "images/items/sigils/disabled/The Arsonist.png",
+        "codes": "the_arsonist_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Chrysanth",
+        "type": "toggle",
+        "img": "images/items/sigils/Chrysanth.png",
+        "disabled_img": "images/items/sigils/disabled/Chrysanth.png",
+        "codes": "chrysanth_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Fortunate",
+        "type": "toggle",
+        "img": "images/items/sigils/The Fortunate.png",
+        "disabled_img": "images/items/sigils/disabled/The Fortunate.png",
+        "codes": "the_fortunate_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Glazed Aegis",
+        "type": "toggle",
+        "img": "images/items/sigils/Glazed Aegis.png",
+        "disabled_img": "images/items/sigils/disabled/Glazed Aegis.png",
+        "codes": "glazed_aegis_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Mending Resonance",
+        "type": "toggle",
+        "img": "images/items/sigils/Mending Resonance.png",
+        "disabled_img": "images/items/sigils/disabled/Mending Resonance.png",
+        "codes": "mending_resonance_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Blessed",
+        "type": "toggle",
+        "img": "images/items/sigils/The Blessed.png",
+        "disabled_img": "images/items/sigils/disabled/The Blessed.png",
+        "codes": "the_blessed_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Companionship Pact",
+        "type": "toggle",
+        "img": "images/items/sigils/Companionship Pact.png",
+        "disabled_img": "images/items/sigils/disabled/Companionship Pact.png",
+        "codes": "companionship_pact_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Queen of Dusk",
+        "type": "toggle",
+        "img": "images/items/sigils/Queen of Dusk.png",
+        "disabled_img": "images/items/sigils/disabled/Queen of Dusk.png",
+        "codes": "queen_of_dusk_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "The Sharpshooter",
+        "type": "toggle",
+        "img": "images/items/sigils/The Sharpshooter.png",
+        "disabled_img": "images/items/sigils/disabled/The Sharpshooter.png",
+        "codes": "the_sharpshooter_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Phantasm Blade",
+        "type": "toggle",
+        "img": "images/items/sigils/Phantasm Blade.png",
+        "disabled_img": "images/items/sigils/disabled/Phantasm Blade.png",
+        "codes": "phantasm_blade_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Pawn",
+        "type": "toggle",
+        "img": "images/items/sigils/Pawn.png",
+        "disabled_img": "images/items/sigils/disabled/Pawn.png",
+        "codes": "pawn_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Oracle",
+        "type": "toggle",
+        "img": "images/items/sigils/Oracle.png",
+        "disabled_img": "images/items/sigils/disabled/Oracle.png",
+        "codes": "oracle_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Ascended Slash",
+        "type": "toggle",
+        "img": "images/items/sigils/Ascended Slash.png",
+        "disabled_img": "images/items/sigils/disabled/Ascended Slash.png",
+        "codes": "ascended_slash_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Quintessence",
+        "type": "toggle",
+        "img": "images/items/sigils/Quintessence.png",
+        "disabled_img": "images/items/sigils/disabled/Quintessence.png",
+        "codes": "quintessence_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Resolve",
+        "type": "toggle",
+        "img": "images/items/sigils/Resolve.png",
+        "disabled_img": "images/items/sigils/disabled/Resolve.png",
+        "codes": "resolve_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Serval",
+        "type": "toggle",
+        "img": "images/items/sigils/Serval.png",
+        "disabled_img": "images/items/sigils/disabled/Serval.png",
+        "codes": "serval_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Welkin Leaf",
+        "type": "toggle",
+        "img": "images/items/sigils/Welkin Leaf.png",
+        "disabled_img": "images/items/sigils/disabled/Welkin Leaf.png",
+        "codes": "welkin_leaf_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Mudwalker",
+        "type": "toggle",
+        "img": "images/items/sigils/Mudwalker.png",
+        "disabled_img": "images/items/sigils/disabled/Mudwalker.png",
+        "codes": "mudwalker_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Hare",
+        "type": "toggle",
+        "img": "images/items/sigils/Hare.png",
+        "disabled_img": "images/items/sigils/disabled/Hare.png",
+        "codes": "hare_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Trinary",
+        "type": "toggle",
+        "img": "images/items/sigils/Trinary.png",
+        "disabled_img": "images/items/sigils/disabled/Trinary.png",
+        "codes": "trinary_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Dotted Berry",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/collectables/Dotted Berry.png",
+        "overlay_background": "#000",
+        "codes": "dotted_berry_hint",
+        "max_quantity": 24,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Lun Berry",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/collectables/Lun Berry.png",
+        "overlay_background": "#000",
+        "codes": "lun_berry_hint",
+        "max_quantity": 7,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Peach",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/collectables/Peach.png",
+        "overlay_background": "#000",
+        "codes": "peach_hint",
+        "max_quantity": 5,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Heavenly Lily",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/collectables/Heavenly Lily.png",
+        "overlay_background": "#000",
+        "codes": "heavenly_lily_hint",
+        "max_quantity": 25,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Fairy",
+        "type": "consumable",
+        "loop": "false",
+        "img": "images/items/collectables/Fairy.png",
+        "overlay_background": "#000",
+        "codes": "fairy_hint",
+        "max_quantity": 30,
+        "initial_quantity": 0,
+        "increment": 1,
+        "swap_actions": false
+    },
+    {
+        "name": "Grimalkin Spirit",
+        "type": "toggle",
+        "img": "images/items/companions/Grimalkin Spirit.png",
+        "disabled_img": "images/items/companions/disabled/Grimalkin Spirit.png",
+        "codes": "grimalking_spirit_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Lawa",
+        "type": "toggle",
+        "img": "images/items/companions/Lawa.png",
+        "disabled_img": "images/items/companions/disabled/Lawa.png",
+        "codes": "lawa_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Floating Skull",
+        "type": "toggle",
+        "img": "images/items/companions/Floating Skull.png",
+        "disabled_img": "images/items/companions/disabled/Floating Skull.png",
+        "codes": "floating_skull_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Bakman",
+        "type": "toggle",
+        "img": "images/items/companions/Bakman.png",
+        "disabled_img": "images/items/companions/disabled/Bakman.png",
+        "codes": "bakman_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Simple Cube",
+        "type": "toggle",
+        "img": "images/items/companions/Simple Cube.png",
+        "disabled_img": "images/items/companions/disabled/Simple Cube.png",
+        "codes": "simple_cube_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Kaho",
+        "type": "toggle",
+        "img": "images/items/companions/Kaho.png",
+        "disabled_img": "images/items/companions/disabled/Kaho.png",
+        "codes": "kaho_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Vampire Bat",
+        "type": "toggle",
+        "img": "images/items/companions/Vampire Bat.png",
+        "disabled_img": "images/items/companions/disabled/Vampire Bat.png",
+        "codes": "vampire_bat_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Ducky",
+        "type": "toggle",
+        "img": "images/items/companions/Ducky.png",
+        "disabled_img": "images/items/companions/disabled/Ducky.png",
+        "codes": "ducky_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Cactus",
+        "type": "toggle",
+        "img": "images/items/companions/Cactus.png",
+        "disabled_img": "images/items/companions/disabled/Cactus.png",
+        "codes": "cactus_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Dora",
+        "type": "toggle",
+        "img": "images/items/companions/Dora.png",
+        "disabled_img": "images/items/companions/disabled/Dora.png",
+        "codes": "dora_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Nun",
+        "type": "toggle",
+        "img": "images/items/companions/Nun.png",
+        "disabled_img": "images/items/companions/disabled/Nun.png",
+        "codes": "nun_hint",
+        "disabled_img_mods":"none"
+    },
+    {
+        "name": "Lineth",
+        "type": "toggle",
+        "img": "images/items/companions/Lineth.png",
+        "disabled_img": "images/items/companions/disabled/Lineth.png",
+        "codes": "lineth_hint",
+        "disabled_img_mods":"none"
+    },
+    //Settings
+    {
+        "name": "Bell Hover",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages": 
+        [
+          {
+            "img": "images/settings/disabled/Bell Hover.png",
+            "codes": "op_BH,bell_hover_off"
+          },
+          {
+            
+            "img": "images/settings/Bell Hover.png",
+            "codes": "op_BH,bell_hover_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Oracle Sigil",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages": 
+        [
+          {
+            "img": "images/settings/disabled/Oracle Sigil.png",
+            "codes": "op_OS,oracle_sigil_off"
+          },
+          {
+            "img": "images/settings/Oracle Sigil.png",
+            "codes": "op_OS,oracle_sigil_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Open Springleaf",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Open Springleaf.png",
+            "codes": "op_OSP,open_springleaf_off"
+          },
+          {
+            "img": "images/settings/Open Springleaf.png",
+            "codes": "op_OSP,open_springleaf_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Final Boss Key",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Final Boss Key.png",
+            "codes": "op_FBK,final_boss_key_off"
+          },
+          {
+            "img": "images/settings/Final Boss Key.png",
+            "codes": "op_FBK,final_boss_key_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Key Items",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Key Items.png",
+            "codes": "op_RKI,key_items_off"
+          },
+          {
+            "img": "images/settings/Key Items.png",
+            "codes": "op_RKI,key_items_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Dotted Berries",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Dotted Berry.png",
+            "codes": "op_RDB,dotted_off"
+          },
+          {
+            "img": "images/settings/Dotted Berry.png",
+            "codes": "op_RDB,dotted_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Lun Berries",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Lun Berry.png",
+            "codes": "op_RLB,lun_off"
+          },
+          {
+            "img": "images/settings/Lun Berry.png",
+            "codes": "op_RLB,lun_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Peaches",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Peach.png",
+            "codes": "op_RP,peach_off"
+          },
+          {
+            "img": "images/settings/Peach.png",
+            "codes": "op_RP,peach_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Heavenly Lily",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Heavenly Lily.png",
+            "codes": "op_RHL,lily_off"
+          },
+          {
+            "img": "images/settings/Heavenly Lily.png",
+            "codes": "op_RHL,lily_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Fairies",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Fairy.png",
+            "codes": "op_RF,fairy_off"
+          },
+          {
+            "img": "images/settings/Fairy.png",
+            "codes": "op_RF,fairy_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Illusory Companion",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Illusory Companion.png",
+            "codes": "op_RIC,companion_off"
+          },
+          {
+            "img": "images/settings/Illusory Companion.png",
+            "codes": "op_RIC,companion_on_hint",
+            "inherit_codes": false
+          }
+        ]
+    }
+]

@@ -12,17 +12,18 @@ ITEM_MAPPING = {
     [205] = {"mitchi_fast_travel", "toggle"},   -- Mitchi Fast Travel, useful
 
     -- Sigils
-    [123] = {"last_wish", "toggle"},           -- Last Wish, useful
+    [123] = {"last_wish", "toggle"},           -- Last Wish, not randomized
     [400] = {"cloudy_blood", "toggle"},        -- Cloudy Blood, useful
-    [401] = {"the_profiteer", "toggle"},       -- The Profiteer, useful
+    [401] = {"the_profiteer", "toggle"},       -- The Profiteer, not randomized
     [402] = {"dark_healer", "toggle"},         -- Dark Healer, useful
     [403] = {"demilune_whisper", "toggle"},    -- Demilune Whisper, useful
     [404] = {"magic_blade", "toggle"},         -- Magic Blade, useful
     [405] = {"perfect_chime", "toggle"},       -- Perfect Chime, useful
-    [408] = {"strongfist", "toggle"},          -- Strongfist, useful
+    [408] = {"strongfist", "toggle"},          -- Strongfist, not randomized
     [412] = {"living_edge", "toggle"},         -- Living Edge, useful
+    [419] = {"the_fool", "toggle"},            -- The Fool, not randomized
     [420] = {"living_blood", "toggle"},        -- Living Blood, useful
-    [422] = {"fallen_hero", "toggle"},         -- Fallen Hero, useful
+    [422] = {"fallen_hero", "toggle"},         -- Fallen Hero, not randomized
     [425] = {"resonance_of_ifriya", "toggle"}, -- Resonance of Ifriya, useful
     [427] = {"the_hunter", "toggle"},          -- The Hunter, useful
     [430] = {"the_arsonist", "toggle"},        -- The Arsonist, useful
@@ -43,7 +44,6 @@ ITEM_MAPPING = {
     [447] = {"mudwalker", "toggle"},           -- Mudwalker, useful
     [448] = {"hare", "toggle"},                -- Hare, useful
     [449] = {"trinary", "toggle"},             -- Trinary, useful
-    [10000] = {"the_fool", "toggle"},          -- The Fool, does not exist
 
     -- Grimoires
     [338] = {"grimoire", "toggle"},            -- Grimoire, useful
