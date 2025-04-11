@@ -156,12 +156,8 @@ function onNotify(key, value, old_value)
     if value ~= old_value and key == HINTS_ID then
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
-                if not hint.found then
-                    updateHints(hint.location)
-                else if hint.found then
-                    updateHintsClear(hint.location)
-                    end
-                end
+                updateHints(hint.location, hint.found)
+                --Tracker:UiHint("ActivateTab", "Full Map")
             end
         end
     end
@@ -174,7 +170,7 @@ function onNotifyLaunch(key, value)
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
                 updateHints(hint.location, hint.found)
-                Tracker:UiHint("ActivateTab", "Full Map")
+                --Tracker:UiHint("ActivateTab", "Full Map")
             end
         end
     end

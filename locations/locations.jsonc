@@ -268,6 +268,20 @@
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|the_sharpshooter_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|the_sharpshooter_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -378,6 +392,20 @@
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|resolve_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|resolve_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -409,6 +437,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Gold Moonlit Dust.png",
                         "chest_opened_img": "images/icons/open/Gold Moonlit Dust.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Item Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|gold_moonlit_dust_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|gold_moonlit_dust_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -777,6 +819,20 @@
                         "chest_unopened_img": "images/icons/close/Gariser Demon.png",
                         "chest_opened_img": "images/icons/open/Gariser Demon.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|gariser_demon_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|gariser_demon_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -823,6 +879,20 @@
                         "chest_unopened_img": "images/icons/close/Bakman.png",
                         "chest_opened_img": "images/icons/open/Bakman.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Skill Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|awakened_sacred_leaf_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|awakened_sacred_leaf_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -855,6 +925,20 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|cloudy_blood_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|cloudy_blood_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -886,6 +970,20 @@
                         [
                             ""
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|living_edge_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|living_edge_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -933,6 +1031,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|the_fool_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|the_fool_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -994,6 +1106,34 @@
                         "chest_unopened_img": "images/icons/close/Dora.png",
                         "chest_opened_img": "images/icons/open/Dora.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sacred Anemone Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|sacred_anemone_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|sacred_anemone_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Harpy Archdemon Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|harpy_archdemon_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|harpy_archdemon_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -1026,6 +1166,20 @@
                             "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|raging_demon_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|raging_demon_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -1057,6 +1211,20 @@
                         [
                             "$ReachLunTreeRoots"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|pawn_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|pawn_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -1521,6 +1689,20 @@
                             "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Skill Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|crescent_moonflower_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|crescent_moonflower_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -1552,6 +1734,20 @@
                         [
                             "$ReachLunTreeRoots"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|black_cat_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|black_cat_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -1585,6 +1781,20 @@
                             "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|the_arsonist_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|the_arsonist_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -1617,6 +1827,20 @@
                             "$ReachLunTreeRoots"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|the_fortunate_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|the_fortunate_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -1648,6 +1872,20 @@
                         [
                             "$ReachLunTreeRoots"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|companionship_pact_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|companionship_pact_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -1970,6 +2208,20 @@
                             "$ReachFairySprings"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|very_big_spider_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|very_big_spider_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -2001,6 +2253,20 @@
                         [
                             "$ReachFairySprings"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|viper_archdemon_sorrellia_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|viper_archdemon_sorrellia_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -2048,6 +2314,20 @@
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Grimoire Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|grimoire_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|grimoire_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -2079,6 +2359,20 @@
                         [
                             "$ReachFairySprings"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|resonance_of_ifriya_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|resonance_of_ifriya_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -2112,6 +2406,20 @@
                             "$ReachFairySprings"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|glazed_aegis_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|glazed_aegis_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -2143,6 +2451,20 @@
                         [
                             "$ReachFairySprings"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|the_blessed_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|the_blessed_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -2287,6 +2609,20 @@
                             "$ReachFairySprings"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Skill Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|spiral_shell_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|spiral_shell_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -2322,6 +2658,20 @@
                         [
                             "$Oracle"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|oracle_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|oracle_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -2772,6 +3122,20 @@
                             "$Lunar"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Skill Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lunar_attunement_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lunar_attunement_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -2818,6 +3182,20 @@
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|serval_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|serval_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -2849,6 +3227,20 @@
                         [
                             "$ReachAshenHinterlands"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|mudwalker_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|mudwalker_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -2882,6 +3274,20 @@
                             "$ContinueAshenHinterlands"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|tainted_serpent_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|tainted_serpent_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -2914,6 +3320,20 @@
                             "$ContinueAshenHinterlands"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|living_blood_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|living_blood_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -2945,6 +3365,20 @@
                         [
                             "$ContinueAshenHinterlands"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|hare_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|hare_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3057,6 +3491,34 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Remnant of an Unknown Phantasm Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|remnant_of_an_unknown_phantasm_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|remnant_of_an_unknown_phantasm_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Phantasm Blade Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|phantasm_blade_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|phantasm_blade_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -3088,6 +3550,20 @@
                         [
                             "$ReachMoonlightRepose"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Item Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|silver_moonlit_dust_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|silver_moonlit_dust_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3470,6 +3946,20 @@
                             "$ReachDemonFrontier"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|accursed_autarch_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|accursed_autarch_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -3501,6 +3991,20 @@
                         [
                             "$DoMitchi"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Skill Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|mitchi_fast_travel_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|mitchi_fast_travel_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3534,6 +4038,20 @@
                             "$ContinueDemonFrontier"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|bloodthirsty_siblings_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|bloodthirsty_siblings_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -3565,6 +4083,20 @@
                         [
                             "$ContinueDemonFrontier"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dark_healer_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dark_healer_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3598,6 +4130,20 @@
                             "$ContinueDemonFrontier"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|magic_blade_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|magic_blade_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -3629,6 +4175,20 @@
                         [
                             "$Mending"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|mending_resonance_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|mending_resonance_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3965,6 +4525,20 @@
                             "$ReachMeikanVillage"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|moon_goddess_lineth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|moon_goddess_lineth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -3996,6 +4570,20 @@
                         [
                             "$ReachMeikanVillage"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Item Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|wooden_box_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|wooden_box_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4029,6 +4617,20 @@
                             "$ReachMeikanVillage"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Item Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|windmill_key_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|windmill_key_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4061,6 +4663,20 @@
                             "$Perfect"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|perfect_chime_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|perfect_chime_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4092,6 +4708,20 @@
                         [
                             "$ReachMeikanVillage"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|quintessence_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|quintessence_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4158,6 +4788,20 @@
                             "$ReachMeikanVillageWindmill"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Grimoire Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|tattered_grimoire_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|tattered_grimoire_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4189,6 +4833,20 @@
                         [
                             "$ReachMeikanVillageWindmill"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|trinary_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|trinary_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4543,6 +5201,20 @@
                             "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|selin_envy_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|selin_envy_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4574,6 +5246,20 @@
                         [
                             "$ReachFountOfRebirth"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|selin_sorrow_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|selin_sorrow_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4607,6 +5293,20 @@
                             "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|selin_fear_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|selin_fear_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4638,6 +5338,20 @@
                         [
                             "$ReachFountOfRebirth"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|selin_mendacity_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|selin_mendacity_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4671,6 +5385,20 @@
                             "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Grimoire Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dusty_grimoire_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dusty_grimoire_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4702,6 +5430,20 @@
                         [
                             "$ReachFountOfRebirth"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|demilune_whisper_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|demilune_whisper_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4735,6 +5477,20 @@
                             "$ReachFountOfRebirth"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|ascended_slash_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|ascended_slash_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4767,6 +5523,20 @@
                         [
                             "$ReachSelin"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|moon_god_selin_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|moon_god_selin_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4846,6 +5616,62 @@
                         [
                             ""
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Last Wish Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|last_wish_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|last_wish_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Profiteer Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|the_profiteer_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|the_profiteer_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strongfist Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|strongfist_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|strongfist_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fallen Hero Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fallen_hero_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fallen_hero_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]

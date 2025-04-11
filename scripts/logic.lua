@@ -9,8 +9,13 @@ function has(item, amount)
     end
 end
 
+-- Tracker Settings
 
--- Settings
+function isHint()
+    return true
+end
+
+-- Hint Settings
 
 function isSpringleafOpen()
     return has("open_springleaf_on")

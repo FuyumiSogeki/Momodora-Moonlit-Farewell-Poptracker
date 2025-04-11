@@ -7,9 +7,9 @@ LOCATION_MAPPING =
     -- Old Sanctuary
     [438] = {"@Full/Old Sanctuary - The Sharpshooter/Sigil"},
 
-    -- Old Sanctuary Continued
-    [444] = {"@Full/Old Sanctuary - Resolve/Sigil"},
+    -- Old Sanctuary Continued    
     [332] = {"@Full/Old Sanctuary - Gold Moonlit Dust/Item"},
+    [444] = {"@Full/Old Sanctuary - Resolve/Sigil"},
 
     -- Springleaf Path
     [15]  = {"@Full/Springleaf Path - Gariser Demon/Boss"},
