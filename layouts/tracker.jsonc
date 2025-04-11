@@ -72,17 +72,17 @@
             ],
             "item_size": 60,
             "margin": "0,0,3,0"
-          }/*,
+          },
           {
             "type": "itemgrid",
             "rows": [
-              ["dotted_on"]
+              ["lily_on"]
             ],
             "item_size": 60,
             "margin": "0,0,3,0"
-          }*/
+          }
         ]
-      }/*,
+      },
       {
         "type": "array",
         "orientation": "horizontal",
@@ -91,7 +91,7 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["lun_on"]
+              ["dotted_on"]
             ],
             "item_size": 60,
             "margin": "0,0,3,0"
@@ -107,7 +107,7 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["lily_on"]
+              ["lun_on"]
             ],
             "item_size": 60,
             "margin": "0,0,3,0"
@@ -136,7 +136,7 @@
             "margin": "0,0,3,0"
           }
         ]
-      }*/
+      }
     ]
   },
   "tracker_horizontal": 
@@ -232,7 +232,7 @@
                       "v_alignment": "center",
                       "key": "sigil_grid"
                     }
-                  }/*,
+                  },
                   {
                     "title": "Collectables",
                     "type": "group",
@@ -254,7 +254,7 @@
                       "v_alignment": "center",
                       "key": "companions"
                     }
-                  }*/
+                  }
                 ]
               }
             }

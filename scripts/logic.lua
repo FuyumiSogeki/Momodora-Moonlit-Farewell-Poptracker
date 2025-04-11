@@ -188,6 +188,20 @@ function GoldenDust()
     return ContinueOldSanctuary() and (CrescentMoonflower() and (SpiralShell() and (has("perfect_chime") or SacredAnemone())))
 end
 
+-- Lily Logic
+
+function RestrictedLilyInKohoVillage()
+    return CrescentMoonflower() and SpiralShell()
+end
+
+function RestrictedLilyInFairySrping()
+    return CrescentMoonflower() and (SpiralShell() or isBellHover())
+end
+
+function RestrictedLilyInAshenHinterlands()
+    return CrescentMoonflower() and SpiralShell() and LunarAttunement()
+end
+
 -- Bell Hover glitched logic
 
 function ReachOldSanctuary_BellHover()

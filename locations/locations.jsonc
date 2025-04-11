@@ -189,6 +189,20 @@
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|the_hunter_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|the_hunter_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -230,10 +244,38 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$RestrictedLilyInKohoVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sigil Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|welkin_leaf_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|welkin_leaf_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_koho_village_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_koho_village_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -286,13 +328,13 @@
                 ]
             },
             {
-                "name": "Old Sanctuary - Heavenly Lily Upper",
+                "name": "Old Sanctuary - Heavenly Lily 1",
                 "map_locations": 
                 [
                     {
                         "map": "Full Map",
                         "x": 1584,
-                        "y": 198
+                        "y": 197
                     }
                 ],
                 "access_rules": 
@@ -309,16 +351,30 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachOldSanctuary"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_1_old_sanctuary_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_1_old_sanctuary_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Old Sanctuary - Heavenly Lily Lower",
+                "name": "Old Sanctuary - Heavenly Lily 2",
                 "map_locations": 
                 [
                     {
@@ -341,7 +397,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachOldSanctuary"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -359,6 +415,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_2_old_sanctuary_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_2_old_sanctuary_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -631,7 +701,7 @@
                 ]
             },
             {
-                "name": "Springleaf Path - Heavenly Lily Upper",
+                "name": "Springleaf Path - Heavenly Lily 1",
                 "map_locations": 
                 [
                     {
@@ -658,6 +728,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_1_springleaf_path_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_1_springleaf_path_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -759,7 +843,7 @@
                 ]
             },
             {
-                "name": "Springleaf Path - Heavenly Lily Lower",
+                "name": "Springleaf Path - Heavenly Lily 2",
                 "map_locations": 
                 [
                     {
@@ -786,6 +870,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_2_springleaf_path_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_2_springleaf_path_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -1551,7 +1649,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Heavenly Lily Left",
+                "name": "Lun Tree Roots - Heavenly Lily 1",
                 "map_locations": 
                 [
                     {
@@ -1574,16 +1672,30 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_1_lun_tree_roots_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_1_lun_tree_roots_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Lun Tree Roots - Heavenly Lily Middle",
+                "name": "Lun Tree Roots - Heavenly Lily 2",
                 "map_locations": 
                 [
                     {
@@ -1606,56 +1718,24 @@
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
-                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Lun Tree Roots - Heavenly Lily Right",
-                "map_locations": 
-                [
-                    {
-                        "map": "Full Map",
-                        "x": 2019,
-                        "y": 1062
-                    }
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Heavenly Lily",
-                        "visibility_rules": 
-                        [
-                            "$isLily"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
+                            "$ReachLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
                         "item_count": 1
                     },
                     {
-                        "name": "Fairy",
+                        "name": "Heavenly Lily Hinted",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isHint,$has|lily_2_lun_tree_roots_hint"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "{$has|lily_2_lun_tree_roots_hint}"
                         ],
-                        "chest_unopened_img": "images/icons/close/Fairy.png",
-                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -2148,7 +2228,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Heavenly Lily",
+                "name": "Fairy Springs - Heavenly Lily 1",
                 "map_locations": 
                 [
                     {
@@ -2171,10 +2251,84 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_1_fairy_spring_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_1_fairy_spring_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Heavenly Lily 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2642,
+                        "y": 724
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            "$ReachFairySprings,$RestrictedLilyInFairySrping"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_2_fairy_spring_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_2_fairy_spring_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -2503,53 +2657,7 @@
             },
             // Fairy Village
             {
-                "name": "Fairy Village - Heavenly Lily Upper",
-                "map_locations": 
-                [
-                    {
-                        "map": "Full Map",
-                        "x": 2642,
-                        "y": 724
-                    }
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Heavenly Lily",
-                        "visibility_rules": 
-                        [
-                            "$isLily"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
-                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fairy",
-                        "visibility_rules": 
-                        [
-                            "$isFairy"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Fairy.png",
-                        "chest_opened_img": "images/icons/open/Fairy.png",
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Fairy Village - Heavenly Lily Lower",
+                "name": "Fairy Village - Heavenly Lily",
                 "map_locations": 
                 [
                     {
@@ -2572,10 +2680,24 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_fairy_village_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_fairy_village_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -2998,7 +3120,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Heavenly Lily Upper",
+                "name": "Ashen Hinterlands - Heavenly Lily 1",
                 "map_locations": 
                 [
                     {
@@ -3021,16 +3143,30 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_1_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_1_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Heavenly Lily Middle",
+                "name": "Ashen Hinterlands - Heavenly Lily 2",
                 "map_locations": 
                 [
                     {
@@ -3053,16 +3189,30 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueDemonFrontier,$RestrictedLilyInAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_2_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_2_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Heavenly Lily Lower",
+                "name": "Ashen Hinterlands - Heavenly Lily 3",
                 "map_locations": 
                 [
                     {
@@ -3085,10 +3235,24 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueDemonFrontier,$RestrictedLilyInAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_3_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_3_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3417,7 +3581,67 @@
                 ]
             },
             {
-                "name": "Moonlight Repose - Heavenly Lily",
+                "name": "Moonlight Repose - Heavenly Lily 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2019,
+                        "y": 1062
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            "$ReachMoonlightRepose"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_1_moonlight_repose_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_1_moonlight_repose_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Moonlight Repose - Heavenly Lily 2",
                 "map_locations": 
                 [
                     {
@@ -3440,10 +3664,24 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachMoonlightRepose"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_2_moonlight_repose_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_2_moonlight_repose_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3822,7 +4060,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Heavenly Lily Upper",
+                "name": "Demon Frontier - Heavenly Lily 2",
                 "map_locations": 
                 [
                     {
@@ -3845,16 +4083,30 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_2_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_2_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Demon Frontier - Heavenly Lily Middle",
+                "name": "Demon Frontier - Heavenly Lily 3",
                 "map_locations": 
                 [
                     {
@@ -3877,16 +4129,30 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_3_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_3_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Demon Frontier - Heavenly Lily Lower",
+                "name": "Demon Frontier - Heavenly Lily 1",
                 "map_locations": 
                 [
                     {
@@ -3909,10 +4175,24 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_1_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_1_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4323,7 +4603,7 @@
                 ]
             },
             {
-                "name": "Meikan Village - Heavenly Lily Right",
+                "name": "Meikan Village - Heavenly Lily 1",
                 "map_locations": 
                 [
                     {
@@ -4346,10 +4626,24 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachMeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_1_meikan_village_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_1_meikan_village_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4419,7 +4713,7 @@
                 ]
             },
             {
-                "name": "Meikan Village - Heavenly Lily Middle",
+                "name": "Meikan Village - Heavenly Lily 2",
                 "map_locations": 
                 [
                     {
@@ -4442,16 +4736,30 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachMeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_2_meikan_village_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_2_meikan_village_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Meikan Village - Heavenly Lily Left",
+                "name": "Meikan Village - Heavenly Lily 3",
                 "map_locations": 
                 [
                     {
@@ -4474,7 +4782,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachMeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -4492,6 +4800,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_3_meikan_village_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_3_meikan_village_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -5045,7 +5367,7 @@
                 ]
             },
             {
-                "name": "Fount of Rebirth - Heavenly Lily Lower",
+                "name": "Fount of Rebirth - Heavenly Lily 1",
                 "map_locations": 
                 [
                     {
@@ -5068,16 +5390,30 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_1_fount_of_rebirth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_1_fount_of_rebirth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Fount of Rebirth - Heavenly Lily Middle",
+                "name": "Fount of Rebirth - Heavenly Lily 2",
                 "map_locations": 
                 [
                     {
@@ -5100,16 +5436,30 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_2_fount_of_rebirth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_2_fount_of_rebirth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Fount of Rebirth - Heavenly Lily Upper Left",
+                "name": "Fount of Rebirth - Heavenly Lily 3",
                 "map_locations": 
                 [
                     {
@@ -5132,16 +5482,30 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_3_fount_of_rebirth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_3_fount_of_rebirth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Fount of Rebirth - Heavenly Lily Upper Right",
+                "name": "Fount of Rebirth - Heavenly Lily 4",
                 "map_locations": 
                 [
                     {
@@ -5164,10 +5528,24 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_4_fount_of_rebirth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_4_fount_of_rebirth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -5619,6 +5997,66 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Queen of Light",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "hosted_item": "queen_of_light",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Collector",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "hosted_item": "the_collector",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chrysanth",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "hosted_item": "chrysanth",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Queen of Dusk",
+                        "chest_unopened_img": "images/icons/close/sigil.png",
+                        "chest_opened_img": "images/icons/open/sigil.png",
+                        "hosted_item": "queen_of_dusk",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Last Wish Hinted",
                         "visibility_rules": 
                         [
@@ -5669,6 +6107,62 @@
                         "access_rules": 
                         [
                             "{$has|fallen_hero_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Queen of Light Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|queen_of_light_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|queen_of_light_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Collector Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|the_collector_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|the_collector_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chrysanth Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|chrysanth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|chrysanth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Queen of Dusk Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|queen_of_dusk_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|queen_of_dusk_hint}"
                         ],
                         "chest_unopened_img": "images/icons/close/hint.png",
                         "chest_opened_img": "images/icons/close/hint.png",

@@ -102,6 +102,12 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("op_FBK").CurrentStage = 0
     end
 
+    if slot_data['progressive_damage_upgrade'] then
+        Tracker:FindObjectForCode("op_RHL").CurrentStage = 1 
+    else
+        Tracker:FindObjectForCode("op_RHL").CurrentStage = 0
+    end
+
     -- get hints
     if Archipelago.PlayerNumber > -1 then
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_NUMBER

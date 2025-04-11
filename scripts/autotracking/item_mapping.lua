@@ -60,11 +60,11 @@ ITEM_MAPPING = {
     [991] = {"progressive_final_boss_key", "consumable"}, -- Progressive Final Boss Key
 
     -- Collectables
-    [10001] = {"dotted_berry", progressive},
-    [10002] = {"lun_berry", progressive},
-    [10003] = {"peach", progressive},
-    [10004] = {"heavenly_lily", progressive},
-    [10005] = {"fairy", progressive},
+    [992] = {"heavenly_lily", "consumable"},
+    [993] = {"dotted_berry", "consumable"},
+    [994] = {"peach", "consumable"},
+    [995] = {"lun_berry", "consumable"},
+    [996] = {"fairy", "consumable"},
 
     -- Companion
     [10006] = {"grimalking_spirit", toggle},
