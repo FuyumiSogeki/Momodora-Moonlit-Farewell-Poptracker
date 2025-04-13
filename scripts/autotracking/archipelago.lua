@@ -128,6 +128,73 @@ function onClear(slot_data)
     end
 end
 
+function checkUnusedSigil(location_id)
+    if location_id == 419 then
+        local objItem = Tracker:FindObjectForCode("the_fool")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find The Fool"))
+        end
+    elseif location_id == 123 then
+        local objItem = Tracker:FindObjectForCode("last_wish")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Last Wish"))
+        end
+    elseif location_id == 401 then
+        local objItem = Tracker:FindObjectForCode("the_profiteer")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find The Profiteer"))
+        end
+    elseif location_id == 408 then
+        local objItem = Tracker:FindObjectForCode("strongfist")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Strongfist"))
+        end
+    elseif location_id == 422 then
+        local objItem = Tracker:FindObjectForCode("fallen_hero")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Fallen Hero"))
+        end
+    elseif location_id == 406 then
+        local objItem = Tracker:FindObjectForCode("queen_of_light")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Queen of Light"))
+        end
+    elseif location_id == 426 then
+        local objItem = Tracker:FindObjectForCode("the_collector")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find The Collector"))
+        end
+    elseif location_id == 431 then
+        local objItem = Tracker:FindObjectForCode("chrysanth")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Chrysanth"))
+        end
+    elseif location_id == 437 then
+        local objItem = Tracker:FindObjectForCode("queen_of_dusk")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Queen of Dusk"))
+        end
+    end
+end
+
 function onLocation(location_id, location_name)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onLocation: %s, %s", location_id, location_name))
@@ -151,6 +218,8 @@ function onLocation(location_id, location_name)
         else
             obj.Active = true
         end
+
+        checkUnusedSigil(location_id)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end

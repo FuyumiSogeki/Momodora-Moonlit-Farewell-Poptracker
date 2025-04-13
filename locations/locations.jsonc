@@ -397,7 +397,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachOldSanctuary"
+                            "$ContinueOldSanctuary"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -1106,7 +1106,7 @@
                         "name": "Sigil",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        "hosted_item": "the_fool",
+                        //"hosted_item": "the_fool",
                         "visibility_rules": 
                         [
                             ""
@@ -2297,7 +2297,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings,$RestrictedLilyInFairySrping"
+                            "$ReachFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -2426,13 +2426,45 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Grimoire",
+                "name": "Fairy Springs - Peach",
                 "map_locations": 
                 [
                     {
                         "map": "Full Map",
                         "x": 1825,
                         "y": 724
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Peach",
+                        "visibility_rules": 
+                        [
+                            "$isPeach"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/icons/close/Peach.png",
+                        "chest_opened_img": "images/icons/open/Peach.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Grimoire",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1825,
+                        "y": 772
                     }
                 ],
                 "access_rules": 
@@ -2453,20 +2485,6 @@
                         [
                             "$ReachFairySprings"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Peach",
-                        "visibility_rules": 
-                        [
-                            "$isPeach"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Peach.png",
-                        "chest_opened_img": "images/icons/open/Peach.png",
                         "item_count": 1
                     },
                     {
@@ -5940,7 +5958,7 @@
                         "name": "Last Wish",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        "hosted_item": "last_wish",
+                        //"hosted_item": "last_wish",
                         "visibility_rules": 
                         [
                             ""
@@ -5955,7 +5973,7 @@
                         "name": "The Profiteer",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        "hosted_item": "the_profiteer",
+                        //"hosted_item": "the_profiteer",
                         "visibility_rules": 
                         [
                             ""
@@ -5970,7 +5988,7 @@
                         "name": "Strongfist",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        "hosted_item": "strongfist",
+                        //"hosted_item": "strongfist",
                         "visibility_rules": 
                         [
                             ""
@@ -5985,7 +6003,7 @@
                         "name": "Fallen Hero",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        "hosted_item": "fallen_hero",
+                        //"hosted_item": "fallen_hero",
                         "visibility_rules": 
                         [
                             ""
@@ -6000,7 +6018,7 @@
                         "name": "Queen of Light",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        "hosted_item": "queen_of_light",
+                        //"hosted_item": "queen_of_light",
                         "visibility_rules": 
                         [
                             ""
@@ -6015,7 +6033,7 @@
                         "name": "The Collector",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        "hosted_item": "the_collector",
+                        //"hosted_item": "the_collector",
                         "visibility_rules": 
                         [
                             ""
@@ -6030,7 +6048,7 @@
                         "name": "Chrysanth",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        "hosted_item": "chrysanth",
+                        //"hosted_item": "chrysanth",
                         "visibility_rules": 
                         [
                             ""
@@ -6045,7 +6063,7 @@
                         "name": "Queen of Dusk",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        "hosted_item": "queen_of_dusk",
+                        //"hosted_item": "queen_of_dusk",
                         "visibility_rules": 
                         [
                             ""

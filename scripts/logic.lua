@@ -194,10 +194,6 @@ function RestrictedLilyInKohoVillage()
     return CrescentMoonflower() and SpiralShell()
 end
 
-function RestrictedLilyInFairySrping()
-    return CrescentMoonflower() and (SpiralShell() or isBellHover())
-end
-
 function RestrictedLilyInAshenHinterlands()
     return CrescentMoonflower() and SpiralShell() and LunarAttunement()
 end
