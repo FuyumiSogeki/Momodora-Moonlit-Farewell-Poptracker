@@ -226,26 +226,20 @@ function onLocation(location_id, location_name)
 end
 
 function onNotify(key, value, old_value)
-    print(string.format("key %s value %s hint_id %s", key, dump_table(value), HINTS_ID))
-
     if value ~= old_value and key == HINTS_ID then
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
                 updateHints(hint.location, hint.found)
-                --Tracker:UiHint("ActivateTab", "Full Map")
             end
         end
     end
 end
 
 function onNotifyLaunch(key, value)
-    print(string.format("key %s value %s hint_id %s", key, dump_table(value), HINTS_ID))
-
     if key == HINTS_ID then
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
                 updateHints(hint.location, hint.found)
-                --Tracker:UiHint("ActivateTab", "Full Map")
             end
         end
     end

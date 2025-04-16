@@ -195,7 +195,7 @@ function RestrictedLilyInKohoVillage()
 end
 
 function RestrictedLilyInAshenHinterlands()
-    return CrescentMoonflower() and SpiralShell() and LunarAttunement()
+    return CrescentMoonflower() and SpiralShell()
 end
 
 -- Bell Hover glitched logic
