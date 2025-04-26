@@ -213,7 +213,11 @@ function ReachDemonFrontier_BellHover()
 end
 
 function ReachAshenHinterlands_BellHover()
-    return (ReachDemonFrontier() or ReachDemonFrontier_BellHover()) and SpiralShell() and not isBellHover() and (SacredAnemone() or has("perfect_chime"))
+    return (ReachDemonFrontier() or ReachDemonFrontier_BellHover()) and CrescentMoonflower() and not isBellHover() and (SacredAnemone() or has("perfect_chime"))
+end
+
+function Lunar_BellHover()
+    return (ReachAshenHinterlands() or ReachAshenHinterlands_BellHover()) and TradeDust() and not isBellHover()
 end
 
 function ReachMeikanVillageWindmill_BellHover()

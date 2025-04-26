@@ -305,7 +305,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachOldSanctuary"
+                            "[$ReachOldSanctuary], $ReachOldSanctuary_BellHover",
+                            "$isBellHover, $ReachOldSanctuary"
                         ],
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
@@ -351,7 +352,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachOldSanctuary"
+                            "[$ReachOldSanctuary], $ReachOldSanctuary_BellHover",
+                            "$isBellHover, $ReachOldSanctuary"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -397,7 +399,9 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueOldSanctuary"
+                            
+                            "[$ContinueOldSanctuary], $ContinueOldSanctuary_BellHover",
+                            "$isBellHover, $ContinueOldSanctuary"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -3301,7 +3305,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$Lunar"
+                            "[$Lunar], $Lunar_BellHover",
+                            "$isBellHover, $Lunar"
                         ],
                         "item_count": 1
                     },
@@ -3347,7 +3352,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachAshenHinterlands"
+                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover",
+                            "$isBellHover, $ReachAshenHinterlands"
                         ],
                         "item_count": 1
                     },
@@ -3407,7 +3413,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachAshenHinterlands"
+                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover",
+                            "$isBellHover, $ReachAshenHinterlands"
                         ],
                         "item_count": 1
                     },
@@ -4193,7 +4200,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachDemonFrontier"
+                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover",
+                            "$isBellHover, $ReachDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -4241,7 +4249,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachDemonFrontier"
+                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover",
+                            "$isBellHover, $ReachDemonFrontier"
                         ],
                         "item_count": 1
                     },
@@ -5125,7 +5134,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillageWindmill"
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
+                            "$isBellHover, $ReachMeikanVillageWindmill"
                         ],
                         "item_count": 1
                     },
@@ -5171,7 +5181,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillageWindmill"
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
+                            "$isBellHover, $ReachMeikanVillageWindmill"
                         ],
                         "item_count": 1
                     },

@@ -71,7 +71,7 @@ LOCATION_MAPPING =
     [171]   = {"@Full/Moonlight Repose - Remnant of an Unknown Phantasm & Phantasm Blade/Remnant of an Unknown Phantasm"},
     [439]   = {"@Full/Moonlight Repose - Remnant of an Unknown Phantasm & Phantasm Blade/Phantasm Blade"},
     [17200] = {"@Full/Moonlight Repose - Heavenly Lily 2/Heavenly Lily"},
-    [24400] = {"@Full/Moonlight Repose - Heavenly Lily 1/Heavenly Lily"},
+    [34400] = {"@Full/Moonlight Repose - Heavenly Lily 1/Heavenly Lily"},
 
     -- Demon Frontier
     [105]   = {"@Full/Demon Frontier - Accursed Autarch/Boss"},
@@ -84,7 +84,7 @@ LOCATION_MAPPING =
     [404]   = {"@Full/Demon Frontier - Magic Blade/Sigil"},
     [434]   = {"@Full/Demon Frontier - Mending Resonance/Sigil"},
     [16600] = {"@Full/Demon Frontier - Heavenly Lily 3/Heavenly Lily"},
-    [51300] = {"@Full/Demon Frontier - Heavenly Lily 2/Heavenly Lily"},
+    [15300] = {"@Full/Demon Frontier - Heavenly Lily 2/Heavenly Lily"},
 
     -- Meikan Village
     [213]   = {"@Full/Meikan Village - Moon Goddess Lineth/Boss"},
@@ -108,10 +108,10 @@ LOCATION_MAPPING =
     [340]   = {"@Full/Fount of Rebirth - Dusty Grimoire/Grimoire"},
     [403]   = {"@Full/Fount of Rebirth - Demilune Whisper/Sigil"},
     [442]   = {"@Full/Fount of Rebirth - Ascended Slash/Sigil"},
-    [23200] = {"@Full/Fount of Rebirth - Heavenly Lily 3/Heavenly Lily"},
     [28500] = {"@Full/Fount of Rebirth - Heavenly Lily 2/Heavenly Lily"},
     [28600] = {"@Full/Fount of Rebirth - Heavenly Lily 1/Heavenly Lily"},
     [32200] = {"@Full/Fount of Rebirth - Heavenly Lily 4/Heavenly Lily"},
+    [32300] = {"@Full/Fount of Rebirth - Heavenly Lily 3/Heavenly Lily"},
 
     -- Selin
     [364]   = {"@Full/Selin - Moon God Selin/Boss"},
