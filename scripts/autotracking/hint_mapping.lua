@@ -70,7 +70,7 @@ HINT_MAPPING = {
     [171]   = {"remnant_of_an_unknown_phantasm_hint", "toggle"},
     [439]   = {"phantasm_blade_hint", "toggle"},    
     [17200] = {"lily_2_moonlight_repose_hint", "toggle"},
-    [24400] = {"lily_1_moonlight_repose_hint", "toggle"},
+    [34400] = {"lily_1_moonlight_repose_hint", "toggle"},
 
     -- Demon Frontier
     [105]   = {"accursed_autarch_hint", "toggle"},
@@ -82,8 +82,8 @@ HINT_MAPPING = {
     [402]   = {"dark_healer_hint", "toggle"},
     [404]   = {"magic_blade_hint", "toggle"},
     [434]   = {"mending_resonance_hint", "toggle"},
-    [16900] = {"lily_3_demon_frontier_hint", "toggle"},
-    [51300] = {"lily_2_demon_frontier_hint", "toggle"},
+    [16600] = {"lily_3_demon_frontier_hint", "toggle"},
+    [15300] = {"lily_2_demon_frontier_hint", "toggle"},
 
     -- Meikan Village
     [347]   = {"wooden_box_hint", "toggle"},
@@ -107,10 +107,10 @@ HINT_MAPPING = {
     [340]   = {"dusty_grimoire_hint", "toggle"},
     [403]   = {"demilune_whisper_hint", "toggle"},
     [442]   = {"ascended_slash_hint", "toggle"},
-    [23200] = {"lily_3_fount_of_rebirth_hint", "toggle"},
     [28500] = {"lily_2_fount_of_rebirth_hint", "toggle"},
     [28600] = {"lily_1_fount_of_rebirth_hint", "toggle"},
     [32200] = {"lily_4_fount_of_rebirth_hint", "toggle"},
+    [32300] = {"lily_3_fount_of_rebirth_hint", "toggle"},
 
     -- Selin
     [364]   = {"moon_god_selin_hint", "toggle"},
