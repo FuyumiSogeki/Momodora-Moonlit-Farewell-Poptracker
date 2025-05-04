@@ -87,18 +87,18 @@ LOCATION_MAPPING =
     [15300] = {"@Full/Demon Frontier - Heavenly Lily 2/Heavenly Lily"},
 
     -- Meikan Village
-    [213]   = {"@Full/Meikan Village - Moon Goddess Lineth/Boss"},
     [347]   = {"@Full/Meikan Village - Wooden Box/Item"},
     [356]   = {"@Full/Meikan Village - Windmill Key/Item"},
     [405]   = {"@Full/Meikan Village - Perfect Chime/Sigil"},
     [443]   = {"@Full/Meikan Village - Quintessence/Sigil"},
-    [33300] = {"@Full/Meikan Village - Heavenly Lily 3/Heavenly Lily"},
     [33400] = {"@Full/Meikan Village - Heavenly Lily 1/Heavenly Lily"},
     [33600] = {"@Full/Meikan Village - Heavenly Lily 2/Heavenly Lily"},
 
     -- Meikan Village Windmill
+    [213]   = {"@Full/Meikan Village - Moon Goddess Lineth/Boss"},
     [339]   = {"@Full/Meikan Village Windmill - Tattered Grimoire/Grimoire"},
     [449]   = {"@Full/Meikan Village Windmill - Trinary/Sigil"},
+    [33300] = {"@Full/Meikan Village - Heavenly Lily 3/Heavenly Lily"},
 
     -- Fount of Rebirth
     [259]   = {"@Full/Fount of Rebirth - Selin's Fear/Boss"},
