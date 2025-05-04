@@ -86,18 +86,18 @@ HINT_MAPPING = {
     [51300] = {"lily_2_demon_frontier_hint", "toggle"},
 
     -- Meikan Village
-    [213]   = {"moon_goddess_lineth_hint", "toggle"},
     [347]   = {"wooden_box_hint", "toggle"},
     [356]   = {"windmill_key_hint", "toggle"},
     [405]   = {"perfect_chime_hint", "toggle"},
     [443]   = {"quintessence_hint", "toggle"},
-    [33300] = {"lily_3_meikan_village_hint", "toggle"},
     [33400] = {"lily_1_meikan_village_hint", "toggle"},
     [33600] = {"lily_2_meikan_village_hint", "toggle"},
 
     -- Meikan Village Windmill
+    [213]   = {"moon_goddess_lineth_hint", "toggle"},
     [339]   = {"tattered_grimoire_hint", "toggle"},
     [449]   = {"trinary_hint", "toggle"},
+    [33300] = {"lily_3_meikan_village_hint", "toggle"},
 
     -- Fount of Rebirth
     [259]   = {"selin_fear_hint", "toggle"},
