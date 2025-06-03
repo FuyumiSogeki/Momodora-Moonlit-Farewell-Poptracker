@@ -126,7 +126,7 @@
             ],
             "item_size": 60,
             "margin": "0,0,3,0"
-          },
+          }/*,
           {
             "type": "itemgrid",
             "rows": [
@@ -134,7 +134,7 @@
             ],
             "item_size": 60,
             "margin": "0,0,3,0"
-          }
+          }*/
         ]
       }
     ]
@@ -243,7 +243,7 @@
                       "v_alignment": "center",
                       "key": "collectables"
                     }
-                  },
+                  }/*,
                   {
                     "title": "Companions",
                     "type": "group",
@@ -254,7 +254,7 @@
                       "v_alignment": "center",
                       "key": "companions"
                     }
-                  }
+                  }*/
                 ]
               }
             }

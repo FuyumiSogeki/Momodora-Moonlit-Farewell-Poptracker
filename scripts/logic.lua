@@ -9,13 +9,13 @@ function has(item, amount)
     end
 end
 
--- Tracker Settings
+-- Hint Settings
 
 function isHint()
     return true
 end
 
--- Hint Settings
+-- Tracker Settings
 
 function isSpringleafOpen()
     return has("open_springleaf_on")
@@ -61,6 +61,9 @@ function isCompanion()
     return has("companion_on")
 end
 
+function isDoraGoal()
+    return has("dora_goal")
+end
 
 -- Settings Logic
 
@@ -73,7 +76,11 @@ function TradeDust()
 end
 
 function OpenSelin()
-    return (isKeySelin() and has("progressive_final_boss_key",4) or not isKeySelin())
+    return (isKeySelin() and has("progressive_final_boss_key",4)) or not isKeySelin()
+end
+
+function GetOracleReward()
+    return (isFairy() and has("fairy", 30)) or (not isFairy() and ReachFountOfRebirth())
 end
 
 -- Progression Items
@@ -100,8 +107,12 @@ end
 
 -- Locations Logic
 
-function ContinueSpringleaf()
-    return (SacredLeaf() and (SacredAnemone() or CrescentMoonflower() or SpiralShell() or isBellHover())) or isSpringleafOpen()
+function ContinueSpringleafLeaf()
+    return SacredLeaf() or isSpringleafOpen()
+end
+
+function ContinueSpringleafDash()
+    return SacredAnemone() or isSpringleafOpen()
 end
 
 function ReachLunTreeRoots()
@@ -156,6 +167,8 @@ function ReachSelin()
     return ReachFountOfRebirth() and OpenSelin()
 end
 
+-- Sigil Logic
+
 function Perfect()
     return ReachMeikanVillage() and SpiralShell() and (CrescentMoonflower() or isSpringleafOpen())
 end
@@ -176,16 +189,14 @@ function Lunar()
     return ReachAshenHinterlands() and TradeDust()
 end
 
-function Oracle()
-    return isOracle() and ReachFountOfRebirth()
-end
+-- Location Setting Logic
 
-function DoMitchi()
-    return ReachDemonFrontier() or has("mitchi_fast_travel")
+function Oracle()
+    return isOracle() and GetOracleReward()
 end
 
 function GoldenDust()
-    return ContinueOldSanctuary() and (CrescentMoonflower() and (SpiralShell() and (has("perfect_chime") or SacredAnemone())))
+    return ContinueOldSanctuary() and (CrescentMoonflower() or (SpiralShell() and (has("perfect_chime") or SacredAnemone())))
 end
 
 -- Lily Logic
@@ -194,14 +205,114 @@ function RestrictedLilyInKohoVillage()
     return CrescentMoonflower() and SpiralShell()
 end
 
+function RestrictedLilyInFairyVillage()
+    return CrescentMoonflower() or (SpiralShell() and isBellHover())
+end
+
 function RestrictedLilyInAshenHinterlands()
     return CrescentMoonflower() and SpiralShell()
+end
+
+-- Dotted Logic
+
+function RestrictedDottedInLunTreeRoots()
+    return SacredLeaf() or isSpringleafOpen()
+end
+
+function RestrictedDottedInDemonFrontier()
+    return CrescentMoonflower()
+end
+
+function RestrictedDottedInAshenHinterlands()
+    return CrescentMoonflower() and (SpiralShell() or LunarAttunement())
+end
+
+-- Lun Logic
+
+function RestrictedLunInKohoVillage()
+    return CrescentMoonflower() or SpiralShell()
+end
+
+function RestrictedLunInSpringleafPath()
+    return SacredLeaf() or isSpringleafOpen() or CrescentMoonflower() or SpiralShell()
+end
+
+function RestrictedLunInLunTreeRoots()
+    return SacredLeaf() or isSpringleafOpen()
+end
+
+function RestrictedLunInAshenHinterlands()
+    return CrescentMoonflower() and SpiralShell()
+end
+
+function RestrictedLunInDemonFrontier()
+    return CrescentMoonflower() and SpiralShell()
+end
+
+-- Peach Logic
+
+function RestrictedPeachInAshenHinterlands()
+    return LunarAttunement()
+end
+
+-- Fairy Logic
+
+function RestrictedFairy2InSpringleafPath()
+    return CrescentMoonflower() or SpiralShell()
+end
+
+function RestrictedFairy4InLunTreeRoots()
+    return isBellHover() or CrescentMoonflower() or SpiralShell()
+end
+
+function RestrictedFairyInMoonlightRepose()
+    return CrescentMoonflower()
+end
+
+function RestrictedFairy5InLunTreeRoots()
+    return (CrescentMoonflower() or SpiralShell()) and (has("perfect_chime") or SacredAnemone())
+end
+
+function RestrictedFairy1InFairySprings()
+    return CrescentMoonflower() or (isBellHover() and (has("perfect_chime") or SacredAnemone()))
+end
+
+function RestrictedFairy2InFairySprings()
+    return CrescentMoonflower() or SpiralShell()
+end
+
+function RestrictedFairy3InFairySprings()
+    return isBellHover() or SpiralShell()
+end
+
+function RestrictedFairy4InFairySprings()
+    return CrescentMoonflower()
+end
+
+function RestrictedFairyInFairyVillage()
+    return CrescentMoonflower() or (SpiralShell() and isBellHover())
+end
+
+function RestrictedFairy4InDemonFrontier()
+    return CrescentMoonflower()
+end
+
+function RestrictedFairy5InDemonFrontier()
+    return CrescentMoonflower() or has("the_blessed")
+end
+
+function RestrictedFairy5InAshenHinterlands()
+    return SpiralShell()
+end
+
+function RestrictedFairy4InSpringleafPath()
+    return CrescentMoonflower() or SpiralShell()
 end
 
 -- Bell Hover glitched logic
 
 function ReachOldSanctuary_BellHover()
-    return not isBellHover() and CrescentMoonflower()
+    return not isBellHover() and (CrescentMoonflower() or SpiralShell())
 end
 
 function ContinueOldSanctuary_BellHover()
@@ -209,7 +320,7 @@ function ContinueOldSanctuary_BellHover()
 end
 
 function ReachDemonFrontier_BellHover()
-    return ReachLunTreeRoots() and CrescentMoonflower() and not isBellHover()
+    return ReachLunTreeRoots() and ((CrescentMoonflower() and not isBellHover()) or SpiralShell())
 end
 
 function ReachAshenHinterlands_BellHover()

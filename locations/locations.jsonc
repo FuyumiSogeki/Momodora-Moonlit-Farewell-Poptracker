@@ -60,7 +60,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$RestrictedLunInKohoVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -83,7 +83,7 @@
                 ]
             },
             {
-                "name": "Koho Village - Dotted Berry Left",
+                "name": "Koho Village - Dotted Berry 1",
                 "map_locations": 
                 [
                     {
@@ -129,7 +129,7 @@
                 ]
             },
             {
-                "name": "Koho Village - Dotted Berry Right",
+                "name": "Koho Village - Dora & Dotted Berry 2",
                 "map_locations": 
                 [
                     {
@@ -156,6 +156,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dora",
+                        "visibility_rules": 
+                        [
+                            "$isDoraGoal"
+                        ],
+                        "access_rules": 
+                        [
+                            "$has|manual_dora_fight"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dora.png",
+                        "chest_opened_img": "images/icons/open/Dora.png",
                         "item_count": 1
                     }
                 ]
@@ -352,8 +366,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachOldSanctuary], $ReachOldSanctuary_BellHover",
-                            "$isBellHover, $ReachOldSanctuary"
+                            ""
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -376,7 +389,7 @@
                 ]
             },
             {
-                "name": "Old Sanctuary - Heavenly Lily 2",
+                "name": "Old Sanctuary - Heavenly Lily 2 & Fairy",
                 "map_locations": 
                 [
                     {
@@ -399,9 +412,8 @@
                         ],
                         "access_rules": 
                         [
-                            
-                            "[$ContinueOldSanctuary], $ContinueOldSanctuary_BellHover",
-                            "$isBellHover, $ContinueOldSanctuary"
+                            "[$ReachOldSanctuary], $ReachOldSanctuary_BellHover",
+                            "$isBellHover, $ReachOldSanctuary"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -415,7 +427,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "[$ReachOldSanctuary], $ReachOldSanctuary_BellHover",
+                            "$isBellHover, $ReachOldSanctuary"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -531,7 +544,7 @@
             },
             // Springleaf Path
             {
-                "name": "Springleaf Path - Fairy Upper",
+                "name": "Springleaf Path - Fairy 1",
                 "map_locations": 
                 [
                     {
@@ -554,7 +567,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueSpringleafDash"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -563,7 +576,7 @@
                 ]
             },
             {
-                "name": "Springleaf Path - Fairy Middle",
+                "name": "Springleaf Path - Fairy 4",
                 "map_locations": 
                 [
                     {
@@ -586,7 +599,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$RestrictedFairy4InSpringleafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -595,39 +608,7 @@
                 ]
             },
             {
-                "name": "Springleaf Path - Fairy Lower",
-                "map_locations": 
-                [
-                    {
-                        "map": "Full Map",
-                        "x": 1393,
-                        "y": 917
-                    }
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Fairy",
-                        "visibility_rules": 
-                        [
-                            "$isFairy"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Fairy.png",
-                        "chest_opened_img": "images/icons/open/Fairy.png",
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Springleaf Path - Peach",
+                "name": "Springleaf Path - Peach & Fairy 2",
                 "map_locations": 
                 [
                     {
@@ -650,7 +631,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueSpringleafLeaf"
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
@@ -664,7 +645,39 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueSpringleafLeaf, $RestrictedFairy2InSpringleafPath"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Fairy 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1393,
+                        "y": 917
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            "$ContinueSpringleafDash"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -696,7 +709,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$RestrictedLunInSpringleafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -751,7 +764,7 @@
                 ]
             },
             {
-                "name": "Springleaf Path - Dotted Berry Upper",
+                "name": "Springleaf Path - Dotted Berry 2",
                 "map_locations": 
                 [
                     {
@@ -783,7 +796,7 @@
                 ]
             },
             {
-                "name": "Springleaf Path - Dotted Berry Left",
+                "name": "Springleaf Path - Dotted Berry 3",
                 "map_locations": 
                 [
                     {
@@ -806,7 +819,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueSpringleafLeaf"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -815,7 +828,7 @@
                 ]
             },
             {
-                "name": "Springleaf Path - Dotted Berry Right",
+                "name": "Springleaf Path - Dotted Berry 4",
                 "map_locations": 
                 [
                     {
@@ -838,7 +851,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueSpringleafDash"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -1091,7 +1104,7 @@
                 ]
             },
             {
-                "name": "Springleaf Path - The Fool",
+                "name": "Springleaf Path - The Fool & Dotted Berry 1",
                 "map_locations": 
                 [
                     {
@@ -1110,7 +1123,6 @@
                         "name": "Sigil",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        //"hosted_item": "the_fool",
                         "visibility_rules": 
                         [
                             ""
@@ -1163,7 +1175,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$ContinueSpringleaf"
+                    ""
                 ],
                 "sections": 
                 [
@@ -1177,7 +1189,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueSpringleafLeaf"
                         ],
                         "item_count": 1
                     },
@@ -1191,7 +1203,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueSpringleafLeaf"
                         ],
                         "item_count": 1
                     },
@@ -1265,7 +1277,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$ContinueSpringleafDash"
                         ],
                         "item_count": 1
                     },
@@ -1311,7 +1323,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$ContinueSpringleafDash"
                         ],
                         "item_count": 1
                     },
@@ -1365,7 +1377,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Fairy Upper",
+                "name": "Lun Tree Roots - Fairy 5",
                 "map_locations": 
                 [
                     {
@@ -1388,7 +1400,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachLunTreeRoots, $RestrictedFairy5InLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -1397,7 +1409,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Fairy Upper Left",
+                "name": "Lun Tree Roots - Fairy 1",
                 "map_locations": 
                 [
                     {
@@ -1420,7 +1432,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -1429,7 +1441,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Fairy Middle Right",
+                "name": "Lun Tree Roots - Fairy 4",
                 "map_locations": 
                 [
                     {
@@ -1452,7 +1464,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachLunTreeRoots, $RestrictedFairy4InLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -1461,7 +1473,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Fairy Middle Left",
+                "name": "Lun Tree Roots - Fairy 2",
                 "map_locations": 
                 [
                     {
@@ -1484,7 +1496,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -1493,7 +1505,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Fairy Lower",
+                "name": "Lun Tree Roots - Fairy 3",
                 "map_locations": 
                 [
                     {
@@ -1516,42 +1528,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Lun Tree Roots - Peach",
-                "map_locations": 
-                [
-                    {
-                        "map": "Full Map",
-                        "x": 1969,
-                        "y": 1012
-                    }
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Peach",
-                        "visibility_rules": 
-                        [
-                            "$isPeach"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Peach.png",
-                        "chest_opened_img": "images/icons/open/Peach.png",
                         "item_count": 1
                     }
                 ]
@@ -1580,7 +1560,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachLunTreeRoots, $RestrictedLunInLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -1589,7 +1569,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Dotted Berry Upper",
+                "name": "Lun Tree Roots - Dotted Berry 1",
                 "map_locations": 
                 [
                     {
@@ -1612,7 +1592,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachLunTreeRoots, $RestrictedDottedInLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -1621,7 +1601,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Dotted Berry Lower",
+                "name": "Lun Tree Roots - Dotted Berry 2",
                 "map_locations": 
                 [
                     {
@@ -1644,7 +1624,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -1976,7 +1956,7 @@
             },
             // Fairy Springs
             {
-                "name": "Fairy Springs - Fairy Lower Left",
+                "name": "Fairy Springs - Fairy 1",
                 "map_locations": 
                 [
                     {
@@ -1999,7 +1979,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings, $RestrictedFairy1InFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2008,7 +1988,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Fairy Lower Right",
+                "name": "Fairy Springs - Fairy 2",
                 "map_locations": 
                 [
                     {
@@ -2031,7 +2011,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings, $RestrictedFairy2InFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2040,7 +2020,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Fairy Middle",
+                "name": "Fairy Springs - Fairy 3",
                 "map_locations": 
                 [
                     {
@@ -2063,7 +2043,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings, $RestrictedFairy3InFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2072,7 +2052,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Fairy Upper",
+                "name": "Fairy Springs - Fairy 4",
                 "map_locations": 
                 [
                     {
@@ -2095,7 +2075,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2127,7 +2107,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -2136,7 +2116,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Dotted Berry Left",
+                "name": "Fairy Springs - Dotted Berry 2",
                 "map_locations": 
                 [
                     {
@@ -2159,7 +2139,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -2168,7 +2148,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Dotted Berry Middle",
+                "name": "Fairy Springs - Dotted Berry 1",
                 "map_locations": 
                 [
                     {
@@ -2191,7 +2171,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -2200,7 +2180,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Dotted Berry Right",
+                "name": "Fairy Springs - Dotted Berry 3",
                 "map_locations": 
                 [
                     {
@@ -2223,7 +2203,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -2278,7 +2258,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Heavenly Lily 2",
+                "name": "Fairy Village - Heavenly Lily 1 & Fairy",
                 "map_locations": 
                 [
                     {
@@ -2301,7 +2281,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$ReachFairySprings, $RestrictedLilyInFairyVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -2315,7 +2295,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings, $RestrictedFairyInFairyVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2384,7 +2364,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Viper Archdemon Sorrellia",
+                "name": "Fairy Village - Viper Archdemon Sorrellia",
                 "map_locations": 
                 [
                     {
@@ -2453,7 +2433,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
@@ -2645,8 +2625,9 @@
                     }
                 ]
             },
+            // Fairy Village
             {
-                "name": "Fairy Springs - Dotted Berry",
+                "name": "Fairy Village - Dotted Berry",
                 "map_locations": 
                 [
                     {
@@ -2669,7 +2650,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -2677,9 +2658,8 @@
                     }
                 ]
             },
-            // Fairy Village
             {
-                "name": "Fairy Village - Heavenly Lily",
+                "name": "Fairy Village - Heavenly Lily 2",
                 "map_locations": 
                 [
                     {
@@ -2822,7 +2802,7 @@
             },
             // Ashen Hinterlands
             {
-                "name": "Ashen Hinterlands - Fairy Upper Right",
+                "name": "Ashen Hinterlands - Fairy 1",
                 "map_locations": 
                 [
                     {
@@ -2845,7 +2825,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2854,7 +2834,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Fairy Upper Left",
+                "name": "Ashen Hinterlands - Fairy 2",
                 "map_locations": 
                 [
                     {
@@ -2877,7 +2857,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2886,7 +2866,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Fairy Lower Left",
+                "name": "Ashen Hinterlands - Fairy 3",
                 "map_locations": 
                 [
                     {
@@ -2909,7 +2889,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2918,7 +2898,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Fairy Lower Middle",
+                "name": "Ashen Hinterlands - Fairy 4",
                 "map_locations": 
                 [
                     {
@@ -2941,7 +2921,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2950,7 +2930,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Fairy Lower Right",
+                "name": "Ashen Hinterlands - Fairy 5",
                 "map_locations": 
                 [
                     {
@@ -2973,7 +2953,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueAshenHinterlands, $RestrictedFairy5InAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3005,7 +2985,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueAshenHinterlands, $RestrictedPeachInAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
@@ -3037,7 +3017,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueAshenHinterlands, $RestrictedLunInAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -3046,7 +3026,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Dotted Berry Left",
+                "name": "Ashen Hinterlands - Dotted Berry 2",
                 "map_locations": 
                 [
                     {
@@ -3069,7 +3049,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueAshenHinterlands, $RestrictedDottedInAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3078,7 +3058,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Dotted Berry Middle",
+                "name": "Ashen Hinterlands - Dotted Berry 3",
                 "map_locations": 
                 [
                     {
@@ -3101,7 +3081,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3110,7 +3090,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Dotted Berry Right",
+                "name": "Ashen Hinterlands - Dotted Berry 4",
                 "map_locations": 
                 [
                     {
@@ -3133,7 +3113,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3327,7 +3307,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Serval",
+                "name": "Ashen Hinterlands - Serval & Dotted Berry 1",
                 "map_locations": 
                 [
                     {
@@ -3365,7 +3345,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover",
+                            "$isBellHover, $ReachAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3574,6 +3555,38 @@
             },
             // Moonlight Repose
             {
+                "name": "Moonlight Repose - Peach",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1969,
+                        "y": 1012
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Peach",
+                        "visibility_rules": 
+                        [
+                            "$isPeach"
+                        ],
+                        "access_rules": 
+                        [
+                            "$ReachMoonlightRepose"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Peach.png",
+                        "chest_opened_img": "images/icons/open/Peach.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Moonlight Repose - Dotted Berry",
                 "map_locations": 
                 [
@@ -3597,7 +3610,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachMoonlightRepose"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3606,7 +3619,7 @@
                 ]
             },
             {
-                "name": "Moonlight Repose - Heavenly Lily 1",
+                "name": "Moonlight Repose - Heavenly Lily 1 & Fairy",
                 "map_locations": 
                 [
                     {
@@ -3643,7 +3656,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachMoonlightRepose, $RestrictedFairyInMoonlightRepose"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3865,7 +3878,39 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Fairy Upper",
+                "name": "Demon Frontier - Lun Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1154,
+                        "y": 725
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lun Berry",
+                        "visibility_rules": 
+                        [
+                            "$isLun"
+                        ],
+                        "access_rules": 
+                        [
+                            "$ContinueDemonFrontier, $RestrictedLunInDemonFrontier"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lun Berry.png",
+                        "chest_opened_img": "images/icons/open/Lun Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Fairy 3",
                 "map_locations": 
                 [
                     {
@@ -3888,7 +3933,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3897,7 +3942,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Fairy Middle",
+                "name": "Demon Frontier - Fairy 1 & 2",
                 "map_locations": 
                 [
                     {
@@ -3920,7 +3965,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3934,7 +3979,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3943,7 +3988,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Fairy Lower Left",
+                "name": "Demon Frontier - Fairy 4",
                 "map_locations": 
                 [
                     {
@@ -3966,7 +4011,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover, $RestrictedFairy4InDemonFrontier",
+                            "$isBellHover, $ReachDemonFrontier, $RestrictedFairy4InDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3975,7 +4021,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Fairy Lower Right",
+                "name": "Demon Frontier - Fairy 5",
                 "map_locations": 
                 [
                     {
@@ -3998,7 +4044,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover, $RestrictedFairy5InDemonFrontier",
+                            "$isBellHover, $ReachDemonFrontier, $RestrictedFairy5InDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -4007,7 +4054,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Dotted Berry Left",
+                "name": "Demon Frontier - Dotted Berry 1",
                 "map_locations": 
                 [
                     {
@@ -4030,7 +4077,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueDemonFrontier, $RestrictedDottedInDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -4039,7 +4086,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Dotted Berry Right",
+                "name": "Demon Frontier - Dotted Berry 2",
                 "map_locations": 
                 [
                     {
@@ -4062,7 +4109,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -4276,8 +4323,8 @@
                 [
                     {
                         "map": "Full Map",
-                        "x": 2658,
-                        "y": 1304
+                        "x": 1298,
+                        "y": 1351
                     }
                 ],
                 "access_rules": 
@@ -4296,7 +4343,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$DoMitchi"
+                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover",
+                            "$isBellHover, $ReachDemonFrontier"
                         ],
                         "item_count": 1
                     },
@@ -4534,7 +4582,7 @@
                 ]
             },
             {
-                "name": "Meikan Village - Fairy Lower",
+                "name": "Meikan Village - Fairy",
                 "map_locations": 
                 [
                     {
@@ -4557,39 +4605,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Fairy.png",
-                        "chest_opened_img": "images/icons/open/Fairy.png",
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Meikan Village - Fairy Upper",
-                "map_locations": 
-                [
-                    {
-                        "map": "Full Map",
-                        "x": 433,
-                        "y": 1256
-                    }
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Fairy",
-                        "visibility_rules": 
-                        [
-                            "$isFairy"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
+                            "$ReachMeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -4621,7 +4637,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachMeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
@@ -4676,12 +4692,12 @@
                 ]
             },
             {
-                "name": "Meikan Village - Dotted Berry Right",
+                "name": "Meikan Village - Dotted Berry 1",
                 "map_locations": 
                 [
                     {
                         "map": "Full Map",
-                        "x": 817,
+                        "x": 674,
                         "y": 1397
                     }
                 ],
@@ -4699,39 +4715,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
-                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Meikan Village - Dotted Berry Middle",
-                "map_locations": 
-                [
-                    {
-                        "map": "Full Map",
-                        "x": 480,
-                        "y": 1205
-                    }
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Dotted Berry",
-                        "visibility_rules": 
-                        [
-                            "$isDotted"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
+                            "$ReachMeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -4786,114 +4770,6 @@
                 ]
             },
             {
-                "name": "Meikan Village Windmill - Heavenly Lily 3",
-                "map_locations": 
-                [
-                    {
-                        "map": "Full Map",
-                        "x": 50,
-                        "y": 1351
-                    }
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Heavenly Lily",
-                        "visibility_rules": 
-                        [
-                            "$isLily"
-                        ],
-                        "access_rules": 
-                        [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
-                        ],
-                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
-                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dotted Berry",
-                        "visibility_rules": 
-                        [
-                            "$isDotted"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
-                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Heavenly Lily Hinted",
-                        "visibility_rules": 
-                        [
-                            "$isHint,$has|lily_3_meikan_village_hint"
-                        ],
-                        "access_rules": 
-                        [
-                            "{$has|lily_3_meikan_village_hint}"
-                        ],
-                        "chest_unopened_img": "images/icons/close/hint.png",
-                        "chest_opened_img": "images/icons/close/hint.png",
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Meikan Village Windmill - Moon Goddess Lineth",
-                "map_locations": 
-                [
-                    {
-                        "map": "Full Map",
-                        "x": 97,
-                        "y": 1351
-                    }
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Boss",
-                        "chest_unopened_img": "images/icons/close/Moon Goddess Lineth.png",
-                        "chest_opened_img": "images/icons/open/Moon Goddess Lineth.png",
-                        "visibility_rules":
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Boss Hinted",
-                        "visibility_rules": 
-                        [
-                            "$isHint,$has|moon_goddess_lineth_hint"
-                        ],
-                        "access_rules": 
-                        [
-                            "{$has|moon_goddess_lineth_hint}"
-                        ],
-                        "chest_unopened_img": "images/icons/close/hint.png",
-                        "chest_opened_img": "images/icons/close/hint.png",
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
                 "name": "Meikan Village - Wooden Box",
                 "map_locations": 
                 [
@@ -4919,7 +4795,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage"
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
+                            "$isBellHover, $ReachMeikanVillageWindmill"
                         ],
                         "item_count": 1
                     },
@@ -4965,7 +4842,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage"
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
+                            "$isBellHover, $ReachMeikanVillageWindmill"
                         ],
                         "item_count": 1
                     },
@@ -5078,6 +4956,176 @@
                 ]
             },
             // Meikan Village Windmill
+            {
+                "name": "Meikan Village Windmill - Fairy",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 433,
+                        "y": 1256
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Fairy",
+                        "visibility_rules": 
+                        [
+                            "$isFairy"
+                        ],
+                        "access_rules": 
+                        [
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Fairy.png",
+                        "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village Windmill - Dotted Berry 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 480,
+                        "y": 1205
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village Windmill - Heavenly Lily 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 50,
+                        "y": 1351
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Heavenly Lily",
+                        "visibility_rules": 
+                        [
+                            "$isLily"
+                        ],
+                        "access_rules": 
+                        [
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
+                        "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry",
+                        "visibility_rules": 
+                        [
+                            "$isDotted"
+                        ],
+                        "access_rules": 
+                        [
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavenly Lily Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lily_3_meikan_village_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lily_3_meikan_village_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meikan Village Windmill - Moon Goddess Lineth",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 97,
+                        "y": 1351
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/icons/close/Moon Goddess Lineth.png",
+                        "chest_opened_img": "images/icons/open/Moon Goddess Lineth.png",
+                        "visibility_rules":
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boss Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|moon_goddess_lineth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|moon_goddess_lineth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Meikan Village Windmill - Cactus",
                 "map_locations": 
@@ -5238,7 +5286,7 @@
                 ]
             },
             {
-                "name": "Fount of Rebirth - Fairy Lower",
+                "name": "Fount of Rebirth - Fairy 1",
                 "map_locations": 
                 [
                     {
@@ -5261,7 +5309,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -5270,7 +5318,7 @@
                 ]
             },
             {
-                "name": "Fount of Rebirth - Fairy Upper",
+                "name": "Fount of Rebirth - Fairy 2",
                 "map_locations": 
                 [
                     {
@@ -5293,7 +5341,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -5325,7 +5373,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachSelin"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -5334,7 +5382,7 @@
                 ]
             },
             {
-                "name": "Fount of Rebirth - Dotted Berry Left",
+                "name": "Fount of Rebirth - Dotted Berry 1",
                 "map_locations": 
                 [
                     {
@@ -5357,7 +5405,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -5366,7 +5414,7 @@
                 ]
             },
             {
-                "name": "Fount of Rebirth - Dotted Berry Right",
+                "name": "Fount of Rebirth - Dotted Berry 2",
                 "map_locations": 
                 [
                     {
@@ -5389,7 +5437,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ReachFountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",

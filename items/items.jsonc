@@ -569,6 +569,12 @@
         "codes": "lineth",
         "disabled_img_mods":"none"
     },
+    {
+        "name": "Dora Fight",
+        "type": "toggle",
+        "codes": "manual_dora_fight",
+        "disabled_img_mods":"none"
+    },
     //Settings
     {
         "name": "Bell Hover",
@@ -757,6 +763,23 @@
           {
             "img": "images/settings/Fairy.png",
             "codes": "op_RF,fairy_on",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Victory Condition",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "codes": "op_VC,selin_goal"
+          },
+          {
+            "codes": "op_VC,dora_goal",
             "inherit_codes": false
           }
         ]

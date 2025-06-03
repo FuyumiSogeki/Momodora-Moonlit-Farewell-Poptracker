@@ -108,6 +108,36 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("op_RHL").CurrentStage = 0
     end
 
+    if slot_data['progressive_health_upgrade'] then
+        Tracker:FindObjectForCode("op_RDB").CurrentStage = 1 
+    else
+        Tracker:FindObjectForCode("op_RDB").CurrentStage = 0
+    end
+
+    if slot_data['progressive_magic_upgrade'] then
+        Tracker:FindObjectForCode("op_RLB").CurrentStage = 1 
+    else
+        Tracker:FindObjectForCode("op_RLB").CurrentStage = 0
+    end
+
+    if slot_data['progressive_stamina_upgrade'] then
+        Tracker:FindObjectForCode("op_RP").CurrentStage = 1 
+    else
+        Tracker:FindObjectForCode("op_RP").CurrentStage = 0
+    end
+
+    if slot_data['progressive_lumen_fairies'] then
+        Tracker:FindObjectForCode("op_RF").CurrentStage = 1 
+    else
+        Tracker:FindObjectForCode("op_RF").CurrentStage = 0
+    end
+
+    if slot_data['victory_condition'] == 1 then
+        Tracker:FindObjectForCode("op_VC").CurrentStage = 1 
+    else
+        Tracker:FindObjectForCode("op_VC").CurrentStage = 0
+    end
+
     -- get hints
     if Archipelago.PlayerNumber > -1 then
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
@@ -191,6 +221,13 @@ function checkUnusedSigil(location_id)
             objItem.Active = true
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onLocation: could not find Queen of Dusk"))
+        end
+    elseif location_id == 364 then
+        local objItem = Tracker:FindObjectForCode("manual_dora_fight")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Dora Fight"))
         end
     end
 end
