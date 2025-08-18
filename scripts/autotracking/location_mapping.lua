@@ -72,9 +72,9 @@ LOCATION_MAPPING =
     [8900]  = {"@Full/Fairy Springs - Dotted Berry 3/Dotted Berry"},
     [9100]  = {"@Full/Fairy Springs - Fairy 4/Fairy"},
     [9300]  = {"@Full/Fairy Springs - Fairy 2/Fairy"},
-    [13700] = {"@Full/Fairy Springs - Fairy 3/Fairy"},
     [11500] = {"@Full/Fairy Springs - Lun Berry/Lun Berry"},
     [11600] = {"@Full/Fairy Springs - Dotted Berry 1/Dotted Berry"},
+    [13700] = {"@Full/Fairy Springs - Fairy 3/Fairy"},
     [20300] = {"@Full/Fairy Springs - Peach/Peach"},
     
     -- Fairy Village
@@ -132,8 +132,8 @@ LOCATION_MAPPING =
     [402]   = {"@Full/Demon Frontier - Dark Healer/Sigil"},
     [404]   = {"@Full/Demon Frontier - Magic Blade/Sigil"},
     [434]   = {"@Full/Demon Frontier - Mending Resonance/Sigil"},
-    [15300] = {"@Full/Demon Frontier - Heavenly Lily 2/Heavenly Lily"},
     [15200] = {"@Full/Demon Frontier - Dotted Berry 1/Dotted Berry"},
+    [15300] = {"@Full/Demon Frontier - Heavenly Lily 2/Heavenly Lily"},
     [16200] = {"@Full/Demon Frontier - Fairy 3/Fairy"},
     [16500] = {"@Full/Demon Frontier - Dotted Berry 2/Dotted Berry"},
     [16600] = {"@Full/Demon Frontier - Heavenly Lily 3/Heavenly Lily"},
@@ -157,8 +157,8 @@ LOCATION_MAPPING =
     [339]   = {"@Full/Meikan Village Windmill - Tattered Grimoire/Grimoire"},
     [449]   = {"@Full/Meikan Village Windmill - Trinary/Sigil"},
     [30100] = {"@Full/Meikan Village Windmill - Fairy/Fairy"},
-    [33300] = {"@Full/Meikan Village Windmill - Heavenly Lily 3/Heavenly Lily"},
     [33200] = {"@Full/Meikan Village Windmill - Dotted Berry 2/Dotted Berry"},
+    [33300] = {"@Full/Meikan Village Windmill - Heavenly Lily 3/Heavenly Lily"},
     [36000] = {"@Full/Meikan Village Windmill - Heavenly Lily 3/Dotted Berry"},
 
     -- Fount of Rebirth

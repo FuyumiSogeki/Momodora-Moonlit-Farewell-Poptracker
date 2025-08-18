@@ -229,6 +229,14 @@ function checkUnusedSigil(location_id)
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onLocation: could not find Dora Fight"))
         end
+    elseif location_id == 420 then
+        local objItem = Tracker:FindObjectForCode("living_blood")
+        if objItem then
+            objItem.Active = true
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find Living Blood"))
+        end
+        
     end
 end
 
