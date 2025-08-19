@@ -383,5 +383,464 @@
         "name": "Moon God Selin Hint",
         "type": "toggle",
         "codes": "moon_god_selin_hint"
+    },
+    {
+        "name": "Heavenly Lily Koho Village Hint",
+        "type": "toggle",
+        "codes": "lily_koho_village_hint"
+    },
+    {
+        "name": "Heavenly Lily 1 Old Sanctuary Hint",
+        "type": "toggle",
+        "codes": "lily_1_old_sanctuary_hint"
+    },
+    {
+        "name": "Heavenly Lily 2 Old Sanctuary Hint",
+        "type": "toggle",
+        "codes": "lily_2_old_sanctuary_hint"
+    },
+    {
+        "name": "Heavenly Lily 1 Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "lily_1_springleaf_path_hint"
+    },
+    {
+        "name": "Heavenly Lily 2 Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "lily_2_springleaf_path_hint"
+    },
+    {
+        "name": "Heavenly Lily 2 Lun Tree Roots Hint",
+        "type": "toggle",
+        "codes": "lily_2_lun_tree_roots_hint"
+    },
+    {
+        "name": "Heavenly Lily 1 Lun Tree Roots Hint",
+        "type": "toggle",
+        "codes": "lily_1_lun_tree_roots_hint"
+    },
+    {
+        "name": "Heavenly Lily 1 Fairy Springs Hint",
+        "type": "toggle",
+        "codes": "lily_1_fairy_spring_hint"
+    },
+    {
+        "name": "Heavenly Lily 2 Fairy Village Hint",
+        "type": "toggle",
+        "codes": "lily_2_fairy_village_hint"
+    },
+    {
+        "name": "Heavenly Lily 1 Fairy Village Hint",
+        "type": "toggle",
+        "codes": "lily_1_fairy_village_hint"
+    },
+    {
+        "name": "Heavenly Lily 1 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "lily_1_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Heavenly Lily 3 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "lily_3_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Heavenly Lily 2 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "lily_2_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Heavenly Lily 2 Moonlight Repose Hint",
+        "type": "toggle",
+        "codes": "lily_2_moonlight_repose_hint"
+    },
+    {
+        "name": "Heavenly Lily 1 Moonlight Repose Hint",
+        "type": "toggle",
+        "codes": "lily_1_moonlight_repose_hint"
+    },
+    {
+        "name": "Heavenly Lily 1 Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "lily_1_demon_frontier_hint"
+    },
+    {
+        "name": "Heavenly Lily 2 Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "lily_2_demon_frontier_hint"
+    },
+    {
+        "name": "Heavenly Lily 3 Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "lily_3_demon_frontier_hint"
+    },
+    {
+        "name": "Heavenly Lily 1 Meikan Village Hint",
+        "type": "toggle",
+        "codes": "lily_1_meikan_village_hint"
+    },
+    {
+        "name": "Heavenly Lily 2 Meikan Village Hint",
+        "type": "toggle",
+        "codes": "lily_2_meikan_village_hint"
+    },
+    {
+        "name": "Heavenly Lily 3 Meikan Village Hint",
+        "type": "toggle",
+        "codes": "lily_3_meikan_village_hint"
+    },
+    {
+        "name": "Heavenly Lily 2 Fount of Rebirth Hint",
+        "type": "toggle",
+        "codes": "lily_2_fount_of_rebirth_hint"
+    },
+    {
+        "name": "Heavenly Lily 1 Fount of Rebirth Hint",
+        "type": "toggle",
+        "codes": "lily_1_fount_of_rebirth_hint"
+    },
+    {
+        "name": "Heavenly Lily 4 Fount of Rebirth Hint",
+        "type": "toggle",
+        "codes": "lily_4_fount_of_rebirth_hint"
+    },
+    {
+        "name": "Heavenly Lily 3 Fount of Rebirth Hint",
+        "type": "toggle",
+        "codes": "lily_3_fount_of_rebirth_hint"
+    },
+
+    {
+        "name": "Dotted Berry 1 Koho Village Hint",
+        "type": "toggle",
+        "codes": "dotted_1_koho_village_hint"
+    },
+    {
+        "name": "Dotted Berry 2 Koho Village Hint",
+        "type": "toggle",
+        "codes": "dotted_2_koho_village_hint"
+    },
+    {
+        "name": "Dotted Berry 2 Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "dotted_2_springleaf_path_hint"
+    },
+    {
+        "name": "Dotted Berry 1 Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "dotted_1_springleaf_path_hint"
+    },
+    {
+        "name": "Dotted Berry 4 Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "dotted_4_springleaf_path_hint"
+    },
+    {
+        "name": "Dotted Berry 3 Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "dotted_3_springleaf_path_hint"
+    },
+    {
+        "name": "Dotted Berry 2 Lun Tree Roots Hint",
+        "type": "toggle",
+        "codes": "dotted_2_lun_tree_roots_hint"
+    },
+    {
+        "name": "Dotted Berry 1 Lun Tree Roots Hint",
+        "type": "toggle",
+        "codes": "dotted_1_lun_tree_roots_hint"
+    },
+    {
+        "name": "Dotted Berry 2 Fairy Springs Hint",
+        "type": "toggle",
+        "codes": "dotted_2_fairy_spring_hint"
+    },
+    {
+        "name": "Dotted Berry 3 Fairy Springs Hint",
+        "type": "toggle",
+        "codes": "dotted_3_fairy_spring_hint"
+    },
+    {
+        "name": "Dotted Berry 1 Fairy Springs Hint",
+        "type": "toggle",
+        "codes": "dotted_1_fairy_spring_hint"
+    },
+    {
+        "name": "Dotted Berry Fairy Village Hint",
+        "type": "toggle",
+        "codes": "dotted_fairy_village_hint"
+    },
+    {
+        "name": "Dotted Berry 1 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "dotted_1_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Dotted Berry 4 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "dotted_4_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Dotted Berry 2 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "dotted_2_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Dotted Berry 3 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "dotted_3_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Dotted Berry Moonlight Repose Hint",
+        "type": "toggle",
+        "codes": "dotted_moonlight_repose_hint"
+    },
+    {
+        "name": "Dotted Berry 1 Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "dotted_1_demon_frontier_hint"
+    },
+    {
+        "name": "Dotted Berry 2 Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "dotted_2_demon_frontier_hint"
+    },
+    {
+        "name": "Dotted Berry 1 Meikan Village Hint",
+        "type": "toggle",
+        "codes": "dotted_1_meikan_village_hint"
+    },
+    {
+        "name": "Dotted Berry 2 Meikan Village Windmill Hint",
+        "type": "toggle",
+        "codes": "dotted_2_meikan_village_windmill_hint"
+    },
+    {
+        "name": "Dotted Berry 3 Meikan Village Windmill Hint",
+        "type": "toggle",
+        "codes": "dotted_3_meikan_village_windmill_hint"
+    },
+    {
+        "name": "Dotted Berry 1 Fount of Rebirth Hint",
+        "type": "toggle",
+        "codes": "dotted_1_fount_of_rebirth_hint"
+    },
+    {
+        "name": "Dotted Berry 2 Fount of Rebirth Hint",
+        "type": "toggle",
+        "codes": "dotted_2_fount_of_rebirth_hint"
+    },
+
+    {
+        "name": "Peach Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "peach_springleaf_path_hint"
+    },
+    {
+        "name": "Peach Fairy Springs Hint",
+        "type": "toggle",
+        "codes": "peach_fairy_springs_hint"
+    },
+    {
+        "name": "Peach Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "peach_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Peach Moonlight Repose Hint",
+        "type": "toggle",
+        "codes": "peach_moonlight_repose_hint"
+    },
+    {
+        "name": "Peach Meikan Village Hint",
+        "type": "toggle",
+        "codes": "peach_meikan_village_hint"
+    },
+
+    {
+        "name": "Lun Berry Koho Village Hint",
+        "type": "toggle",
+        "codes": "lun_koho_village_hint"
+    },
+    {
+        "name": "Lun Berry Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "lun_springleaf_path_hint"
+    },
+    {
+        "name": "Lun Berry Lun Tree Roots Hint",
+        "type": "toggle",
+        "codes": "lun_lun_tree_roots_hint"
+    },
+    {
+        "name": "Lun Berry Fairy Springs Hint",
+        "type": "toggle",
+        "codes": "lun_fairy_spring_hint"
+    },
+    {
+        "name": "Lun Berry Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "lun_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Lun Berry Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "lun_demon_frontier_hint"
+    },
+    {
+        "name": "Lun Berry Fount of Rebirth Hint",
+        "type": "toggle",
+        "codes": "lun_fount_of_rebirth_hint"
+    },
+
+    {
+        "name": "Lumen Fairy Old Sanctuary Hint",
+        "type": "toggle",
+        "codes": "fairy_old_sanctuary_hint"
+    },
+    {
+        "name": "Lumen Fairy 3 Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "fairy_3_springleaf_path_hint"
+    },
+    {
+        "name": "Lumen Fairy 2 Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "fairy_2_springleaf_path_hint"
+    },
+    {
+        "name": "Lumen Fairy 1 Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "fairy_1_springleaf_path_hint"
+    },
+    {
+        "name": "Lumen Fairy 4 Springleaf Path Hint",
+        "type": "toggle",
+        "codes": "fairy_4_springleaf_path_hint"
+    },
+    {
+        "name": "Lumen Fairy 2 Lun Tree Roots Hint",
+        "type": "toggle",
+        "codes": "fairy_2_lun_tree_roots_hint"
+    },
+    {
+        "name": "Lumen Fairy 4 Lun Tree Roots Hint",
+        "type": "toggle",
+        "codes": "fairy_4_lun_tree_roots_hint"
+    },
+    {
+        "name": "Lumen Fairy 5 Lun Tree Roots Hint",
+        "type": "toggle",
+        "codes": "fairy_5_lun_tree_roots_hint"
+    },
+    {
+        "name": "Lumen Fairy 1 Lun Tree Roots Hint",
+        "type": "toggle",
+        "codes": "fairy_1_lun_tree_roots_hint"
+    },
+    {
+        "name": "Lumen Fairy 3 Lun Tree Roots Hint",
+        "type": "toggle",
+        "codes": "fairy_3_lun_tree_roots_hint"
+    },
+    {
+        "name": "Lumen Fairy 1 Fairy Springs Hint",
+        "type": "toggle",
+        "codes": "fairy_1_fairy_spring_hint"
+    },
+    {
+        "name": "Lumen Fairy 4 Fairy Springs Hint",
+        "type": "toggle",
+        "codes": "fairy_4_fairy_spring_hint"
+    },
+    {
+        "name": "Lumen Fairy 2 Fairy Springs Hint",
+        "type": "toggle",
+        "codes": "fairy_2_fairy_spring_hint"
+    },
+    {
+        "name": "Lumen Fairy 3 Fairy Springs Hint",
+        "type": "toggle",
+        "codes": "fairy_3_fairy_spring_hint"
+    },
+    {
+        "name": "Lumen Fairy Fairy Village Hint",
+        "type": "toggle",
+        "codes": "fairy_fairy_village_hint"
+    },
+    {
+        "name": "Lumen Fairy 1 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "fairy_1_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Lumen Fairy 2 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "fairy_2_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Lumen Fairy 3 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "fairy_3_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Lumen Fairy 4 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "fairy_4_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Lumen Fairy 5 Ashen Hinterlands Hint",
+        "type": "toggle",
+        "codes": "fairy_5_ashen_hinterlands_hint"
+    },
+    {
+        "name": "Lumen Fairy Moonlight Repose Hint",
+        "type": "toggle",
+        "codes": "fairy_moonlight_repose_hint"
+    },
+    {
+        "name": "Lumen Fairy 3 Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "fairy_3_demon_frontier_hint"
+    },
+    {
+        "name": "Lumen Fairy 2 Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "fairy_2_demon_frontier_hint"
+    },
+    {
+        "name": "Lumen Fairy 1 Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "fairy_1_demon_frontier_hint"
+    },
+    {
+        "name": "Lumen Fairy 4 Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "fairy_4_demon_frontier_hint"
+    },
+    {
+        "name": "Lumen Fairy 5 Demon Frontier Hint",
+        "type": "toggle",
+        "codes": "fairy_5_demon_frontier_hint"
+    },
+    {
+        "name": "Lumen Fairy Meikan Village Hint",
+        "type": "toggle",
+        "codes": "fairy_meikan_village_hint"
+    },
+    {
+        "name": "Lumen Fairy Meikan Village Windmill Hint",
+        "type": "toggle",
+        "codes": "fairy_meikan_village_windmill_hint"
+    },
+    {
+        "name": "Lumen Fairy 2 Fount of Rebirth Hint",
+        "type": "toggle",
+        "codes": "fairy_2_fount_of_rebirth_hint"
+    },
+    {
+        "name": "Lumen Fairy 1 Fount of Rebirth Hint",
+        "type": "toggle",
+        "codes": "fairy_1_fount_of_rebirth_hint"
     }
 ]

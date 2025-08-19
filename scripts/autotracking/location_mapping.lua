@@ -158,8 +158,8 @@ LOCATION_MAPPING =
     [449]   = {"@Full/Meikan Village Windmill - Trinary/Sigil"},
     [30100] = {"@Full/Meikan Village Windmill - Fairy/Fairy"},
     [33200] = {"@Full/Meikan Village Windmill - Dotted Berry 2/Dotted Berry"},
-    [33300] = {"@Full/Meikan Village Windmill - Heavenly Lily 3/Heavenly Lily"},
-    [36000] = {"@Full/Meikan Village Windmill - Heavenly Lily 3/Dotted Berry"},
+    [33300] = {"@Full/Meikan Village Windmill - Heavenly Lily 3 & Dotted Berry 3/Heavenly Lily"},
+    [36000] = {"@Full/Meikan Village Windmill - Heavenly Lily 3 & Dotted Berry 3/Dotted Berry"},
 
     -- Fount of Rebirth
     [259]   = {"@Full/Fount of Rebirth - Selin's Fear/Boss"},

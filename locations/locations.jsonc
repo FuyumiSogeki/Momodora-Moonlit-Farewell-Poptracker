@@ -3306,6 +3306,20 @@
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_1_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_1_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -3337,6 +3351,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_2_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_2_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3370,6 +3398,20 @@
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_3_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_3_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -3401,6 +3443,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_4_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_4_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3434,6 +3490,20 @@
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_5_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_5_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -3465,6 +3535,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Peach Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|peach_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|peach_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3498,6 +3582,20 @@
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Lun Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lun_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lun_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -3529,6 +3627,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_2_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_2_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3562,6 +3674,20 @@
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_3_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_3_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -3593,6 +3719,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_4_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_4_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -3841,6 +3981,20 @@
                         "chest_unopened_img": "images/icons/close/hint.png",
                         "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_1_ashen_hinterlands_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_1_ashen_hinterlands_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4059,6 +4213,20 @@
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Peach Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|peach_moonlight_repose_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|peach_moonlight_repose_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4090,6 +4258,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_moonlight_repose_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_moonlight_repose_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4147,6 +4329,20 @@
                         "access_rules": 
                         [
                             "{$has|lily_1_moonlight_repose_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_moonlight_repose_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_moonlight_repose_hint}"
                         ],
                         "chest_unopened_img": "images/icons/close/hint.png",
                         "chest_opened_img": "images/icons/close/hint.png",
@@ -4382,6 +4578,20 @@
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Lun Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lun_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lun_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4413,6 +4623,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_3_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_3_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4460,6 +4684,34 @@
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Fairy 1 Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_1_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_1_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy 2 Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_2_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_2_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4492,6 +4744,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_4_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_4_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4526,6 +4792,20 @@
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_5_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_5_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -4557,6 +4837,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_1_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_1_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -4603,6 +4897,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Vampire Bat.png",
                         "chest_opened_img": "images/icons/open/Vampire Bat.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_2_demon_frontier_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_2_demon_frontier_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -5086,6 +5394,20 @@
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_meikan_village_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_meikan_village_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -5117,6 +5439,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Peach Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|peach_meikan_village_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|peach_meikan_village_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -5195,6 +5531,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_1_meikan_village_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_1_meikan_village_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -5461,6 +5811,20 @@
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_meikan_village_windmill_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_meikan_village_windmill_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -5493,11 +5857,25 @@
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_2_meikan_village_windmill_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_2_meikan_village_windmill_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Meikan Village Windmill - Heavenly Lily 3",
+                "name": "Meikan Village Windmill - Heavenly Lily 3 & Dotted Berry 3",
                 "map_locations": 
                 [
                     {
@@ -5549,6 +5927,20 @@
                         "access_rules": 
                         [
                             "{$has|lily_3_meikan_village_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_3_meikan_village_windmill_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_3_meikan_village_windmill_hint}"
                         ],
                         "chest_unopened_img": "images/icons/close/hint.png",
                         "chest_opened_img": "images/icons/close/hint.png",
@@ -5790,6 +6182,20 @@
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_1_fount_of_rebirth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_1_fount_of_rebirth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -5821,6 +6227,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fairy Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|fairy_2_fount_of_rebirth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|fairy_2_fount_of_rebirth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
@@ -5854,6 +6274,20 @@
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Lun Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|lun_fount_of_rebirth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|lun_fount_of_rebirth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -5886,6 +6320,20 @@
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_1_fount_of_rebirth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_1_fount_of_rebirth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -5917,6 +6365,20 @@
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dotted Berry Hinted",
+                        "visibility_rules": 
+                        [
+                            "$isHint,$has|dotted_2_fount_of_rebirth_hint"
+                        ],
+                        "access_rules": 
+                        [
+                            "{$has|dotted_2_fount_of_rebirth_hint}"
+                        ],
+                        "chest_unopened_img": "images/icons/close/hint.png",
+                        "chest_opened_img": "images/icons/close/hint.png",
                         "item_count": 1
                     }
                 ]
