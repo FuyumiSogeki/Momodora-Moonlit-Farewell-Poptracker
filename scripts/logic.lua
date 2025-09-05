@@ -170,7 +170,7 @@ end
 -- Sigil Logic
 
 function Perfect()
-    return ReachMeikanVillage() and SpiralShell() and (CrescentMoonflower() or isSpringleafOpen())
+    return ReachMeikanVillage() and SpiralShell() and (CrescentMoonflower() or isBellHover())
 end
 
 function Mending()
@@ -316,7 +316,7 @@ function ReachOldSanctuary_BellHover()
 end
 
 function ContinueOldSanctuary_BellHover()
-    return (ReachOldSanctuary_BellHover() or ReachOldSanctuary()) and not isBellHover() and CrescentMoonflower() and LunarAttunement()
+    return (ReachOldSanctuary_BellHover() or ReachOldSanctuary()) and not isBellHover() and ((CrescentMoonflower() and LunarAttunement()) or SpiralShell())
 end
 
 function ReachDemonFrontier_BellHover()
@@ -329,6 +329,10 @@ end
 
 function Lunar_BellHover()
     return (ReachAshenHinterlands() or ReachAshenHinterlands_BellHover()) and TradeDust() and not isBellHover()
+end
+
+function Perfect_BellHover()
+    return ReachMeikanVillage() and SpiralShell() and (CrescentMoonflower() or not isBellHover())
 end
 
 function ReachMeikanVillageWindmill_BellHover()

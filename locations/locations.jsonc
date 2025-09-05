@@ -2855,7 +2855,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$ContinueSpringleafDash"
                         ],
                         "item_count": 1
                     },
@@ -5527,7 +5527,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage"
+                            "[$Perfect], $Perfect_BellHover",
+                            "$isBellHover, $Perfect"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -5621,8 +5622,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
+                            "$ReachMeikanVillage"
                         ],
                         "item_count": 1
                     },
@@ -5668,8 +5668,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
+                            "$ReachMeikanVillage"
                         ],
                         "item_count": 1
                     },
@@ -5715,7 +5714,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$Perfect"
+                            "[$Perfect], $Perfect_BellHover",
+                            "$isBellHover, $Perfect"
                         ],
                         "item_count": 1
                     },
