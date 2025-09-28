@@ -2398,7 +2398,7 @@
                         "access_rules": 
                         [
                             "$ReachFairySprings, [$RestrictedFairy3InFairySprings], $RestrictedFairy3InFairySprings_BellHover",
-                            "$ReachFairySprings, $RestrictedFairy3InFairySprings"
+                            "$ReachFairySprings, $RestrictedFairy3InFairySprings, $isBellHover"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
