@@ -170,15 +170,15 @@ end
 -- Sigil Logic
 
 function Perfect()
-    return ReachMeikanVillage() and SpiralShell() and (CrescentMoonflower() or isBellHover())
+    return SpiralShell() and (CrescentMoonflower() or isBellHover())
 end
 
 function Mending()
-    return ContinueDemonFrontier() and LunarAttunement()
+    return LunarAttunement()
 end
 
 function Resolve()
-    return ContinueOldSanctuary() and LunarAttunement()
+    return LunarAttunement()
 end
 
 function Welkin()
@@ -196,7 +196,7 @@ function Oracle()
 end
 
 function GoldenDust()
-    return ContinueOldSanctuary() and (CrescentMoonflower() or (SpiralShell() and (has("perfect_chime") or SacredAnemone())))
+    return CrescentMoonflower() or (SpiralShell() and (has("perfect_chime") or SacredAnemone()))
 end
 
 -- Lily Logic
@@ -234,7 +234,7 @@ function RestrictedLunInKohoVillage()
 end
 
 function RestrictedLunInSpringleafPath()
-    return SacredLeaf() or isSpringleafOpen() or CrescentMoonflower() or SpiralShell()
+    return SacredLeaf() or isSpringleafOpen() or SpiralShell()
 end
 
 function RestrictedLunInLunTreeRoots()
@@ -324,7 +324,15 @@ function ReachDemonFrontier_BellHover()
 end
 
 function ReachAshenHinterlands_BellHover()
-    return (ReachDemonFrontier() or ReachDemonFrontier_BellHover()) and CrescentMoonflower() and not isBellHover() and (SacredAnemone() or has("perfect_chime"))
+    return (ReachDemonFrontier() or ReachDemonFrontier_BellHover()) and (CrescentMoonflower() or (SpiralShell() and not isBellHover() and (SacredAnemone() or has("perfect_chime"))))
+end
+
+function ContinueAshenHinterlands_BellHover()
+    return (ReachAshenHinterlands() or ReachAshenHinterlands_BellHover()) and SpiralShell() and not isBellHover()
+end
+
+function ReachMeikanVillageWindmill_BellHover()
+    return ReachMeikanVillage() and (OpenWindmill() and (CrescentMoonflower() or (SpiralShell() and not isBellHover())))
 end
 
 function Lunar_BellHover()
@@ -332,9 +340,25 @@ function Lunar_BellHover()
 end
 
 function Perfect_BellHover()
-    return ReachMeikanVillage() and SpiralShell() and (CrescentMoonflower() or not isBellHover())
+    return SpiralShell() and (CrescentMoonflower() or not isBellHover())
 end
 
-function ReachMeikanVillageWindmill_BellHover()
-    return ReachMeikanVillage() and (OpenWindmill() and (CrescentMoonflower() or (SpiralShell() and not isBellHover())))
+function RestrictedFairy1InFairySprings_BellHover()
+    return CrescentMoonflower() or (not isBellHover() and SacredAnemone())
+end
+
+function RestrictedFairy3InFairySprings_BellHover()
+    return not isBellHover() or SpiralShell()
+end
+
+function RestrictedLilyInFairyVillage_BellHover()
+    return CrescentMoonflower() or (SpiralShell() and not isBellHover())
+end
+
+function RestrictedFairyInFairyVillage_BellHover()
+    return CrescentMoonflower() or (SpiralShell() and not isBellHover())
+end
+
+function RestrictedFairy4InLunTreeRoots_BellHover()
+    return not isBellHover() or CrescentMoonflower() or SpiralShell()
 end

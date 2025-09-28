@@ -532,7 +532,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$Resolve"
+                    "[$ContinueOldSanctuary], $ContinueOldSanctuary_BellHover, $Resolve",
+                    "$isBellHover, $ContinueOldSanctuary, $Resolve"
                 ],
                 "sections": 
                 [
@@ -590,7 +591,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$GoldenDust"
+                            "[$ContinueOldSanctuary], $ContinueOldSanctuary_BellHover, $GoldenDust",
+                            "$isBellHover, $ContinueOldSanctuary, $GoldenDust"
                         ],
                         "chest_unopened_img": "images/icons/close/Gold Moonlit Dust.png",
                         "chest_opened_img": "images/icons/open/Gold Moonlit Dust.png",
@@ -1702,7 +1704,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots, $RestrictedFairy4InLunTreeRoots"
+                            "$ReachLunTreeRoots, [$RestrictedFairy4InLunTreeRoots], $RestrictedFairy4InLunTreeRoots_BellHover",
+                            "$ReachLunTreeRoots, $isBellHover, $RestrictedFairy4InLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2301,7 +2304,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings, $RestrictedFairy1InFairySprings"
+                            "$ReachFairySprings, [$RestrictedFairy1InFairySprings], $RestrictedFairy1InFairySprings_BellHover",
+                            "$ReachFairySprings, $isBellHover, $RestrictedFairy1InFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2393,6 +2397,7 @@
                         ],
                         "access_rules": 
                         [
+                            "$ReachFairySprings, [$RestrictedFairy3InFairySprings], $RestrictedFairy3InFairySprings_BellHover",
                             "$ReachFairySprings, $RestrictedFairy3InFairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
@@ -2992,7 +2997,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings, $RestrictedLilyInFairyVillage"
+                            "$ReachFairySprings, [$RestrictedLilyInFairyVillage], $RestrictedLilyInFairyVillage_BellHover",
+                            "$ReachFairySprings, $RestrictedLilyInFairyVillage, $isBellHover"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -3006,7 +3012,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings, $RestrictedFairyInFairyVillage"
+                            "$ReachFairySprings, [$RestrictedFairyInFairyVillage], $RestrictedFairyInFairyVillage_BellHover",
+                            "$ReachFairySprings, $RestrictedFairyInFairyVillage, $isBellHover"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3301,7 +3308,8 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover"
+                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover",
+                            "$isBellHover, $ReachAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3347,7 +3355,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
+                            "$isBellHover, $ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3393,7 +3402,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
+                            "$isBellHover, $ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3439,7 +3449,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
+                            "$isBellHover, $ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3485,7 +3496,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands, $RestrictedFairy5InAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover, $RestrictedFairy5InAshenHinterlands",
+                            "$isBellHover, $ContinueAshenHinterlands, $RestrictedFairy5InAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3531,7 +3543,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands, $RestrictedPeachInAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover, $RestrictedPeachInAshenHinterlands",
+                            "$isBellHover, $ContinueAshenHinterlands, $RestrictedPeachInAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
@@ -3577,7 +3590,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands, $RestrictedLunInAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover, $RestrictedLunInAshenHinterlands",
+                            "$isBellHover, $ContinueAshenHinterlands, $RestrictedLunInAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -3623,7 +3637,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands, $RestrictedDottedInAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover, $RestrictedDottedInAshenHinterlands",
+                            "$isBellHover, $ContinueAshenHinterlands, $RestrictedDottedInAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3669,7 +3684,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
+                            "$isBellHover, $ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3715,7 +3731,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
+                            "$isBellHover, $ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3761,7 +3778,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
+                            "$isBellHover, $ContinueAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -4071,7 +4089,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
+                            "$isBellHover, $ContinueAshenHinterlands"
                         ],
                         "item_count": 1
                     },
@@ -4117,7 +4136,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
+                            "$isBellHover, $ContinueAshenHinterlands"
                         ],
                         "item_count": 1
                     },
@@ -4163,7 +4183,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueAshenHinterlands"
+                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
+                            "$isBellHover, $ContinueAshenHinterlands"
                         ],
                         "item_count": 1
                     },
@@ -5312,7 +5333,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$Mending"
+                            "$ContinueDemonFrontier, $Mending"
                         ],
                         "item_count": 1
                     },
@@ -5527,8 +5548,8 @@
                         ],
                         "access_rules": 
                         [
-                            "[$Perfect], $Perfect_BellHover",
-                            "$isBellHover, $Perfect"
+                            "$ReachMeikanVillage, [$Perfect], $Perfect_BellHover",
+                            "$ReachMeikanVillage, $isBellHover, $Perfect"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -5714,8 +5735,8 @@
                         ],
                         "access_rules": 
                         [
-                            "[$Perfect], $Perfect_BellHover",
-                            "$isBellHover, $Perfect"
+                            "$ReachMeikanVillage, [$Perfect], $Perfect_BellHover",
+                            "$ReachMeikanVillage, $isBellHover, $Perfect"
                         ],
                         "item_count": 1
                     },
@@ -5806,7 +5827,8 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover"
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
+                            "$isBellHover, $ReachMeikanVillageWindmill"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -5852,7 +5874,8 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover"
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
+                            "$isBellHover, $ReachMeikanVillageWindmill"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -5898,7 +5921,8 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover"
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
+                            "$isBellHover, $ReachMeikanVillageWindmill"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -5912,7 +5936,8 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover"
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
+                            "$isBellHover, $ReachMeikanVillageWindmill"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -5974,7 +5999,8 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover"
+                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
+                            "$isBellHover, $ReachMeikanVillageWindmill"
                         ],
                         "item_count": 1
                     },
