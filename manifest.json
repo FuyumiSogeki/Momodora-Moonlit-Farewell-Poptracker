@@ -5,7 +5,7 @@
   "package_uid": "momodoramfap",
   "author": "Sogeki",
   "min_poptracker_version": "0.25.9",
-  "target_poptracker_version": "0.30.0",
+  "target_poptracker_version": "0.33.0",
   "variants": {
     "standard": {
       "display_name": "Full Tracker",
