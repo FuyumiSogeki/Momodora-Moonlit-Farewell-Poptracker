@@ -311,7 +311,6 @@ function UpdateHintsHighlight(hint)
     end
 
     table.insert(RECOVER_HIGHLIGHT, hint)
-    print(string.format("UpdateHintsHighlight:%s", dump_table(RECOVER_HIGHLIGHT)))
     local objItem = Tracker:FindObjectForCode("highlight_hint")
     if objItem then
         if not objItem.Active then
@@ -480,10 +479,7 @@ function onHighlightChange()
                 RECOVER_HIGHLIGHT[k] = nil
             end
 
-            print(string.format("onHighlightChange:%s", dump_table(safeRecovery)))
-
             for _, hint in pairs(safeRecovery) do
-                print(string.format("onHighlightChange:%s", dump_table(hint)))
                 UpdateHintsHighlight(hint)
             end
         end
