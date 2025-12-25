@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Hint Scouting",
+        "type": "toggle",
+        "img": "images/Scouting.png",
+        "disabled_img": "images/NoScouting.png",
+        "codes": "scout_hint",
+        "disabled_img_mods":"none",
+        "loop": true
+    },
+    {
+        "name": "Hint Highlight",
+        "type": "toggle",
+        "img": "images/Highlighting.png",
+        "disabled_img": "images/NoHighlighting.png",
+        "codes": "highlight_hint",
+        "disabled_img_mods":"none",
+        "loop": true
+    }
+]

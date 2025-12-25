@@ -1,7 +1,6 @@
 {
   //sets the trackers layout
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
-
   "item_grid": 
   {
     "type": "itemgrid",
@@ -154,6 +153,21 @@
           "dock": "left",
           "content":
           [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "header_content": {
+                  "type": "button_popup",
+                  "style": "settings",
+                  "popup_background": "#55212121",
+                  "layout": "settings_popup"
+              },
+              "content": {
+                  "type": "layout",
+                  "key": "shared_item_grid"
+              }
+            },
             {
               "type": "group",
               "header": "Skills & Grimoires",

@@ -3825,7 +3825,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier,$RestrictedLilyInAshenHinterlands"
+                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover, $RestrictedLilyInAshenHinterlands",
+                            "$isBellHover, $ReachAshenHinterlands, $RestrictedLilyInAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -3835,11 +3836,11 @@
                         "name": "Heavenly Lily Hinted",
                         "visibility_rules": 
                         [
-                            "$isHint,$has|lily_2_ashen_hinterlands_hint"
+                            "$isHint,$has|lily_3_ashen_hinterlands_hint"
                         ],
                         "access_rules": 
                         [
-                            "{$has|lily_2_ashen_hinterlands_hint}"
+                            "{$has|lily_3_ashen_hinterlands_hint}"
                         ],
                         "chest_unopened_img": "images/icons/close/hint.png",
                         "chest_opened_img": "images/icons/close/hint.png",
@@ -3871,7 +3872,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier,$RestrictedLilyInAshenHinterlands"
+                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover, $RestrictedLilyInAshenHinterlands",
+                            "$isBellHover, $ReachAshenHinterlands, $RestrictedLilyInAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -3881,11 +3883,11 @@
                         "name": "Heavenly Lily Hinted",
                         "visibility_rules": 
                         [
-                            "$isHint,$has|lily_3_ashen_hinterlands_hint"
+                            "$isHint,$has|lily_2_ashen_hinterlands_hint"
                         ],
                         "access_rules": 
                         [
-                            "{$has|lily_3_ashen_hinterlands_hint}"
+                            "{$has|lily_2_ashen_hinterlands_hint}"
                         ],
                         "chest_unopened_img": "images/icons/close/hint.png",
                         "chest_opened_img": "images/icons/close/hint.png",
@@ -4807,8 +4809,8 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover, $RestrictedFairy5InDemonFrontier",
-                            "$isBellHover, $ReachDemonFrontier, $RestrictedFairy5InDemonFrontier"
+                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover, $RestrictedFairy5InDemonFrontier, $SacredLeaf",
+                            "$isBellHover, $ReachDemonFrontier, $RestrictedFairy5InDemonFrontier, $SacredLeaf"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -5101,8 +5103,8 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover",
-                            "$isBellHover, $ReachDemonFrontier"
+                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover, $SacredLeaf",
+                            "$isBellHover, $ReachDemonFrontier, $SacredLeaf"
                         ],
                         "item_count": 1
                     },
@@ -5287,7 +5289,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier"
+                            "$ContinueDemonFrontier, $SacredLeaf"
                         ],
                         "item_count": 1
                     },

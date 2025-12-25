@@ -13,13 +13,24 @@ PLAYER_NUMBER = -1
 TEAM_NUMBER = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+RECOVER_HIGHLIGHT = {}
+
+if Highlight then
+	HINT_STATUS_MAPPING = {
+		[20] = Highlight.Avoid,
+		[40] = Highlight.None,
+		[10] = Highlight.NoPriority,
+		[0] = Highlight.Unspecified,
+		[30] = Highlight.Priority,
+	}
+end
 
 function onClear(slot_data)
     PLAYER_NUMBER = Archipelago.PlayerNumber
 	TEAM_NUMBER = Archipelago.TeamNumber
 
 	-- use bulk update to pause logic updates until we are done resetting all items/locations
-	Tracker.BulkUpdate = true	
+	Tracker.BulkUpdate = true
 
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -27,7 +38,7 @@ function onClear(slot_data)
 
     SLOT_DATA = slot_data
     CUR_INDEX = -1
-    
+
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
         if v[1] then
@@ -38,6 +49,10 @@ function onClear(slot_data)
             if obj then
                 if v[1]:sub(1, 1) == "@" then
                     obj.AvailableChestCount = obj.ChestCount
+
+                    if obj.Highlight then
+                        obj.Highlight = Highlight.None
+                    end
                 else
                     obj.Active = false
                 end
@@ -79,13 +94,13 @@ function onClear(slot_data)
     end
 
     if slot_data['oracle_sigil'] then
-        Tracker:FindObjectForCode("op_OS").CurrentStage = 1 
+        Tracker:FindObjectForCode("op_OS").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_OS").CurrentStage = 0
     end
 
     if slot_data['open_springleaf_path'] then
-        Tracker:FindObjectForCode("op_OSP").CurrentStage = 1 
+        Tracker:FindObjectForCode("op_OSP").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_OSP").CurrentStage = 0
     end
@@ -97,43 +112,43 @@ function onClear(slot_data)
     end
 
     if slot_data['final_boss_keys'] then
-        Tracker:FindObjectForCode("op_FBK").CurrentStage = 1 
+        Tracker:FindObjectForCode("op_FBK").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_FBK").CurrentStage = 0
     end
 
     if slot_data['progressive_damage_upgrade'] then
-        Tracker:FindObjectForCode("op_RHL").CurrentStage = 1 
+        Tracker:FindObjectForCode("op_RHL").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_RHL").CurrentStage = 0
     end
 
     if slot_data['progressive_health_upgrade'] then
-        Tracker:FindObjectForCode("op_RDB").CurrentStage = 1 
+        Tracker:FindObjectForCode("op_RDB").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_RDB").CurrentStage = 0
     end
 
     if slot_data['progressive_magic_upgrade'] then
-        Tracker:FindObjectForCode("op_RLB").CurrentStage = 1 
+        Tracker:FindObjectForCode("op_RLB").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_RLB").CurrentStage = 0
     end
 
     if slot_data['progressive_stamina_upgrade'] then
-        Tracker:FindObjectForCode("op_RP").CurrentStage = 1 
+        Tracker:FindObjectForCode("op_RP").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_RP").CurrentStage = 0
     end
 
     if slot_data['progressive_lumen_fairies'] then
-        Tracker:FindObjectForCode("op_RF").CurrentStage = 1 
+        Tracker:FindObjectForCode("op_RF").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_RF").CurrentStage = 0
     end
 
     if slot_data['victory_condition'] == 1 then
-        Tracker:FindObjectForCode("op_VC").CurrentStage = 1 
+        Tracker:FindObjectForCode("op_VC").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_VC").CurrentStage = 0
     end
@@ -144,15 +159,13 @@ function onClear(slot_data)
 
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
-
-        print(string.format("hints table dump: %s", dump_table(HINTS_ID)))
     end
 
     -- end clear
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
 	Tracker.BulkUpdate = false
-    
+
     if SLOT_DATA == nil then
         return
     end
@@ -236,7 +249,7 @@ function checkUnusedSigil(location_id)
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onLocation: could not find Living Blood"))
         end
-        
+
     end
 end
 
@@ -274,7 +287,8 @@ function onNotify(key, value, old_value)
     if value ~= old_value and key == HINTS_ID then
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
-                updateHints(hint.location, hint.found)
+                updateHintsLocation(hint)
+                UpdateHintsHighlight(hint)
             end
         end
     end
@@ -284,24 +298,94 @@ function onNotifyLaunch(key, value)
     if key == HINTS_ID then
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
-                updateHints(hint.location, hint.found)
+                updateHintsLocation(hint)
+                UpdateHintsHighlight(hint)
             end
         end
     end
 end
 
-function updateHints(locationID, foundItem)
-    local v = HINT_MAPPING[locationID]
+function UpdateHintsHighlight(hint)
+    if PopVersion < "0.32.0" then
+        return
+    end
+
+    table.insert(RECOVER_HIGHLIGHT, hint)
+    print(string.format("UpdateHintsHighlight:%s", dump_table(RECOVER_HIGHLIGHT)))
+    local objItem = Tracker:FindObjectForCode("highlight_hint")
+    if objItem then
+        if not objItem.Active then
+            return
+        end
+    end
+
+    -- get the highlight enum value for the hint status
+    local item_flags = hint.item_flags
+    local hint_status = hint.status
+    local highlight_code = nil
+
+    if hint.found then
+        highlight_code = Highlight.None
+    elseif item_flags == 0 then
+        highlight_code = Highlight.Unspecified
+    elseif item_flags == 1 then
+        highlight_code = Highlight.Priority
+    elseif item_flags == 2 then
+        highlight_code = Highlight.NoPriority
+    elseif hint_status then
+        highlight_code = HINT_STATUS_MAPPING[hint_status]
+    end
+
+    if not highlight_code then
+        -- try to "recover" by checking hint.found (older AP versions without hint.status)
+        if hint.found then
+            highlight_code = Highlight.None
+        elseif not hint.found then
+            highlight_code = Highlight.Unspecified
+        else
+            return
+        end
+    end
+
+    -- get the location mapping for the location id
+    local mapping_entry = LOCATION_MAPPING[hint.location]
+
+    if not mapping_entry then
+
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("updateHint: could not find location mapping for id %s", hint.location))
+        end
+
+        return
+    end
+
+    for _, location_code in pairs(mapping_entry) do
+        if location_code and location_code:sub(1, 1) == "@" then
+            local obj = Tracker:FindObjectForCode(location_code)
+
+            if obj and obj.Highlight then
+                obj.Highlight = highlight_code
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                print(string.format("updateHint: could update section %s (obj doesn't support Highlight)", location_code))
+            end
+        end
+    end
+end
+
+function updateHintsLocation(hint)
+    local hint_name = Archipelago:GetItemName(hint.item, Archipelago:GetPlayerGame(hint.receiving_player))
+    local hint_player = Archipelago:GetPlayerGame(hint.receiving_player)
+
+    local v = HINT_MAPPING[hint.location]
     if v then
-        print(string.format("checking object for code %s", v[1]))
         local obj = Tracker:FindObjectForCode(v[1])
 
         if obj then
-            obj.Active = not foundItem
-        else
+            obj.Active = not hint.found
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("No object found for code: %s", v[1]))
         end
-    else
+    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("could not find object at %s", locationID))
     end
 end
@@ -375,6 +459,38 @@ function onItem(index, item_id, item_name, player_number)
     end
 end
 
+function onHighlightChange()
+    print("bite")
+    local objItem = Tracker:FindObjectForCode("highlight_hint")
+
+    if objItem then
+        if not objItem.Active then
+            for _, v in pairs(LOCATION_MAPPING) do
+                local obj = Tracker:FindObjectForCode(v[1])
+
+                if obj and obj.Highlight then
+                    obj.Highlight = Highlight.None
+                end
+            end
+        else
+            local safeRecovery = {}
+
+            for k, v in pairs(RECOVER_HIGHLIGHT) do
+                safeRecovery[k] = v
+                RECOVER_HIGHLIGHT[k] = nil
+            end
+
+            print(string.format("onHighlightChange:%s", dump_table(safeRecovery)))
+
+            for _, hint in pairs(safeRecovery) do
+                print(string.format("onHighlightChange:%s", dump_table(hint)))
+                UpdateHintsHighlight(hint)
+            end
+        end
+    end
+end
+
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
@@ -389,3 +505,5 @@ end
 
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+
+ScriptHost:AddWatchForCode("useApLayout", "highlight_hint", onHighlightChange)

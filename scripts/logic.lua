@@ -12,7 +12,7 @@ end
 -- Hint Settings
 
 function isHint()
-    return true
+    return has("scout_hint")
 end
 
 -- Tracker Settings
@@ -136,7 +136,7 @@ function ReachDemonFrontier()
 end
 
 function ReachAshenHinterlands()
-    return ReachDemonFrontier() and (CrescentMoonflower() or (SpiralShell() and isBellHover() and (SacredAnemone() or has("perfect_chime"))))
+    return ReachDemonFrontier() and (SacredLeaf() or isSpringleafOpen()) and (CrescentMoonflower() or (SpiralShell() and isBellHover() and (SacredAnemone() or has("perfect_chime"))))
 end
 
 function ReachMoonlightRepose()
@@ -324,7 +324,7 @@ function ReachDemonFrontier_BellHover()
 end
 
 function ReachAshenHinterlands_BellHover()
-    return (ReachDemonFrontier() or ReachDemonFrontier_BellHover()) and (CrescentMoonflower() or (SpiralShell() and not isBellHover() and (SacredAnemone() or has("perfect_chime"))))
+    return (ReachDemonFrontier() or ReachDemonFrontier_BellHover()) and SacredLeaf() and (CrescentMoonflower() or (SpiralShell() and not isBellHover() and (SacredAnemone() or has("perfect_chime"))))
 end
 
 function ContinueAshenHinterlands_BellHover()

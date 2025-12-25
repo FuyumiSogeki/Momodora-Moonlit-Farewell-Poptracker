@@ -13,6 +13,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 -- Items
 Tracker:AddItems("items/items.jsonc")
 Tracker:AddItems("items/hints.jsonc")
+Tracker:AddItems("items/common_pop.jsonc")
 
 -- Maps
 Tracker:AddMaps("maps/maps.jsonc")
@@ -20,6 +21,7 @@ Tracker:AddMaps("maps/maps.jsonc")
 -- Layouts
 Tracker:AddLayouts("layouts/items.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
+Tracker:AddLayouts("layouts/setting_popup.jsonc")
 
 -- Locations
 Tracker:AddLocations("locations/locations.jsonc")
