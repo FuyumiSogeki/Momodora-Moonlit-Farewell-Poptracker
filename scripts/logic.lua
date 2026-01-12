@@ -136,11 +136,11 @@ function ReachDemonFrontier()
 end
 
 function ReachAshenHinterlands()
-    return ReachDemonFrontier() and (SacredLeaf() or isSpringleafOpen()) and (CrescentMoonflower() or (SpiralShell() and isBellHover() and (SacredAnemone() or has("perfect_chime"))))
+    return ReachDemonFrontier() and SacredLeaf() and (CrescentMoonflower() or (SpiralShell() and isBellHover() and (SacredAnemone() or has("perfect_chime"))))
 end
 
 function ReachMoonlightRepose()
-    return ReachLunTreeRoots() and SpiralShell() and (SacredLeaf() or isSpringleafOpen())
+    return ReachLunTreeRoots() and SpiralShell() and (SacredLeaf())
 end
 
 function ContinueAshenHinterlands()
