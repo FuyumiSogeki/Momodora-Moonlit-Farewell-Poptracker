@@ -10,11 +10,12 @@
             {
                 "type": "array",
                 "orientation": "horizontal",
-                "margin": "15,0",
+                "margin": "0,0,0,0",
                 "content": 
                 [
                     {
                         "type": "itemgrid",
+                        "margin": "12,0,0,0",
                         "item_margin": "-12,1",
                         "h_alignment": "center",
                         "item_size": 60,
@@ -56,7 +57,7 @@
                 ]
             }
         ]
-    }/*,
+    },
     "companions":
     {
         "type": "array",
@@ -85,5 +86,5 @@
                 ]
             }
         ]
-    }*/
+    }
 }

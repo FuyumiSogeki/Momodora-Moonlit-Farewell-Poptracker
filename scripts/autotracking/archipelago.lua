@@ -87,67 +87,67 @@ function onClear(slot_data)
     end
 
     -- set settings
-    if slot_data['bell_hover_generation'] then
+    if slot_data['BellHoverGeneration'] then
         Tracker:FindObjectForCode("op_BH").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_BH").CurrentStage = 0
     end
 
-    if slot_data['oracle_sigil'] then
+    if slot_data['OracleSigil'] then
         Tracker:FindObjectForCode("op_OS").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_OS").CurrentStage = 0
     end
 
-    if slot_data['open_springleaf_path'] then
+    if slot_data['OpenSpringleafPath'] then
         Tracker:FindObjectForCode("op_OSP").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_OSP").CurrentStage = 0
     end
 
-    if slot_data['randomize_key_items'] then
+    if slot_data['RandomizeKeyItems'] then
         Tracker:FindObjectForCode("op_RKI").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_RKI").CurrentStage = 0
     end
 
-    if slot_data['final_boss_keys'] then
+    if slot_data['SelinDoorKeysanity'] then
         Tracker:FindObjectForCode("op_FBK").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_FBK").CurrentStage = 0
     end
 
-    if slot_data['progressive_damage_upgrade'] then
+    if slot_data['Lilysanity'] then
         Tracker:FindObjectForCode("op_RHL").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_RHL").CurrentStage = 0
     end
 
-    if slot_data['progressive_health_upgrade'] then
-        Tracker:FindObjectForCode("op_RDB").CurrentStage = 1
+    if slot_data['Berrysanity'] then
+        Tracker:FindObjectForCode("op_BS").CurrentStage = 1
     else
-        Tracker:FindObjectForCode("op_RDB").CurrentStage = 0
+        Tracker:FindObjectForCode("op_BS").CurrentStage = 0
     end
 
-    if slot_data['progressive_magic_upgrade'] then
-        Tracker:FindObjectForCode("op_RLB").CurrentStage = 1
-    else
-        Tracker:FindObjectForCode("op_RLB").CurrentStage = 0
-    end
-
-    if slot_data['progressive_stamina_upgrade'] then
-        Tracker:FindObjectForCode("op_RP").CurrentStage = 1
-    else
-        Tracker:FindObjectForCode("op_RP").CurrentStage = 0
-    end
-
-    if slot_data['progressive_lumen_fairies'] then
+    if slot_data['Fairysanity'] then
         Tracker:FindObjectForCode("op_RF").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_RF").CurrentStage = 0
     end
 
-    if slot_data['victory_condition'] == 1 then
+    if slot_data['Companionsanity'] then
+        Tracker:FindObjectForCode("op_RIC").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_RIC").CurrentStage = 0
+    end
+
+    if slot_data['LunarCrystalBranchShuffle'] then
+        Tracker:FindObjectForCode("op_LCB").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_LCB").CurrentStage = 0
+    end
+
+    if slot_data['VictoryCondition'] == "moon_god_selin" then
         Tracker:FindObjectForCode("op_VC").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_VC").CurrentStage = 0

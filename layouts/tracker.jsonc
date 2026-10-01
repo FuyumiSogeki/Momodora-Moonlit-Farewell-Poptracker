@@ -17,125 +17,16 @@
     ]
   },
   "setting_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "content":[
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["bell_hover_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["oracle_sigil_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["open_springleaf_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          }
-        ]
-      },
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["final_boss_key_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["key_items_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["lily_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          }
-        ]
-      },
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["dotted_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["peach_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["lun_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          }
-        ]
-      },
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["fairy_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          }/*,
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["companion_on"]
-            ],
-            "item_size": 60,
-            "margin": "0,0,3,0"
-          }*/
-        ]
-      }
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "60,60",
+    "rows": 
+    [
+      ["bell_hover_on","open_springleaf_on","key_items_on"],
+      ["final_boss_key_on","oracle_sigil_on","fairy_on"],
+      ["berry_on","lily_on","lunar_on"],
+      ["","companion_on",""]
     ]
   },
   "tracker_horizontal": 
@@ -153,21 +44,6 @@
           "dock": "left",
           "content":
           [
-            {
-              "type": "group",
-              "header": "Items",
-              "dock": "top",
-              "header_content": {
-                  "type": "button_popup",
-                  "style": "settings",
-                  "popup_background": "#55212121",
-                  "layout": "settings_popup"
-              },
-              "content": {
-                  "type": "layout",
-                  "key": "shared_item_grid"
-              }
-            },
             {
               "type": "group",
               "header": "Skills & Grimoires",
@@ -226,52 +102,45 @@
           "content": 
           [
             {
-              "type": "group",
-              "header": "Items",
-              "dock": "left",
-              "margin": "0,0,3,0",
+              "type": "dock",
+              "dock": "top",
               "content": 
-              {
-                "type": "dock",
-                "dock": "top",
-                "content": 
-                [
+              [
+                {
+                  "title": "Sigils",
+                  "type": "group",
+                  "content": 
                   {
-                    "title": "Sigils",
-                    "type": "group",
-                    "content": 
-                    {
-                      "type": "layout",
-                      "h_alignment": "center",
-                      "v_alignment": "center",
-                      "key": "sigil_grid"
-                    }
-                  },
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "sigil_grid"
+                  }
+                },
+                {
+                  "title": "Collectables",
+                  "type": "group",
+                  "content": 
                   {
-                    "title": "Collectables",
-                    "type": "group",
-                    "content": 
-                    {
-                      "type": "layout",
-                      "h_alignment": "center",
-                      "v_alignment": "center",
-                      "key": "collectables"
-                    }
-                  }/*,
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "collectables"
+                  }
+                },
+                {
+                  "title": "Companions",
+                  "type": "group",
+                  "content": 
                   {
-                    "title": "Companions",
-                    "type": "group",
-                    "content": 
-                    {
-                      "type": "layout",
-                      "h_alignment": "center",
-                      "v_alignment": "center",
-                      "key": "companions"
-                    }
-                  }*/
-                ]
-              }
-            }
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "companions"
+                  }
+                }
+              ]
+            }            
           ]
         },
         {

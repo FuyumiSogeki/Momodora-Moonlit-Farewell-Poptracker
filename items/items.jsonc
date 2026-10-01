@@ -635,7 +635,7 @@
         ]
     },
     {
-        "name": "Final Boss Key",
+        "name": "Selin Door Sanity",
         "type": "progressive",
         "initial_stage_idx": 0,
         "allow_disabled": false,
@@ -673,7 +673,7 @@
         ]
     },
     {
-        "name": "Randomize Dotted Berries",
+        "name": "Berry Sanity",
         "type": "progressive",
         "initial_stage_idx": 0,
         "allow_disabled": false,
@@ -681,56 +681,18 @@
         "stages":
         [
           {
-            "img": "images/settings/disabled/Dotted Berry.png",
-            "codes": "op_RDB,dotted_off"
+            "img": "images/settings/disabled/Berry Sanity.png",
+            "codes": "op_BS,berry_off"
           },
           {
-            "img": "images/settings/Dotted Berry.png",
-            "codes": "op_RDB,dotted_on",
+            "img": "images/settings/Berry Sanity.png",
+            "codes": "op_BS,berry_on",
             "inherit_codes": false
           }
         ]
     },
     {
-        "name": "Randomize Lun Berries",
-        "type": "progressive",
-        "initial_stage_idx": 0,
-        "allow_disabled": false,
-        "loop": false,
-        "stages":
-        [
-          {
-            "img": "images/settings/disabled/Lun Berry.png",
-            "codes": "op_RLB,lun_off"
-          },
-          {
-            "img": "images/settings/Lun Berry.png",
-            "codes": "op_RLB,lun_on",
-            "inherit_codes": false
-          }
-        ]
-    },
-    {
-        "name": "Randomize Peaches",
-        "type": "progressive",
-        "initial_stage_idx": 0,
-        "allow_disabled": false,
-        "loop": false,
-        "stages":
-        [
-          {
-            "img": "images/settings/disabled/Peach.png",
-            "codes": "op_RP,peach_off"
-          },
-          {
-            "img": "images/settings/Peach.png",
-            "codes": "op_RP,peach_on",
-            "inherit_codes": false
-          }
-        ]
-    },
-    {
-        "name": "Randomize Heavenly Lily",
+        "name": "Lily Sanity",
         "type": "progressive",
         "initial_stage_idx": 0,
         "allow_disabled": false,
@@ -749,7 +711,7 @@
         ]
     },
     {
-        "name": "Randomize Fairies",
+        "name": "Fairy Sanity",
         "type": "progressive",
         "initial_stage_idx": 0,
         "allow_disabled": false,
@@ -785,7 +747,7 @@
         ]
     },
     {
-        "name": "Randomize Illusory Companion",
+        "name": "Companion Sanity",
         "type": "progressive",
         "initial_stage_idx": 0,
         "allow_disabled": false,
@@ -799,6 +761,25 @@
           {
             "img": "images/settings/Illusory Companion.png",
             "codes": "op_RIC,companion_on",
+            "inherit_codes": false
+          }
+        ]
+    },
+    {
+        "name": "Randomize Lunar Crystal Branch",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": false,
+        "stages":
+        [
+          {
+            "img": "images/settings/disabled/Lunar Crystal Branch.png",
+            "codes": "op_LCB,lunar_off"
+          },
+          {
+            "img": "images/settings/Lunar Crystal Branch.png",
+            "codes": "op_LCB,lunar_on",
             "inherit_codes": false
           }
         ]
