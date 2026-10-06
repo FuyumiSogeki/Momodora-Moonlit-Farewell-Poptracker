@@ -5,38 +5,6 @@
         "children": [
             // Koho Village
             {
-                "name": "Koho Village - Kaho",
-                "map_locations": 
-                [
-                    {
-                        "map": "Full Map",
-                        "x": 1634,
-                        "y": 293
-                    }
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Kaho",
-                        "visibility_rules": 
-                        [
-                            "$isCompanion"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Kaho.png",
-                        "chest_opened_img": "images/icons/open/Kaho.png",
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
                 "name": "Koho Village - Lun Berry",
                 "map_locations": 
                 [
@@ -56,28 +24,14 @@
                         "name": "Lun Berry",
                         "visibility_rules": 
                         [
-                            "$isLun"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$RestrictedLunInKohoVillage"
+                            "$KohoVillage, $canLunBerryKohoVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lineth",
-                        "visibility_rules": 
-                        [
-                            "$isCompanion"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Lineth.png",
-                        "chest_opened_img": "images/icons/open/Lineth.png",
                         "item_count": 1
                     },
                     {
@@ -97,7 +51,7 @@
                 ]
             },
             {
-                "name": "Koho Village - Dotted Berry 1",
+                "name": "Koho Village - Dotted Berry 1 & Grimalkin Spirit",
                 "map_locations": 
                 [
                     {
@@ -116,11 +70,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$KohoVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -130,11 +84,11 @@
                         "name": "Grimalkin Spirit",
                         "visibility_rules": 
                         [
-                            "$isCompanion"
+                            "$isCompanionSanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$KohoVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Grimalkin Spirit.png",
                         "chest_opened_img": "images/icons/open/Grimalkin Spirit.png",
@@ -176,11 +130,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$KohoVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -194,7 +148,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$has|manual_dora_fight"
+                            "$KohoVillage, $has|manual_dora_fight"
                         ],
                         "chest_unopened_img": "images/icons/close/Dora.png",
                         "chest_opened_img": "images/icons/open/Dora.png",
@@ -254,7 +208,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$KohoVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
@@ -277,7 +231,7 @@
                 ]
             },
             {
-                "name": "Koho Village - Welkin Leaf",
+                "name": "Koho Village - Heavenly Lily & Welkin Leaf",
                 "map_locations": 
                 [
                     {
@@ -300,7 +254,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$Welkin"
+                            "$KohoVillage, $canWelkinLeaf"
                         ],
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
@@ -310,11 +264,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$RestrictedLilyInKohoVillage"
+                            "$KohoVillage, $canHeavenlyLilyKohoVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -350,14 +304,46 @@
                     }
                 ]
             },
-            // Old Sanctuary
+            // Old Sanctuary            
+            {
+                "name": "Old Sanctuary - Kaho",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1634,
+                        "y": 293
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Kaho",
+                        "visibility_rules": 
+                        [
+                            "$isCompanionSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$OldSanctuary"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Kaho.png",
+                        "chest_opened_img": "images/icons/open/Kaho.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Old Sanctuary - The Sharpshooter",
                 "map_locations": 
                 [
                     {
                         "map": "Full Map",
-                        "x": 1538,
+                        "x": 1550,
                         "y": 197
                     }
                 ],
@@ -375,8 +361,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachOldSanctuary], $ReachOldSanctuary_BellHover",
-                            "$isBellHover, $ReachOldSanctuary"
+                            "$OldSanctuary"
                         ],
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
@@ -404,7 +389,7 @@
                 [
                     {
                         "map": "Full Map",
-                        "x": 1584,
+                        "x": 1586,
                         "y": 197
                     }
                 ],
@@ -418,11 +403,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$KohoVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -464,12 +449,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueOldSanctuary], $ContinueOldSanctuary_BellHover",
-                            "$isBellHover, $ContinueOldSanctuary"
+                            "$OldSanctuaryContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -479,12 +463,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueOldSanctuary], $ContinueOldSanctuary_BellHover",
-                            "$isBellHover, $ContinueOldSanctuary"
+                            "$OldSanctuaryContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -532,8 +515,7 @@
                 ],
                 "access_rules": 
                 [
-                    "[$ContinueOldSanctuary], $ContinueOldSanctuary_BellHover, $Resolve",
-                    "$isBellHover, $ContinueOldSanctuary, $Resolve"
+                    ""
                 ],
                 "sections": 
                 [
@@ -545,7 +527,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$Resolve"
+                            "$OldSanctuaryContinued, $canResolve"
                         ],
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
@@ -591,8 +573,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueOldSanctuary], $ContinueOldSanctuary_BellHover, $GoldenDust",
-                            "$isBellHover, $ContinueOldSanctuary, $GoldenDust"
+                            "$OldSanctuaryContinued, $canGoldMoonlitDust"
                         ],
                         "chest_unopened_img": "images/icons/close/Gold Moonlit Dust.png",
                         "chest_opened_img": "images/icons/open/Gold Moonlit Dust.png",
@@ -635,11 +616,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafDash"
+                            "$LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -681,11 +662,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$RestrictedFairy4InSpringleafPath"
+                            "$SpringLeafPath, $canLumenFairy4SpringleafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -727,11 +708,11 @@
                         "name": "Peach",
                         "visibility_rules": 
                         [
-                            "$isPeach"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafLeaf"
+                            "$SpringLeafPathContinued, $canPeachSpringleafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
@@ -741,11 +722,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafLeaf, $RestrictedFairy2InSpringleafPath"
+                            "$SpringLeafPath, $canLumenFairy2SpringleafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -801,11 +782,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafDash"
+                            "$LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -847,11 +828,11 @@
                         "name": "Lun Berry",
                         "visibility_rules": 
                         [
-                            "$isLun"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$RestrictedLunInSpringleafPath"
+                            "$SpringLeafPath, $canLunBerrySpringleafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -893,11 +874,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -939,11 +920,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -966,7 +947,7 @@
                 ]
             },
             {
-                "name": "Springleaf Path - Dotted Berry 3",
+                "name": "Springleaf Path - Dotted Berry 3 & Lawa",
                 "map_locations": 
                 [
                     {
@@ -985,11 +966,25 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafLeaf"
+                            "$SpringLeafPath"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Dotted Berry.png",
+                        "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lawa",
+                        "visibility_rules": 
+                        [
+                            "$isCompanionSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$SpringLeafPathContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -1031,11 +1026,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafDash"
+                            "$LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -1077,11 +1072,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -1127,7 +1122,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Gariser Demon.png",
                         "chest_opened_img": "images/icons/open/Gariser Demon.png",
@@ -1150,7 +1145,7 @@
                 ]
             },
             {
-                "name": "Springleaf Path - Awakened Sacred Leaf",
+                "name": "Springleaf Path - Awakened Sacred Leaf & Bakman",
                 "map_locations": 
                 [
                     {
@@ -1173,7 +1168,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Awakened Sacred Leaf.png",
                         "chest_opened_img": "images/icons/open/Awakened Sacred Leaf.png",
@@ -1183,11 +1178,11 @@
                         "name": "Bakman",
                         "visibility_rules": 
                         [
-                            "$isCompanion"
+                            "$isCompanionSanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath, $canBakman"
                         ],
                         "chest_unopened_img": "images/icons/close/Bakman.png",
                         "chest_opened_img": "images/icons/open/Bakman.png",
@@ -1235,7 +1230,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -1281,7 +1276,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -1327,7 +1322,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -1335,11 +1330,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -1401,7 +1396,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafLeaf"
+                            "$SpringLeafPath, $canSacredAnemone"
                         ],
                         "item_count": 1
                     },
@@ -1415,22 +1410,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafLeaf"
+                            "$SpringLeafPathContinued"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dora",
-                        "visibility_rules": 
-                        [
-                            "$isCompanion"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "chest_unopened_img": "images/icons/close/Dora.png",
-                        "chest_opened_img": "images/icons/open/Dora.png",
                         "item_count": 1
                     },
                     {
@@ -1489,7 +1470,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafDash"
+                            "$LunTreeRoots"
                         ],
                         "item_count": 1
                     },
@@ -1535,7 +1516,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafDash"
+                            "$LunTreeRoots"
                         ],
                         "item_count": 1
                     },
@@ -1557,6 +1538,38 @@
             },
             // Lun Tree Roots
             {
+                "name": "Lun Tree Roots - Black Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2018,
+                        "y": 918
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Black Berry",
+                        "visibility_rules": 
+                        [
+                            "$isBerrySanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LunTreeRoots, $canBlackBerryLunTreeRoots"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Black Berry.png",
+                        "chest_opened_img": "images/icons/open/Black Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Lun Tree Roots - Simple Cube",
                 "map_locations": 
                 [
@@ -1576,11 +1589,11 @@
                         "name": "Simple Cube",
                         "visibility_rules": 
                         [
-                            "$isCompanion"
+                            "$isCompanionSanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$LunTreeRoots, $canSimpleCube"
                         ],
                         "chest_unopened_img": "images/icons/close/Simple Cube.png",
                         "chest_opened_img": "images/icons/open/Simple Cube.png",
@@ -1608,11 +1621,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots, $RestrictedFairy5InLunTreeRoots"
+                            "$LunTreeRoots, $canLumenFairy5LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -1654,11 +1667,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -1700,12 +1713,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots, [$RestrictedFairy4InLunTreeRoots], $RestrictedFairy4InLunTreeRoots_BellHover",
-                            "$ReachLunTreeRoots, $isBellHover, $RestrictedFairy4InLunTreeRoots"
+                            "$LunTreeRoots, $canLumenFairy4LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -1747,11 +1759,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -1793,11 +1805,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -1839,11 +1851,11 @@
                         "name": "Lun Berry",
                         "visibility_rules": 
                         [
-                            "$isLun"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots, $RestrictedLunInLunTreeRoots"
+                            "$LunTreeRoots, $canLunBerryLunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -1885,11 +1897,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots, $RestrictedDottedInLunTreeRoots"
+                            "$LunTreeRoots, $canDottedBerry1LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -1912,7 +1924,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Dotted Berry 2",
+                "name": "Lun Tree Roots - Dotted Berry 2 & Lunar Crystal Branch 5",
                 "map_locations": 
                 [
                     {
@@ -1931,14 +1943,28 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LunTreeRoots"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
                         "item_count": 1
                     },
                     {
@@ -1977,11 +2003,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -2023,11 +2049,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -2075,7 +2101,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "item_count": 1
                     },
@@ -2121,7 +2147,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "item_count": 1
                     },
@@ -2167,7 +2193,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "item_count": 1
                     },
@@ -2213,7 +2239,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "item_count": 1
                     },
@@ -2259,7 +2285,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachLunTreeRoots"
+                            "$LunTreeRoots"
                         ],
                         "item_count": 1
                     },
@@ -2300,12 +2326,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings, [$RestrictedFairy1InFairySprings], $RestrictedFairy1InFairySprings_BellHover",
-                            "$ReachFairySprings, $isBellHover, $RestrictedFairy1InFairySprings"
+                            "$FairySprings, $canLumenFairy1FairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2347,11 +2372,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings, $RestrictedFairy2InFairySprings"
+                            "$FairySprings, $canLumenFairy2FairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2393,12 +2418,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings, [$RestrictedFairy3InFairySprings], $RestrictedFairy3InFairySprings_BellHover",
-                            "$ReachFairySprings, $RestrictedFairy3InFairySprings, $isBellHover"
+                            "$FairySprings, $canLumenFairy3FairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2440,11 +2464,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings, $canLumenFairy4FairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -2486,11 +2510,11 @@
                         "name": "Lun Berry",
                         "visibility_rules": 
                         [
-                            "$isLun"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -2532,11 +2556,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -2578,11 +2602,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -2624,11 +2648,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -2670,11 +2694,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -2722,7 +2746,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "item_count": 1
                     },
@@ -2762,11 +2786,11 @@
                         "name": "Peach",
                         "visibility_rules": 
                         [
-                            "$isPeach"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
@@ -2814,7 +2838,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "item_count": 1
                     },
@@ -2860,7 +2884,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueSpringleafDash"
+                            "$FairySprings"
                         ],
                         "item_count": 1
                     },
@@ -2906,7 +2930,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "item_count": 1
                     },
@@ -2952,7 +2976,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "item_count": 1
                     },
@@ -2993,12 +3017,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings, [$RestrictedLilyInFairyVillage], $RestrictedLilyInFairyVillage_BellHover",
-                            "$ReachFairySprings, $RestrictedLilyInFairyVillage, $isBellHover"
+                            "$FairyVillage, $canHeavenlyLily1FairyVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -3008,12 +3031,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings, [$RestrictedFairyInFairyVillage], $RestrictedFairyInFairyVillage_BellHover",
-                            "$ReachFairySprings, $RestrictedFairyInFairyVillage, $isBellHover"
+                            "$FairyVillage, $canLumenFairyFairyVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3075,7 +3097,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairySprings"
                         ],
                         "item_count": 1
                     },
@@ -3115,11 +3137,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairyVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3161,11 +3183,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairyVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -3213,7 +3235,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFairySprings"
+                            "$FairyVillage"
                         ],
                         "item_count": 1
                     },
@@ -3243,10 +3265,6 @@
                         "y": 677
                     }
                 ],
-                "visibility_rules": 
-                [
-                    "$isOracle"
-                ],
                 "access_rules": 
                 [
                     ""
@@ -3257,13 +3275,13 @@
                         "name": "Sigil",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        "visibility_rules":
+                        "visibility_rules": 
                         [
-                            ""
+                            "$isOracle"
                         ],
                         "access_rules": 
                         [
-                            "$Oracle"
+                            "$FairyVillage, $canOracle"
                         ],
                         "item_count": 1
                     },
@@ -3285,7 +3303,7 @@
             },
             // Ashen Hinterlands
             {
-                "name": "Ashen Hinterlands - Fairy 1",
+                "name": "Ashen Hinterlands - Fairy 1 & Lunar Crystal Branch 1",
                 "map_locations": 
                 [
                     {
@@ -3304,15 +3322,28 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover",
-                            "$isBellHover, $ReachAshenHinterlands"
+                            "$AshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$AshenHinterlands"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
                         "item_count": 1
                     },
                     {
@@ -3332,7 +3363,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Fairy 2",
+                "name": "Ashen Hinterlands - Fairy 2 & Lunar Crystal Branch 2",
                 "map_locations": 
                 [
                     {
@@ -3351,15 +3382,28 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
-                            "$isBellHover, $ContinueAshenHinterlands"
+                            "$AshenHinterlandsContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$AshenHinterlandsContinued"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
                         "item_count": 1
                     },
                     {
@@ -3398,12 +3442,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
-                            "$isBellHover, $ContinueAshenHinterlands"
+                            "$AshenHinterlandsContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3445,12 +3488,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
-                            "$isBellHover, $ContinueAshenHinterlands"
+                            "$AshenHinterlandsContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3492,12 +3534,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover, $RestrictedFairy5InAshenHinterlands",
-                            "$isBellHover, $ContinueAshenHinterlands, $RestrictedFairy5InAshenHinterlands"
+                            "$AshenHinterlandsContinued, $canLumenFairy5AshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -3539,12 +3580,11 @@
                         "name": "Peach",
                         "visibility_rules": 
                         [
-                            "$isPeach"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover, $RestrictedPeachInAshenHinterlands",
-                            "$isBellHover, $ContinueAshenHinterlands, $RestrictedPeachInAshenHinterlands"
+                            "$AshenHinterlandsContinued, $canPeachAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
@@ -3586,12 +3626,11 @@
                         "name": "Lun Berry",
                         "visibility_rules": 
                         [
-                            "$isLun"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover, $RestrictedLunInAshenHinterlands",
-                            "$isBellHover, $ContinueAshenHinterlands, $RestrictedLunInAshenHinterlands"
+                            "$AshenHinterlandsContinued, $canLunBerryAshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -3633,12 +3672,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover, $RestrictedDottedInAshenHinterlands",
-                            "$isBellHover, $ContinueAshenHinterlands, $RestrictedDottedInAshenHinterlands"
+                            "$AshenHinterlandsContinued, $canDottedBerry2AshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3680,12 +3718,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
-                            "$isBellHover, $ContinueAshenHinterlands"
+                            "$AshenHinterlandsContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3727,12 +3764,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
-                            "$isBellHover, $ContinueAshenHinterlands"
+                            "$AshenHinterlandsContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -3774,12 +3810,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
-                            "$isBellHover, $ContinueAshenHinterlands"
+                            "$AshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -3821,12 +3856,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover, $RestrictedLilyInAshenHinterlands",
-                            "$isBellHover, $ReachAshenHinterlands, $RestrictedLilyInAshenHinterlands"
+                            "$AshenHinterlandsContinued, $canHeavenlyLily3AshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -3868,12 +3902,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover, $RestrictedLilyInAshenHinterlands",
-                            "$isBellHover, $ReachAshenHinterlands, $RestrictedLilyInAshenHinterlands"
+                            "$AshenHinterlandsContinued, $canHeavenlyLily2AshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -3921,8 +3954,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$Lunar], $Lunar_BellHover",
-                            "$isBellHover, $Lunar"
+                            "$AshenHinterlandsContinued, $canLunarAttuenment"
                         ],
                         "item_count": 1
                     },
@@ -3968,8 +4000,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover",
-                            "$isBellHover, $ReachAshenHinterlands"
+                            "$AshenHinterlands, $canServal"
                         ],
                         "item_count": 1
                     },
@@ -3977,12 +4008,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover",
-                            "$isBellHover, $ReachAshenHinterlands"
+                            "$AshenHinterlands"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -4044,8 +4074,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachAshenHinterlands], $ReachAshenHinterlands_BellHover",
-                            "$isBellHover, $ReachAshenHinterlands"
+                            "$AshenHinterlandsContinued"
                         ],
                         "item_count": 1
                     },
@@ -4091,8 +4120,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
-                            "$isBellHover, $ContinueAshenHinterlands"
+                            "$AshenHinterlandsContinued"
                         ],
                         "item_count": 1
                     },
@@ -4138,8 +4166,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
-                            "$isBellHover, $ContinueAshenHinterlands"
+                            "$AshenHinterlandsContinued"
                         ],
                         "item_count": 1
                     },
@@ -4185,8 +4212,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ContinueAshenHinterlands], $ContinueAshenHinterlands_BellHover",
-                            "$isBellHover, $ContinueAshenHinterlands"
+                            "$AshenHinterlandsContinued"
                         ],
                         "item_count": 1
                     },
@@ -4227,11 +4253,11 @@
                         "name": "Peach",
                         "visibility_rules": 
                         [
-                            "$isPeach"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachMoonlightRepose"
+                            "$LunTreeRoots, $canPeachMoonlightRepose"
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
@@ -4273,11 +4299,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachMoonlightRepose"
+                            "$MoonlightRepose, $canDottedBerryMoonlightRepose"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -4319,11 +4345,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachMoonlightRepose"
+                            "$MoonlightRepose"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -4333,11 +4359,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachMoonlightRepose, $RestrictedFairyInMoonlightRepose"
+                            "$MoonlightRepose, $canLumenFairyMoonlightRepose"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -4393,11 +4419,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachMoonlightRepose"
+                            "$MoonlightRepose, $canHeavenlyLily2MoonlightRepose"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -4431,7 +4457,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$ReachMoonlightRepose"
+                    ""
                 ],
                 "sections": 
                 [
@@ -4445,7 +4471,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$MoonlightRepose, $canRemnantOfAnUnknownPhantasm"
                         ],
                         "item_count": 1
                     },
@@ -4459,7 +4485,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$MoonlightRepose, $canPhantasmBlade"
                         ],
                         "item_count": 1
                     },
@@ -4519,7 +4545,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachMoonlightRepose"
+                            "$MoonlightRepose, $canSilverMoonlitDust"
                         ],
                         "item_count": 1
                     },
@@ -4539,14 +4565,46 @@
                     }
                 ]
             },
-            // Demon Frontier
+            // Demon Frontier            
+            {
+                "name": "Demon Frontier - Black Berry",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1252,
+                        "y": 1206
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Black Berry",
+                        "visibility_rules": 
+                        [
+                            "$isBerrySanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$DemonFrontierContinued"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Black Berry.png",
+                        "chest_opened_img": "images/icons/open/Black Berry.png",
+                        "item_count": 1
+                    }
+                ]
+            },
             {
                 "name": "Demon Frontier - Floating Skull",
                 "map_locations": 
                 [
                     {
                         "map": "Full Map",
-                        "x": 1590,
+                        "x": 1520,
                         "y": 1349
                     }
                 ],
@@ -4560,11 +4618,11 @@
                         "name": "Floating Skull",
                         "visibility_rules": 
                         [
-                            "$isCompanion"
+                            "$isCompanionSanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$LunTreeRoots"
                         ],
                         "chest_unopened_img": "images/icons/close/Floating Skull.png",
                         "chest_opened_img": "images/icons/open/Floating Skull.png",
@@ -4592,11 +4650,11 @@
                         "name": "Lun Berry",
                         "visibility_rules": 
                         [
-                            "$isLun"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier, $RestrictedLunInDemonFrontier"
+                            "$DemonFrontierContinued, $canLunBerryDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -4619,7 +4677,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Fairy 3",
+                "name": "Demon Frontier - Fairy 3 & Lunar Crystal Branch 3",
                 "map_locations": 
                 [
                     {
@@ -4638,14 +4696,28 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier"
+                            "$DemonFrontierContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$DemonFrontierContinued"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
                         "item_count": 1
                     },
                     {
@@ -4665,7 +4737,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Fairy 1 & 2",
+                "name": "Demon Frontier - Fairy 1 & Fairy 2",
                 "map_locations": 
                 [
                     {
@@ -4684,11 +4756,11 @@
                         "name": "Fairy 1",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier"
+                            "$DemonFrontierContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -4698,11 +4770,11 @@
                         "name": "Fairy 2",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier"
+                            "$DemonFrontierContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -4758,12 +4830,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover, $RestrictedFairy4InDemonFrontier",
-                            "$isBellHover, $ReachDemonFrontier, $RestrictedFairy4InDemonFrontier"
+                            "$DemonFrontier, $canLumenFairy4DemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -4805,12 +4876,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover, $RestrictedFairy5InDemonFrontier, $SacredLeaf",
-                            "$isBellHover, $ReachDemonFrontier, $RestrictedFairy5InDemonFrontier, $SacredLeaf"
+                            "$DemonFrontier, $canLumenFairy5DemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -4852,11 +4922,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier, $RestrictedDottedInDemonFrontier"
+                            "$DemonFrontierContinued, $canDottedBerry1DemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -4879,7 +4949,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Dotted Berry 2",
+                "name": "Demon Frontier - Dotted Berry 2 & Vampire Bat",
                 "map_locations": 
                 [
                     {
@@ -4898,11 +4968,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier"
+                            "$DemonFrontierContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -4912,11 +4982,11 @@
                         "name": "Vampire Bat",
                         "visibility_rules": 
                         [
-                            "$isCompanion"
+                            "$isCompanionSanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$ContinueDemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Vampire Bat.png",
                         "chest_opened_img": "images/icons/open/Vampire Bat.png",
@@ -4939,7 +5009,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Heavenly Lily 2",
+                "name": "Demon Frontier - Heavenly Lily 2 & Lunar Crystal Branch 4",
                 "map_locations": 
                 [
                     {
@@ -4958,14 +5028,28 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier"
+                            "$DemonFrontierContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$DemonFrontierContinued, $canLunarCrystalBranch4DemonFrontier"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
                         "item_count": 1
                     },
                     {
@@ -5004,11 +5088,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier"
+                            "$DemonFrontierContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -5050,12 +5134,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover",
-                            "$isBellHover, $ReachDemonFrontier"
+                            "$DemonFrontier"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -5103,8 +5186,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover, $SacredLeaf",
-                            "$isBellHover, $ReachDemonFrontier, $SacredLeaf"
+                            "$DemonFrontier $canAccursedAutarch"
                         ],
                         "item_count": 1
                     },
@@ -5150,8 +5232,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachDemonFrontier], $ReachDemonFrontier_BellHover",
-                            "$isBellHover, $ReachDemonFrontier"
+                            "$DemonFrontier"
                         ],
                         "item_count": 1
                     },
@@ -5197,7 +5278,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier"
+                            "$DemonFrontierContinued"
                         ],
                         "item_count": 1
                     },
@@ -5243,7 +5324,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier"
+                            "$DemonFrontierContinued"
                         ],
                         "item_count": 1
                     },
@@ -5289,7 +5370,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier, $SacredLeaf"
+                            "$DemonFrontierContinued, $canMagicBlade"
                         ],
                         "item_count": 1
                     },
@@ -5335,7 +5416,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier, $Mending"
+                            "$DemonFrontierContinued, $canMendingResonance"
                         ],
                         "item_count": 1
                     },
@@ -5376,11 +5457,11 @@
                         "name": "Ducky",
                         "visibility_rules": 
                         [
-                            "$isCompanion"
+                            "$isCompanionSanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$MeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Ducky.png",
                         "chest_opened_img": "images/icons/open/Ducky.png",
@@ -5408,11 +5489,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage"
+                            "$MeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -5454,11 +5535,11 @@
                         "name": "Peach",
                         "visibility_rules": 
                         [
-                            "$isPeach"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage"
+                            "$MeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Peach.png",
                         "chest_opened_img": "images/icons/open/Peach.png",
@@ -5500,11 +5581,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage"
+                            "$MeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -5546,12 +5627,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage, [$Perfect], $Perfect_BellHover",
-                            "$ReachMeikanVillage, $isBellHover, $Perfect"
+                            "$MeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -5593,11 +5673,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage"
+                            "$MeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -5645,7 +5725,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage"
+                            "$MeikanVillage"
                         ],
                         "item_count": 1
                     },
@@ -5691,7 +5771,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage"
+                            "$MeikanVillage"
                         ],
                         "item_count": 1
                     },
@@ -5737,8 +5817,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage, [$Perfect], $Perfect_BellHover",
-                            "$ReachMeikanVillage, $isBellHover, $Perfect"
+                            "$MeikanVillage, $canPerfectChime"
                         ],
                         "item_count": 1
                     },
@@ -5784,7 +5863,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachMeikanVillage"
+                            "$MeikanVillage"
                         ],
                         "item_count": 1
                     },
@@ -5825,12 +5904,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
+                            "$MeikanVillageWindmill"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -5872,12 +5950,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
+                            "$MeikanVillageWindmill"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -5919,12 +5996,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
+                            "$MeikanVillageWindmill, $canHeavenlyLily3MeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -5934,12 +6010,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
+                            "$MeikanVillageWindmill, $canDottedBerry3MeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -6001,8 +6076,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
+                            "$MeikanVillageWindmill, $canMoonGoddessLineth"
                         ],
                         "item_count": 1
                     },
@@ -6042,11 +6116,11 @@
                         "name": "Cactus",
                         "visibility_rules": 
                         [
-                            "$isCompanion"
+                            "$isCompanionSanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$MeikanVillageWindmill"
                         ],
                         "chest_unopened_img": "images/icons/close/Cactus.png",
                         "chest_opened_img": "images/icons/open/Cactus.png",
@@ -6080,8 +6154,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
+                            "$MeikanVillageWindmill"
                         ],
                         "item_count": 1
                     },
@@ -6127,8 +6200,7 @@
                         ],
                         "access_rules": 
                         [
-                            "[$ReachMeikanVillageWindmill], $ReachMeikanVillageWindmill_BellHover",
-                            "$isBellHover, $ReachMeikanVillageWindmill"
+                            "$MeikanVillageWindmill"
                         ],
                         "item_count": 1
                     },
@@ -6150,7 +6222,7 @@
             },
             // Fount of Rebirth
             {
-                "name": "Meikan Village Windmill - Nun",
+                "name": "Fount of Rebirth - Nun",
                 "map_locations": 
                 [
                     {
@@ -6169,11 +6241,11 @@
                         "name": "Nun",
                         "visibility_rules": 
                         [
-                            "$isCompanion"
+                            "$isCompanionSanity"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$FountOfRebirth, $canNun"
                         ],
                         "chest_unopened_img": "images/icons/close/Nun.png",
                         "chest_opened_img": "images/icons/open/Nun.png",
@@ -6201,11 +6273,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -6247,11 +6319,11 @@
                         "name": "Fairy",
                         "visibility_rules": 
                         [
-                            "$isFairy"
+                            "$isFairySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Fairy.png",
                         "chest_opened_img": "images/icons/open/Fairy.png",
@@ -6293,11 +6365,11 @@
                         "name": "Lun Berry",
                         "visibility_rules": 
                         [
-                            "$isLun"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachSelin"
+                            "$FountOfRebirth, $canLunBerryFountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Lun Berry.png",
                         "chest_opened_img": "images/icons/open/Lun Berry.png",
@@ -6339,11 +6411,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -6385,11 +6457,11 @@
                         "name": "Dotted Berry",
                         "visibility_rules": 
                         [
-                            "$isDotted"
+                            "$isBerrySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -6431,11 +6503,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -6477,11 +6549,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -6523,11 +6595,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -6569,11 +6641,11 @@
                         "name": "Heavenly Lily",
                         "visibility_rules": 
                         [
-                            "$isLily"
+                            "$isLilySanity"
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "chest_unopened_img": "images/icons/close/Heavenly Lily.png",
                         "chest_opened_img": "images/icons/open/Heavenly Lily.png",
@@ -6621,7 +6693,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "item_count": 1
                     },
@@ -6667,7 +6739,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "item_count": 1
                     },
@@ -6713,7 +6785,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "item_count": 1
                     },
@@ -6759,7 +6831,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "item_count": 1
                     },
@@ -6805,7 +6877,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "item_count": 1
                     },
@@ -6851,7 +6923,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "item_count": 1
                     },
@@ -6897,7 +6969,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachFountOfRebirth"
+                            "$FountOfRebirth"
                         ],
                         "item_count": 1
                     },
@@ -6985,14 +7057,13 @@
                         "name": "Last Wish",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        //"hosted_item": "last_wish",
                         "visibility_rules": 
                         [
                             ""
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -7000,14 +7071,13 @@
                         "name": "The Profiteer",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        //"hosted_item": "the_profiteer",
                         "visibility_rules": 
                         [
                             ""
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -7015,14 +7085,13 @@
                         "name": "Strongfist",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        //"hosted_item": "strongfist",
                         "visibility_rules": 
                         [
                             ""
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -7030,14 +7099,13 @@
                         "name": "Fallen Hero",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        //"hosted_item": "fallen_hero",
                         "visibility_rules": 
                         [
                             ""
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -7045,14 +7113,13 @@
                         "name": "Queen of Light",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        //"hosted_item": "queen_of_light",
                         "visibility_rules": 
                         [
                             ""
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -7060,14 +7127,13 @@
                         "name": "The Collector",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        //"hosted_item": "the_collector",
                         "visibility_rules": 
                         [
                             ""
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -7075,14 +7141,13 @@
                         "name": "Chrysanth",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        //"hosted_item": "chrysanth",
                         "visibility_rules": 
                         [
                             ""
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -7090,14 +7155,13 @@
                         "name": "Queen of Dusk",
                         "chest_unopened_img": "images/icons/close/sigil.png",
                         "chest_opened_img": "images/icons/open/sigil.png",
-                        //"hosted_item": "queen_of_dusk",
                         "visibility_rules": 
                         [
                             ""
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SpringLeafPath"
                         ],
                         "item_count": 1
                     },
@@ -7211,6 +7275,752 @@
                         ],
                         "chest_unopened_img": "images/icons/close/hint.png",
                         "chest_opened_img": "images/icons/close/hint.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Koho Village - Lunar Crystal Branch",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1442,
+                        "y": 245
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$KohoVillage"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Old Sanctuary - Lunar Crystal Branch 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1516,
+                        "y": 196
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$OldSanctuary"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Old Sanctuary - Lunar Crystal Branch 2 & Lunar Crystal Branch 3 & Lunar Crystal Branch 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1681,
+                        "y": 245
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch 2",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$OldSanctuary"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lunar Crystal Branch 3",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$OldSanctuary"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lunar Crystal Branch 4",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$OldSanctuary"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Lunar Crystal Branch 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1586,
+                        "y": 341
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$SpringLeafPath"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Lunar Crystal Branch 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1347,
+                        "y": 582
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$SpringLeafPath"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Lunar Crystal Branch 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1198,
+                        "y": 773
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$SpringLeafPathContinued"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Lunar Crystal Branch 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1249,
+                        "y": 821
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$SpringLeafPath"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Springleaf Path - Lunar Crystal Branch 5",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1344,
+                        "y": 870
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$SpringLeafPath"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Lunar Crystal Branch 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1824,
+                        "y": 966
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LunTreeRoots"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Lunar Crystal Branch 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1825,
+                        "y": 1493
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LunTreeRoots"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Lunar Crystal Branch 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1777,
+                        "y": 1207
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LunTreeRoots"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lun Tree Roots - Lunar Crystal Branch 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1825,
+                        "y": 1224
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LunTreeRoots"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Moonlight Repose - Lunar Crystal Branch",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1971,
+                        "y": 1063
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LunTreeRoots, $canLunarCrystalBranchMoonlightRepose"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Lunar Crystal Branch 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2065,
+                        "y": 919
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$FairySprings, $canLunarCrystalBranch1FairySprings"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Lunar Crystal Branch 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1825,
+                        "y": 821
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$FairySprings"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Lunar Crystal Branch 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1874,
+                        "y": 679
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$FairySprings"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Lunar Crystal Branch 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2209,
+                        "y": 677
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$FairySprings"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fairy Springs - Lunar Crystal Branch 5",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 2306,
+                        "y": 726
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$FairySprings"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Lunar Crystal Branch 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1203,
+                        "y": 1205
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$DemonFrontierContinued"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Demon Frontier - Lunar Crystal Branch 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1107,
+                        "y": 1300
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$DemonFrontierContinued"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Lunar Crystal Branch 3 & Lunar Crystal Branch 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1249,
+                        "y": 1740
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch 3",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$AshenHinterlandsContinued"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lunar Crystal Branch 4",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$AshenHinterlandsContinued"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ashen Hinterlands - Lunar Crystal Branch 5",
+                "map_locations": 
+                [
+                    {
+                        "map": "Full Map",
+                        "x": 1250,
+                        "y": 1782
+                    }
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lunar Crystal Branch",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$AshenHinterlandsContinued"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
                         "item_count": 1
                     }
                 ]
