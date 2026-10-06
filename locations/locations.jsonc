@@ -148,7 +148,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$KohoVillage, $has|manual_dora_fight"
+                            "$KohoVillage, $Dora"
                         ],
                         "chest_unopened_img": "images/icons/close/Dora.png",
                         "chest_opened_img": "images/icons/open/Dora.png",
@@ -4986,7 +4986,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ContinueDemonFrontier"
+                            "$DemonFrontierContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Vampire Bat.png",
                         "chest_opened_img": "images/icons/open/Vampire Bat.png",
@@ -5186,7 +5186,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$DemonFrontier $canAccursedAutarch"
+                            "$DemonFrontier, $canAccursedAutarch"
                         ],
                         "item_count": 1
                     },
@@ -7016,7 +7016,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$ReachSelin"
+                            "$Selin"
                         ],
                         "item_count": 1
                     },
