@@ -68,16 +68,16 @@ ITEM_MAPPING = {
     --[997] = {"berry", "consumable"},
 
     -- Companion
-    [10006] = {"grimalking_spirit", "toggle"},
-    [10007] = {"lawa", "toggle"},
-    [10008] = {"floating_skull", "toggle"},
-    [10009] = {"bakman", "toggle"},
-    [10010] = {"simple_cube", "toggle"},
-    [10011] = {"kaho", "toggle"},
-    [10012] = {"vampire_bat", "toggle"},
-    [10013] = {"ducky", "toggle"},
-    [10014] = {"cactus", "toggle"},
-    [10015] = {"dora", "toggle"},
-    [10016] = {"nun", "toggle"},
-    [10017] = {"lineth", "toggle"}
+    [381] = {"grimalking_spirit", "toggle"},
+    [383] = {"lawa", "toggle"},
+    [382] = {"bakman", "toggle"},
+    [384] = {"floating_skull", "toggle"},
+    [385] = {"ducky", "toggle"},
+    [386] = {"vampire_bat", "toggle"},
+    [387] = {"simple_cube", "toggle"},
+    [388] = {"kaho", "toggle"},
+    [389] = {"nun", "toggle"},
+    [392] = {"cactus", "toggle"},
+    [100391] = {"dora", "toggle"},
+    [100390] = {"lineth", "toggle"}
 }
