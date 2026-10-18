@@ -202,6 +202,7 @@ end
 
 function LTR_DF()
     return LunTreeRoots() and (SpiralShell() or (CrescentMoonflower() and isBellHover() and not isBerrySanity()) or (CrescentMoonflower() and isBellHover() and has("lun_berry", 1)))
+    --return LunTreeRoots() and (SpiralShell() or (CrescentMoonflower() and ((isBellHover() and (isBerrySanity() and has("lun_berry", 1)) or (not isBerrySanity())) or LunarAttunement())))
 end
 
 function LTR_FS()
@@ -354,6 +355,10 @@ function canDottedBerryMoonlightRepose()
     return MoonlightRepose() and (canRemnantOfAnUnknownPhantasm())
 end
 
+function canDottedBerry1MeikanVillage()
+    return MeikanVillage() and (SpiralShell() and (isBellHover() or CrescentMoonflower()))
+end
+
 function canLunBerryKohoVillage()
     return KohoVillage() and (CrescentMoonflower() or SpiralShell())
 end
@@ -419,7 +424,7 @@ function canLumenFairy2FairySprings()
 end
 
 function canLumenFairy3FairySprings()
-    return FairySprings() and ((isBellHover() and CrescentMoonflower() and LunarAttunement) or SpiralShell())
+    return FairySprings() and ((isBellHover() and CrescentMoonflower() and LunarAttunement()) or SpiralShell())
 end
 
 function canLumenFairy4FairySprings()
@@ -455,7 +460,7 @@ function canSimpleCube()
 end
 
 function canNun()
-    return FountOfRebirth() and (has("crysanth") and has("fallen_hero") and has("magic_blade"))
+    return FountOfRebirth() and (has("magic_blade"))
 end
 
 function canLunarCrystalBranch4DemonFrontier()

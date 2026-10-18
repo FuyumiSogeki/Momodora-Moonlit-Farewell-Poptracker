@@ -117,7 +117,7 @@ LOCATION_MAPPING =
     [34400] = {"@Full/Moonlight Repose - Heavenly Lily 1 & Fairy/Heavenly Lily"},
 
     -- Dotted Berries
-    [2400]  = {"@Full/Lun Tree Roots - Dotted Berry 2 & Lunar Crystal Branch 5/Dotted Berry"},
+    [2400]  = {"@Full/Lun Tree Roots - Dotted Berry 2 & Lunar Crystal Branch 4/Dotted Berry"},
     [2600]  = {"@Full/Lun Tree Roots - Dotted Berry 1/Dotted Berry"},
     [2700]  = {"@Full/Koho Village - Dotted Berry 1 & Grimalkin Spirit/Dotted Berry"},
     [2900]  = {"@Full/Springleaf Path - Dotted Berry 2/Dotted Berry"},
@@ -204,12 +204,12 @@ LOCATION_MAPPING =
     [5000]  = {"@Full/Springleaf Path - Lunar Crystal Branch 2/Lunar Crystal Branch"},
     [5200]  = {"@Full/Lun Tree Roots - Lunar Crystal Branch 3/Lunar Crystal Branch"},
     [5300]  = {"@Full/Lun Tree Roots - Lunar Crystal Branch 2/Lunar Crystal Branch"},
-    [5500]  = {"@Full/Lun Tree Roots - Lunar Crystal Branch 4/Lunar Crystal Branch"},
+    [5500]  = {"@Full/Lun Tree Roots - Dotted Berry 2 & Lunar Crystal Branch 4/Lunar Crystal Branch"},
     [5600]  = {"@Full/Fairy Springs - Lunar Crystal Branch 1/Lunar Crystal Branch"},
     [8300]  = {"@Full/Lun Tree Roots - Lunar Crystal Branch 1/Lunar Crystal Branch"},
     [8200]  = {"@Full/Koho Village - Lunar Crystal Branch/Lunar Crystal Branch"},
     [9000]  = {"@Full/Fairy Springs - Lunar Crystal Branch 4/Lunar Crystal Branch"},
-    [9600]  = {"@Full/Lun Tree Roots - Dotted Berry 2 & Lunar Crystal Branch 5/Lunar Crystal Branch"},
+    [9600]  = {"@Full/Lun Tree Roots - Lunar Crystal Branch 5/Lunar Crystal Branch"},
     [11900] = {"@Full/Moonlight Repose - Lunar Crystal Branch/Lunar Crystal Branch"},
     [12400] = {"@Full/Old Sanctuary - Lunar Crystal Branch 1/Lunar Crystal Branch"},
     [12500] = {"@Full/Old Sanctuary - Lunar Crystal Branch 2 & Lunar Crystal Branch 3 & Lunar Crystal Branch 4/Lunar Crystal Branch 2"},

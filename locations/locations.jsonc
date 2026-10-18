@@ -970,7 +970,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$SpringLeafPath"
+                            "$SpringLeafPathContinued"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -1924,7 +1924,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Dotted Berry 2 & Lunar Crystal Branch 5",
+                "name": "Lun Tree Roots - Dotted Berry 2 & Lunar Crystal Branch 4",
                 "map_locations": 
                 [
                     {
@@ -2450,8 +2450,8 @@
                 [
                     {
                         "map": "Full Map",
-                        "x": 2306,
-                        "y": 724
+                        "x": 2260,
+                        "y": 726
                     }
                 ],
                 "access_rules": 
@@ -5631,7 +5631,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$MeikanVillage"
+                            "$MeikanVillage, $canDottedBerry1MeikanVillage"
                         ],
                         "chest_unopened_img": "images/icons/close/Dotted Berry.png",
                         "chest_opened_img": "images/icons/open/Dotted Berry.png",
@@ -7491,7 +7491,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$SpringLeafPathContinued"
+                            "$SpringLeafPath"
                         ],
                         "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
                         "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
@@ -7596,7 +7596,7 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Lunar Crystal Branch 2",
+                "name": "Lun Tree Roots - Lunar Crystal Branch 5",
                 "map_locations": 
                 [
                     {
@@ -7660,12 +7660,12 @@
                 ]
             },
             {
-                "name": "Lun Tree Roots - Lunar Crystal Branch 4",
+                "name": "Lun Tree Roots - Lunar Crystal Branch 2",
                 "map_locations": 
                 [
                     {
                         "map": "Full Map",
-                        "x": 1825,
+                        "x": 1827,
                         "y": 1224
                     }
                 ],
@@ -7820,7 +7820,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Lunar Crystal Branch 4",
+                "name": "Fairy Springs - Lunar Crystal Branch 5",
                 "map_locations": 
                 [
                     {
@@ -7852,7 +7852,7 @@
                 ]
             },
             {
-                "name": "Fairy Springs - Lunar Crystal Branch 5",
+                "name": "Fairy Springs - Lunar Crystal Branch 4",
                 "map_locations": 
                 [
                     {
