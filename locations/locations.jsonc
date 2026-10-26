@@ -3363,7 +3363,7 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Fairy 2 & Lunar Crystal Branch 2",
+                "name": "Ashen Hinterlands - Fairy 2 & Lunar Crystal Branch 2 & Lunar Crystal Branch 3",
                 "map_locations": 
                 [
                     {
@@ -3393,7 +3393,21 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Lunar Crystal Branch",
+                        "name": "Lunar Crystal Branch 2",
+                        "visibility_rules": 
+                        [
+                            "$isLunarSanity"
+                        ],
+                        "access_rules": 
+                        [
+                            "$AshenHinterlandsContinued"
+                        ],
+                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
+                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lunar Crystal Branch 3",
                         "visibility_rules": 
                         [
                             "$isLunarSanity"
@@ -4677,7 +4691,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Fairy 3 & Lunar Crystal Branch 3",
+                "name": "Demon Frontier - Fairy 3 & Lunar Crystal Branch 2",
                 "map_locations": 
                 [
                     {
@@ -5009,7 +5023,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Heavenly Lily 2 & Lunar Crystal Branch 4",
+                "name": "Demon Frontier - Heavenly Lily 2 & Lunar Crystal Branch 1",
                 "map_locations": 
                 [
                     {
@@ -7884,7 +7898,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Lunar Crystal Branch 1",
+                "name": "Demon Frontier - Lunar Crystal Branch 3",
                 "map_locations": 
                 [
                     {
@@ -7916,7 +7930,7 @@
                 ]
             },
             {
-                "name": "Demon Frontier - Lunar Crystal Branch 2",
+                "name": "Demon Frontier - Lunar Crystal Branch 4",
                 "map_locations": 
                 [
                     {
@@ -7948,13 +7962,13 @@
                 ]
             },
             {
-                "name": "Ashen Hinterlands - Lunar Crystal Branch 3 & Lunar Crystal Branch 4",
+                "name": "Ashen Hinterlands - Lunar Crystal Branch 4",
                 "map_locations": 
                 [
                     {
                         "map": "Full Map",
-                        "x": 1249,
-                        "y": 1740
+                        "x": 1252,
+                        "y": 1730
                     }
                 ],
                 "access_rules": 
@@ -7964,21 +7978,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Lunar Crystal Branch 3",
-                        "visibility_rules": 
-                        [
-                            "$isLunarSanity"
-                        ],
-                        "access_rules": 
-                        [
-                            "$AshenHinterlandsContinued"
-                        ],
-                        "chest_unopened_img": "images/icons/close/Lunar Crystal Branch.png",
-                        "chest_opened_img": "images/icons/open/Lunar Crystal Branch.png",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lunar Crystal Branch 4",
+                        "name": "Lunar Crystal Branch",
                         "visibility_rules": 
                         [
                             "$isLunarSanity"
@@ -7999,7 +7999,7 @@
                 [
                     {
                         "map": "Full Map",
-                        "x": 1250,
+                        "x": 1297,
                         "y": 1782
                     }
                 ],

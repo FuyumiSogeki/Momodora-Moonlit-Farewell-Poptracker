@@ -148,9 +148,9 @@ function onClear(slot_data)
     end
 
     if slot_data['VictoryCondition'] == "moon_god_selin" then
-        Tracker:FindObjectForCode("op_VC").CurrentStage = 1
-    else
         Tracker:FindObjectForCode("op_VC").CurrentStage = 0
+    else
+        Tracker:FindObjectForCode("op_VC").CurrentStage = 1
     end
 
     -- get hints

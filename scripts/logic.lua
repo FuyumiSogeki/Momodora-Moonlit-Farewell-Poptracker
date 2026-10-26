@@ -76,7 +76,11 @@ function OpenSelin()
 end
 
 function OpenOracleReward()
-    return ((isFairySanity() and has("fairy", 30)) or not isFairySanity()) or FountOfRebirth()
+    if isFairySanity then
+        return has("fairy", 30)
+    else
+        return True or FountOfRebirth()
+    end
 end
 
 -- Progression Items
@@ -201,8 +205,11 @@ function OS_OSC()
 end
 
 function LTR_DF()
-    return LunTreeRoots() and (SpiralShell() or (CrescentMoonflower() and isBellHover() and not isBerrySanity()) or (CrescentMoonflower() and isBellHover() and has("lun_berry", 1)))
-    --return LunTreeRoots() and (SpiralShell() or (CrescentMoonflower() and ((isBellHover() and (isBerrySanity() and has("lun_berry", 1)) or (not isBerrySanity())) or LunarAttunement())))
+    if isBerrySanity then
+        return LunTreeRoots() and (SpiralShell() or (CrescentMoonflower() and isBellHover() and has("lun_berry", 1)))
+    else
+        return LunTreeRoots() and (SpiralShell() or (CrescentMoonflower() and isBellHover()))
+    end
 end
 
 function LTR_FS()
@@ -222,7 +229,11 @@ function DF_DFC()
 end
 
 function DFC_MV()
-    return DemonFrontierContinued() and ((LunarAttunement() and CrescentMoonflower()) or (LunarAttunement() and SpiralShell()) or (LunarAttunement() and not isBellHover()))
+    if isBellHover() then
+        return DemonFrontierContinued() and (LunarAttunement() and CrescentMoonflower())
+    else
+        return DemonFrontierContinued() and (LunarAttunement() and (True or SpiralShell()))
+    end
 end
 
 function FS_FV()
